@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ChernivtsiGuide.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -15,7 +16,13 @@ namespace ChernivtsiGuide
     {
         public MainPage()
         {
-            InitializeComponent();
+            Question generalQuestion = App.questionRepository.GetQuestion(1);
+            Label generalQuestionLebel = new Label() { Text = generalQuestion.Question_content };
+            StackLayout stackLayout = new StackLayout()
+            {
+                Children = {generalQuestionLebel}
+            };
+            this.Content = stackLayout;
         }
     }
 }
