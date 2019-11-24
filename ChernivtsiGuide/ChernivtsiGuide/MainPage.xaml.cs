@@ -16,13 +16,32 @@ namespace ChernivtsiGuide
     {
         public MainPage()
         {
+            List<Label> labels = new List<Label>();
             Question generalQuestion = App.questionRepository.GetQuestion(1);
             Label generalQuestionLebel = new Label() { Text = generalQuestion.Question_content };
+            IEnumerable<General_type> general_Types = App.generalTypeRepository.GetItems();
+            StackLayout stackLayout1 = new StackLayout();            
+            foreach (General_type general_Type in general_Types) {
+                stackLayout1.Children.Add(new Label() { Text = general_Type.General_name });
+                stackLayout1.Children.Add(new Label() { Text = general_Type.General_name });
+                stackLayout1.Children.Add(new Label() { Text = general_Type.General_name });
+                stackLayout1.Children.Add(new Label() { Text = general_Type.General_name });
+            }
+            ScrollView scrollView = new ScrollView() {
+                Content = stackLayout1,
+                Orientation = ScrollOrientation.Vertical
+            };
             StackLayout stackLayout = new StackLayout()
             {
                 Children = {generalQuestionLebel}
             };
-            this.Content = stackLayout;
+            stackLayout1.Orientation = StackOrientation.Horizontal;
+            this.Content = new ScrollView()
+            {
+                HorizontalOptions = LayoutOptions.Fill,
+                Orientation = ScrollOrientation.Horizontal,
+                Content = stackLayout1
+            };
         }
     }
 }

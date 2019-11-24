@@ -9,7 +9,7 @@ namespace ChernivtsiGuide.Models
         public int General_id { get; set; }
         public string General_name { get; set; }
         public string General_type_logo { get; set; }
-        public string General_question { get; set; }
+        public int General_question { get; set; }
         public Question Question { get; set; }
     }
 }

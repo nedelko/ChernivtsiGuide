@@ -26,6 +26,2174 @@ namespace ChernivtsiGuide.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::CarouselView.FormsPlugin.Android.Resource.Animation.abc_fade_in = global::ChernivtsiGuide.Droid.Resource.Animation.abc_fade_in;
+			global::CarouselView.FormsPlugin.Android.Resource.Animation.abc_fade_out = global::ChernivtsiGuide.Droid.Resource.Animation.abc_fade_out;
+			global::CarouselView.FormsPlugin.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::ChernivtsiGuide.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::CarouselView.FormsPlugin.Android.Resource.Animation.abc_popup_enter = global::ChernivtsiGuide.Droid.Resource.Animation.abc_popup_enter;
+			global::CarouselView.FormsPlugin.Android.Resource.Animation.abc_popup_exit = global::ChernivtsiGuide.Droid.Resource.Animation.abc_popup_exit;
+			global::CarouselView.FormsPlugin.Android.Resource.Animation.abc_shrink_fade_out_from_bottom = global::ChernivtsiGuide.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::CarouselView.FormsPlugin.Android.Resource.Animation.abc_slide_in_bottom = global::ChernivtsiGuide.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::CarouselView.FormsPlugin.Android.Resource.Animation.abc_slide_in_top = global::ChernivtsiGuide.Droid.Resource.Animation.abc_slide_in_top;
+			global::CarouselView.FormsPlugin.Android.Resource.Animation.abc_slide_out_bottom = global::ChernivtsiGuide.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::CarouselView.FormsPlugin.Android.Resource.Animation.abc_slide_out_top = global::ChernivtsiGuide.Droid.Resource.Animation.abc_slide_out_top;
+			global::CarouselView.FormsPlugin.Android.Resource.Animation.design_bottom_sheet_slide_in = global::ChernivtsiGuide.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::CarouselView.FormsPlugin.Android.Resource.Animation.design_bottom_sheet_slide_out = global::ChernivtsiGuide.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::CarouselView.FormsPlugin.Android.Resource.Animation.design_snackbar_in = global::ChernivtsiGuide.Droid.Resource.Animation.design_snackbar_in;
+			global::CarouselView.FormsPlugin.Android.Resource.Animation.design_snackbar_out = global::ChernivtsiGuide.Droid.Resource.Animation.design_snackbar_out;
+			global::CarouselView.FormsPlugin.Android.Resource.Animator.design_appbar_state_list_animator = global::ChernivtsiGuide.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionBarDivider = global::ChernivtsiGuide.Droid.Resource.Attribute.actionBarDivider;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionBarItemBackground = global::ChernivtsiGuide.Droid.Resource.Attribute.actionBarItemBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionBarPopupTheme = global::ChernivtsiGuide.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionBarSize = global::ChernivtsiGuide.Droid.Resource.Attribute.actionBarSize;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionBarSplitStyle = global::ChernivtsiGuide.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionBarStyle = global::ChernivtsiGuide.Droid.Resource.Attribute.actionBarStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionBarTabBarStyle = global::ChernivtsiGuide.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionBarTabStyle = global::ChernivtsiGuide.Droid.Resource.Attribute.actionBarTabStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionBarTabTextStyle = global::ChernivtsiGuide.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionBarTheme = global::ChernivtsiGuide.Droid.Resource.Attribute.actionBarTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionBarWidgetTheme = global::ChernivtsiGuide.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionButtonStyle = global::ChernivtsiGuide.Droid.Resource.Attribute.actionButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionDropDownStyle = global::ChernivtsiGuide.Droid.Resource.Attribute.actionDropDownStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionLayout = global::ChernivtsiGuide.Droid.Resource.Attribute.actionLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionMenuTextAppearance = global::ChernivtsiGuide.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionMenuTextColor = global::ChernivtsiGuide.Droid.Resource.Attribute.actionMenuTextColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionModeBackground = global::ChernivtsiGuide.Droid.Resource.Attribute.actionModeBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionModeCloseButtonStyle = global::ChernivtsiGuide.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionModeCloseDrawable = global::ChernivtsiGuide.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionModeCopyDrawable = global::ChernivtsiGuide.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionModeCutDrawable = global::ChernivtsiGuide.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionModeFindDrawable = global::ChernivtsiGuide.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionModePasteDrawable = global::ChernivtsiGuide.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionModePopupWindowStyle = global::ChernivtsiGuide.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionModeSelectAllDrawable = global::ChernivtsiGuide.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionModeShareDrawable = global::ChernivtsiGuide.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionModeSplitBackground = global::ChernivtsiGuide.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionModeStyle = global::ChernivtsiGuide.Droid.Resource.Attribute.actionModeStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionModeWebSearchDrawable = global::ChernivtsiGuide.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionOverflowButtonStyle = global::ChernivtsiGuide.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionOverflowMenuStyle = global::ChernivtsiGuide.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionProviderClass = global::ChernivtsiGuide.Droid.Resource.Attribute.actionProviderClass;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.actionViewClass = global::ChernivtsiGuide.Droid.Resource.Attribute.actionViewClass;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.activityChooserViewStyle = global::ChernivtsiGuide.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.alertDialogButtonGroupStyle = global::ChernivtsiGuide.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.alertDialogCenterButtons = global::ChernivtsiGuide.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.alertDialogStyle = global::ChernivtsiGuide.Droid.Resource.Attribute.alertDialogStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.alertDialogTheme = global::ChernivtsiGuide.Droid.Resource.Attribute.alertDialogTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.allowStacking = global::ChernivtsiGuide.Droid.Resource.Attribute.allowStacking;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.alpha = global::ChernivtsiGuide.Droid.Resource.Attribute.alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.arrowHeadLength = global::ChernivtsiGuide.Droid.Resource.Attribute.arrowHeadLength;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.arrowShaftLength = global::ChernivtsiGuide.Droid.Resource.Attribute.arrowShaftLength;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.autoCompleteTextViewStyle = global::ChernivtsiGuide.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.background = global::ChernivtsiGuide.Droid.Resource.Attribute.background;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.backgroundSplit = global::ChernivtsiGuide.Droid.Resource.Attribute.backgroundSplit;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.backgroundStacked = global::ChernivtsiGuide.Droid.Resource.Attribute.backgroundStacked;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.backgroundTint = global::ChernivtsiGuide.Droid.Resource.Attribute.backgroundTint;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.backgroundTintMode = global::ChernivtsiGuide.Droid.Resource.Attribute.backgroundTintMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.barLength = global::ChernivtsiGuide.Droid.Resource.Attribute.barLength;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.behavior_autoHide = global::ChernivtsiGuide.Droid.Resource.Attribute.behavior_autoHide;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.behavior_hideable = global::ChernivtsiGuide.Droid.Resource.Attribute.behavior_hideable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.behavior_overlapTop = global::ChernivtsiGuide.Droid.Resource.Attribute.behavior_overlapTop;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.behavior_peekHeight = global::ChernivtsiGuide.Droid.Resource.Attribute.behavior_peekHeight;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.behavior_skipCollapsed = global::ChernivtsiGuide.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.borderWidth = global::ChernivtsiGuide.Droid.Resource.Attribute.borderWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.borderlessButtonStyle = global::ChernivtsiGuide.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.bottomSheetDialogTheme = global::ChernivtsiGuide.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.bottomSheetStyle = global::ChernivtsiGuide.Droid.Resource.Attribute.bottomSheetStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.buttonBarButtonStyle = global::ChernivtsiGuide.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.buttonBarNegativeButtonStyle = global::ChernivtsiGuide.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.buttonBarNeutralButtonStyle = global::ChernivtsiGuide.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.buttonBarPositiveButtonStyle = global::ChernivtsiGuide.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.buttonBarStyle = global::ChernivtsiGuide.Droid.Resource.Attribute.buttonBarStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.buttonGravity = global::ChernivtsiGuide.Droid.Resource.Attribute.buttonGravity;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.buttonPanelSideLayout = global::ChernivtsiGuide.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.buttonStyle = global::ChernivtsiGuide.Droid.Resource.Attribute.buttonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.buttonStyleSmall = global::ChernivtsiGuide.Droid.Resource.Attribute.buttonStyleSmall;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.buttonTint = global::ChernivtsiGuide.Droid.Resource.Attribute.buttonTint;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.buttonTintMode = global::ChernivtsiGuide.Droid.Resource.Attribute.buttonTintMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.cardBackgroundColor = global::ChernivtsiGuide.Droid.Resource.Attribute.cardBackgroundColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.cardCornerRadius = global::ChernivtsiGuide.Droid.Resource.Attribute.cardCornerRadius;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.cardElevation = global::ChernivtsiGuide.Droid.Resource.Attribute.cardElevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.cardMaxElevation = global::ChernivtsiGuide.Droid.Resource.Attribute.cardMaxElevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.cardPreventCornerOverlap = global::ChernivtsiGuide.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.cardUseCompatPadding = global::ChernivtsiGuide.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.checkboxStyle = global::ChernivtsiGuide.Droid.Resource.Attribute.checkboxStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.checkedTextViewStyle = global::ChernivtsiGuide.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.closeIcon = global::ChernivtsiGuide.Droid.Resource.Attribute.closeIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.closeItemLayout = global::ChernivtsiGuide.Droid.Resource.Attribute.closeItemLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.collapseContentDescription = global::ChernivtsiGuide.Droid.Resource.Attribute.collapseContentDescription;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.collapseIcon = global::ChernivtsiGuide.Droid.Resource.Attribute.collapseIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.collapsedTitleGravity = global::ChernivtsiGuide.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.collapsedTitleTextAppearance = global::ChernivtsiGuide.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.color = global::ChernivtsiGuide.Droid.Resource.Attribute.color;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.colorAccent = global::ChernivtsiGuide.Droid.Resource.Attribute.colorAccent;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.colorBackgroundFloating = global::ChernivtsiGuide.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.colorButtonNormal = global::ChernivtsiGuide.Droid.Resource.Attribute.colorButtonNormal;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.colorControlActivated = global::ChernivtsiGuide.Droid.Resource.Attribute.colorControlActivated;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.colorControlHighlight = global::ChernivtsiGuide.Droid.Resource.Attribute.colorControlHighlight;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.colorControlNormal = global::ChernivtsiGuide.Droid.Resource.Attribute.colorControlNormal;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.colorPrimary = global::ChernivtsiGuide.Droid.Resource.Attribute.colorPrimary;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.colorPrimaryDark = global::ChernivtsiGuide.Droid.Resource.Attribute.colorPrimaryDark;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.colorSwitchThumbNormal = global::ChernivtsiGuide.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.commitIcon = global::ChernivtsiGuide.Droid.Resource.Attribute.commitIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.contentInsetEnd = global::ChernivtsiGuide.Droid.Resource.Attribute.contentInsetEnd;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.contentInsetEndWithActions = global::ChernivtsiGuide.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.contentInsetLeft = global::ChernivtsiGuide.Droid.Resource.Attribute.contentInsetLeft;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.contentInsetRight = global::ChernivtsiGuide.Droid.Resource.Attribute.contentInsetRight;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.contentInsetStart = global::ChernivtsiGuide.Droid.Resource.Attribute.contentInsetStart;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.contentInsetStartWithNavigation = global::ChernivtsiGuide.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.contentPadding = global::ChernivtsiGuide.Droid.Resource.Attribute.contentPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.contentPaddingBottom = global::ChernivtsiGuide.Droid.Resource.Attribute.contentPaddingBottom;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.contentPaddingLeft = global::ChernivtsiGuide.Droid.Resource.Attribute.contentPaddingLeft;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.contentPaddingRight = global::ChernivtsiGuide.Droid.Resource.Attribute.contentPaddingRight;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.contentPaddingTop = global::ChernivtsiGuide.Droid.Resource.Attribute.contentPaddingTop;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.contentScrim = global::ChernivtsiGuide.Droid.Resource.Attribute.contentScrim;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.controlBackground = global::ChernivtsiGuide.Droid.Resource.Attribute.controlBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.counterEnabled = global::ChernivtsiGuide.Droid.Resource.Attribute.counterEnabled;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.counterMaxLength = global::ChernivtsiGuide.Droid.Resource.Attribute.counterMaxLength;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.counterOverflowTextAppearance = global::ChernivtsiGuide.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.counterTextAppearance = global::ChernivtsiGuide.Droid.Resource.Attribute.counterTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.customNavigationLayout = global::ChernivtsiGuide.Droid.Resource.Attribute.customNavigationLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.defaultQueryHint = global::ChernivtsiGuide.Droid.Resource.Attribute.defaultQueryHint;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.dialogPreferredPadding = global::ChernivtsiGuide.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.dialogTheme = global::ChernivtsiGuide.Droid.Resource.Attribute.dialogTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.displayOptions = global::ChernivtsiGuide.Droid.Resource.Attribute.displayOptions;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.divider = global::ChernivtsiGuide.Droid.Resource.Attribute.divider;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.dividerHorizontal = global::ChernivtsiGuide.Droid.Resource.Attribute.dividerHorizontal;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.dividerPadding = global::ChernivtsiGuide.Droid.Resource.Attribute.dividerPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.dividerVertical = global::ChernivtsiGuide.Droid.Resource.Attribute.dividerVertical;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.drawableSize = global::ChernivtsiGuide.Droid.Resource.Attribute.drawableSize;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.drawerArrowStyle = global::ChernivtsiGuide.Droid.Resource.Attribute.drawerArrowStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.dropDownListViewStyle = global::ChernivtsiGuide.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.dropdownListPreferredItemHeight = global::ChernivtsiGuide.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.editTextBackground = global::ChernivtsiGuide.Droid.Resource.Attribute.editTextBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.editTextColor = global::ChernivtsiGuide.Droid.Resource.Attribute.editTextColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.editTextStyle = global::ChernivtsiGuide.Droid.Resource.Attribute.editTextStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.elevation = global::ChernivtsiGuide.Droid.Resource.Attribute.elevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.errorEnabled = global::ChernivtsiGuide.Droid.Resource.Attribute.errorEnabled;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.errorTextAppearance = global::ChernivtsiGuide.Droid.Resource.Attribute.errorTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.expandActivityOverflowButtonDrawable = global::ChernivtsiGuide.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.expanded = global::ChernivtsiGuide.Droid.Resource.Attribute.expanded;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.expandedTitleGravity = global::ChernivtsiGuide.Droid.Resource.Attribute.expandedTitleGravity;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.expandedTitleMargin = global::ChernivtsiGuide.Droid.Resource.Attribute.expandedTitleMargin;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.expandedTitleMarginBottom = global::ChernivtsiGuide.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.expandedTitleMarginEnd = global::ChernivtsiGuide.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.expandedTitleMarginStart = global::ChernivtsiGuide.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.expandedTitleMarginTop = global::ChernivtsiGuide.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.expandedTitleTextAppearance = global::ChernivtsiGuide.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.externalRouteEnabledDrawable = global::ChernivtsiGuide.Droid.Resource.Attribute.externalRouteEnabledDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.fabSize = global::ChernivtsiGuide.Droid.Resource.Attribute.fabSize;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.foregroundInsidePadding = global::ChernivtsiGuide.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.gapBetweenBars = global::ChernivtsiGuide.Droid.Resource.Attribute.gapBetweenBars;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.goIcon = global::ChernivtsiGuide.Droid.Resource.Attribute.goIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.headerLayout = global::ChernivtsiGuide.Droid.Resource.Attribute.headerLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.height = global::ChernivtsiGuide.Droid.Resource.Attribute.height;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.hideOnContentScroll = global::ChernivtsiGuide.Droid.Resource.Attribute.hideOnContentScroll;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.hintAnimationEnabled = global::ChernivtsiGuide.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.hintEnabled = global::ChernivtsiGuide.Droid.Resource.Attribute.hintEnabled;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.hintTextAppearance = global::ChernivtsiGuide.Droid.Resource.Attribute.hintTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.homeAsUpIndicator = global::ChernivtsiGuide.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.homeLayout = global::ChernivtsiGuide.Droid.Resource.Attribute.homeLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.icon = global::ChernivtsiGuide.Droid.Resource.Attribute.icon;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.iconifiedByDefault = global::ChernivtsiGuide.Droid.Resource.Attribute.iconifiedByDefault;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.imageButtonStyle = global::ChernivtsiGuide.Droid.Resource.Attribute.imageButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.indeterminateProgressStyle = global::ChernivtsiGuide.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.initialActivityCount = global::ChernivtsiGuide.Droid.Resource.Attribute.initialActivityCount;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.insetForeground = global::ChernivtsiGuide.Droid.Resource.Attribute.insetForeground;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.isLightTheme = global::ChernivtsiGuide.Droid.Resource.Attribute.isLightTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.itemBackground = global::ChernivtsiGuide.Droid.Resource.Attribute.itemBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.itemIconTint = global::ChernivtsiGuide.Droid.Resource.Attribute.itemIconTint;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.itemPadding = global::ChernivtsiGuide.Droid.Resource.Attribute.itemPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.itemTextAppearance = global::ChernivtsiGuide.Droid.Resource.Attribute.itemTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.itemTextColor = global::ChernivtsiGuide.Droid.Resource.Attribute.itemTextColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.keylines = global::ChernivtsiGuide.Droid.Resource.Attribute.keylines;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.layout = global::ChernivtsiGuide.Droid.Resource.Attribute.layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.layoutManager = global::ChernivtsiGuide.Droid.Resource.Attribute.layoutManager;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.layout_anchor = global::ChernivtsiGuide.Droid.Resource.Attribute.layout_anchor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.layout_anchorGravity = global::ChernivtsiGuide.Droid.Resource.Attribute.layout_anchorGravity;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.layout_behavior = global::ChernivtsiGuide.Droid.Resource.Attribute.layout_behavior;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.layout_collapseMode = global::ChernivtsiGuide.Droid.Resource.Attribute.layout_collapseMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.layout_collapseParallaxMultiplier = global::ChernivtsiGuide.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.layout_dodgeInsetEdges = global::ChernivtsiGuide.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.layout_insetEdge = global::ChernivtsiGuide.Droid.Resource.Attribute.layout_insetEdge;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.layout_keyline = global::ChernivtsiGuide.Droid.Resource.Attribute.layout_keyline;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.layout_scrollFlags = global::ChernivtsiGuide.Droid.Resource.Attribute.layout_scrollFlags;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.layout_scrollInterpolator = global::ChernivtsiGuide.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.listChoiceBackgroundIndicator = global::ChernivtsiGuide.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.listDividerAlertDialog = global::ChernivtsiGuide.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.listItemLayout = global::ChernivtsiGuide.Droid.Resource.Attribute.listItemLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.listLayout = global::ChernivtsiGuide.Droid.Resource.Attribute.listLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.listMenuViewStyle = global::ChernivtsiGuide.Droid.Resource.Attribute.listMenuViewStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.listPopupWindowStyle = global::ChernivtsiGuide.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.listPreferredItemHeight = global::ChernivtsiGuide.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.listPreferredItemHeightLarge = global::ChernivtsiGuide.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.listPreferredItemHeightSmall = global::ChernivtsiGuide.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.listPreferredItemPaddingLeft = global::ChernivtsiGuide.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.listPreferredItemPaddingRight = global::ChernivtsiGuide.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.logo = global::ChernivtsiGuide.Droid.Resource.Attribute.logo;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.logoDescription = global::ChernivtsiGuide.Droid.Resource.Attribute.logoDescription;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.maxActionInlineWidth = global::ChernivtsiGuide.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.maxButtonHeight = global::ChernivtsiGuide.Droid.Resource.Attribute.maxButtonHeight;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.measureWithLargestChild = global::ChernivtsiGuide.Droid.Resource.Attribute.measureWithLargestChild;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.mediaRouteAudioTrackDrawable = global::ChernivtsiGuide.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.mediaRouteButtonStyle = global::ChernivtsiGuide.Droid.Resource.Attribute.mediaRouteButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.mediaRouteCloseDrawable = global::ChernivtsiGuide.Droid.Resource.Attribute.mediaRouteCloseDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.mediaRouteControlPanelThemeOverlay = global::ChernivtsiGuide.Droid.Resource.Attribute.mediaRouteControlPanelThemeOverlay;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.mediaRouteDefaultIconDrawable = global::ChernivtsiGuide.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.mediaRoutePauseDrawable = global::ChernivtsiGuide.Droid.Resource.Attribute.mediaRoutePauseDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.mediaRoutePlayDrawable = global::ChernivtsiGuide.Droid.Resource.Attribute.mediaRoutePlayDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable = global::ChernivtsiGuide.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.mediaRouteSpeakerIconDrawable = global::ChernivtsiGuide.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.mediaRouteStopDrawable = global::ChernivtsiGuide.Droid.Resource.Attribute.mediaRouteStopDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.mediaRouteTheme = global::ChernivtsiGuide.Droid.Resource.Attribute.mediaRouteTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.mediaRouteTvIconDrawable = global::ChernivtsiGuide.Droid.Resource.Attribute.mediaRouteTvIconDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.menu = global::ChernivtsiGuide.Droid.Resource.Attribute.menu;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.multiChoiceItemLayout = global::ChernivtsiGuide.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.navigationContentDescription = global::ChernivtsiGuide.Droid.Resource.Attribute.navigationContentDescription;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.navigationIcon = global::ChernivtsiGuide.Droid.Resource.Attribute.navigationIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.navigationMode = global::ChernivtsiGuide.Droid.Resource.Attribute.navigationMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.overlapAnchor = global::ChernivtsiGuide.Droid.Resource.Attribute.overlapAnchor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.paddingBottomNoButtons = global::ChernivtsiGuide.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.paddingEnd = global::ChernivtsiGuide.Droid.Resource.Attribute.paddingEnd;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.paddingStart = global::ChernivtsiGuide.Droid.Resource.Attribute.paddingStart;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.paddingTopNoTitle = global::ChernivtsiGuide.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.panelBackground = global::ChernivtsiGuide.Droid.Resource.Attribute.panelBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.panelMenuListTheme = global::ChernivtsiGuide.Droid.Resource.Attribute.panelMenuListTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.panelMenuListWidth = global::ChernivtsiGuide.Droid.Resource.Attribute.panelMenuListWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.passwordToggleContentDescription = global::ChernivtsiGuide.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.passwordToggleDrawable = global::ChernivtsiGuide.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.passwordToggleEnabled = global::ChernivtsiGuide.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.passwordToggleTint = global::ChernivtsiGuide.Droid.Resource.Attribute.passwordToggleTint;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.passwordToggleTintMode = global::ChernivtsiGuide.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.popupMenuStyle = global::ChernivtsiGuide.Droid.Resource.Attribute.popupMenuStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.popupTheme = global::ChernivtsiGuide.Droid.Resource.Attribute.popupTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.popupWindowStyle = global::ChernivtsiGuide.Droid.Resource.Attribute.popupWindowStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.preserveIconSpacing = global::ChernivtsiGuide.Droid.Resource.Attribute.preserveIconSpacing;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.pressedTranslationZ = global::ChernivtsiGuide.Droid.Resource.Attribute.pressedTranslationZ;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.progressBarPadding = global::ChernivtsiGuide.Droid.Resource.Attribute.progressBarPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.progressBarStyle = global::ChernivtsiGuide.Droid.Resource.Attribute.progressBarStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.queryBackground = global::ChernivtsiGuide.Droid.Resource.Attribute.queryBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.queryHint = global::ChernivtsiGuide.Droid.Resource.Attribute.queryHint;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.radioButtonStyle = global::ChernivtsiGuide.Droid.Resource.Attribute.radioButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.ratingBarStyle = global::ChernivtsiGuide.Droid.Resource.Attribute.ratingBarStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.ratingBarStyleIndicator = global::ChernivtsiGuide.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.ratingBarStyleSmall = global::ChernivtsiGuide.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.reverseLayout = global::ChernivtsiGuide.Droid.Resource.Attribute.reverseLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.rippleColor = global::ChernivtsiGuide.Droid.Resource.Attribute.rippleColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.scrimAnimationDuration = global::ChernivtsiGuide.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.scrimVisibleHeightTrigger = global::ChernivtsiGuide.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.searchHintIcon = global::ChernivtsiGuide.Droid.Resource.Attribute.searchHintIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.searchIcon = global::ChernivtsiGuide.Droid.Resource.Attribute.searchIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.searchViewStyle = global::ChernivtsiGuide.Droid.Resource.Attribute.searchViewStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.seekBarStyle = global::ChernivtsiGuide.Droid.Resource.Attribute.seekBarStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.selectableItemBackground = global::ChernivtsiGuide.Droid.Resource.Attribute.selectableItemBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.selectableItemBackgroundBorderless = global::ChernivtsiGuide.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.showAsAction = global::ChernivtsiGuide.Droid.Resource.Attribute.showAsAction;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.showDividers = global::ChernivtsiGuide.Droid.Resource.Attribute.showDividers;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.showText = global::ChernivtsiGuide.Droid.Resource.Attribute.showText;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.showTitle = global::ChernivtsiGuide.Droid.Resource.Attribute.showTitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.singleChoiceItemLayout = global::ChernivtsiGuide.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.spanCount = global::ChernivtsiGuide.Droid.Resource.Attribute.spanCount;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.spinBars = global::ChernivtsiGuide.Droid.Resource.Attribute.spinBars;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.spinnerDropDownItemStyle = global::ChernivtsiGuide.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.spinnerStyle = global::ChernivtsiGuide.Droid.Resource.Attribute.spinnerStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.splitTrack = global::ChernivtsiGuide.Droid.Resource.Attribute.splitTrack;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.srcCompat = global::ChernivtsiGuide.Droid.Resource.Attribute.srcCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.stackFromEnd = global::ChernivtsiGuide.Droid.Resource.Attribute.stackFromEnd;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.state_above_anchor = global::ChernivtsiGuide.Droid.Resource.Attribute.state_above_anchor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.state_collapsed = global::ChernivtsiGuide.Droid.Resource.Attribute.state_collapsed;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.state_collapsible = global::ChernivtsiGuide.Droid.Resource.Attribute.state_collapsible;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.statusBarBackground = global::ChernivtsiGuide.Droid.Resource.Attribute.statusBarBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.statusBarScrim = global::ChernivtsiGuide.Droid.Resource.Attribute.statusBarScrim;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.subMenuArrow = global::ChernivtsiGuide.Droid.Resource.Attribute.subMenuArrow;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.submitBackground = global::ChernivtsiGuide.Droid.Resource.Attribute.submitBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.subtitle = global::ChernivtsiGuide.Droid.Resource.Attribute.subtitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.subtitleTextAppearance = global::ChernivtsiGuide.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.subtitleTextColor = global::ChernivtsiGuide.Droid.Resource.Attribute.subtitleTextColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.subtitleTextStyle = global::ChernivtsiGuide.Droid.Resource.Attribute.subtitleTextStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.suggestionRowLayout = global::ChernivtsiGuide.Droid.Resource.Attribute.suggestionRowLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.switchMinWidth = global::ChernivtsiGuide.Droid.Resource.Attribute.switchMinWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.switchPadding = global::ChernivtsiGuide.Droid.Resource.Attribute.switchPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.switchStyle = global::ChernivtsiGuide.Droid.Resource.Attribute.switchStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.switchTextAppearance = global::ChernivtsiGuide.Droid.Resource.Attribute.switchTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tabBackground = global::ChernivtsiGuide.Droid.Resource.Attribute.tabBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tabContentStart = global::ChernivtsiGuide.Droid.Resource.Attribute.tabContentStart;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tabGravity = global::ChernivtsiGuide.Droid.Resource.Attribute.tabGravity;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tabIndicatorColor = global::ChernivtsiGuide.Droid.Resource.Attribute.tabIndicatorColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tabIndicatorHeight = global::ChernivtsiGuide.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tabMaxWidth = global::ChernivtsiGuide.Droid.Resource.Attribute.tabMaxWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tabMinWidth = global::ChernivtsiGuide.Droid.Resource.Attribute.tabMinWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tabMode = global::ChernivtsiGuide.Droid.Resource.Attribute.tabMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tabPadding = global::ChernivtsiGuide.Droid.Resource.Attribute.tabPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tabPaddingBottom = global::ChernivtsiGuide.Droid.Resource.Attribute.tabPaddingBottom;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tabPaddingEnd = global::ChernivtsiGuide.Droid.Resource.Attribute.tabPaddingEnd;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tabPaddingStart = global::ChernivtsiGuide.Droid.Resource.Attribute.tabPaddingStart;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tabPaddingTop = global::ChernivtsiGuide.Droid.Resource.Attribute.tabPaddingTop;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tabSelectedTextColor = global::ChernivtsiGuide.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tabTextAppearance = global::ChernivtsiGuide.Droid.Resource.Attribute.tabTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tabTextColor = global::ChernivtsiGuide.Droid.Resource.Attribute.tabTextColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.textAllCaps = global::ChernivtsiGuide.Droid.Resource.Attribute.textAllCaps;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.textAppearanceLargePopupMenu = global::ChernivtsiGuide.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.textAppearanceListItem = global::ChernivtsiGuide.Droid.Resource.Attribute.textAppearanceListItem;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.textAppearanceListItemSecondary = global::ChernivtsiGuide.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.textAppearanceListItemSmall = global::ChernivtsiGuide.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.textAppearancePopupMenuHeader = global::ChernivtsiGuide.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.textAppearanceSearchResultSubtitle = global::ChernivtsiGuide.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.textAppearanceSearchResultTitle = global::ChernivtsiGuide.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.textAppearanceSmallPopupMenu = global::ChernivtsiGuide.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.textColorAlertDialogListItem = global::ChernivtsiGuide.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.textColorSearchUrl = global::ChernivtsiGuide.Droid.Resource.Attribute.textColorSearchUrl;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.theme = global::ChernivtsiGuide.Droid.Resource.Attribute.theme;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.thickness = global::ChernivtsiGuide.Droid.Resource.Attribute.thickness;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.thumbTextPadding = global::ChernivtsiGuide.Droid.Resource.Attribute.thumbTextPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.thumbTint = global::ChernivtsiGuide.Droid.Resource.Attribute.thumbTint;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.thumbTintMode = global::ChernivtsiGuide.Droid.Resource.Attribute.thumbTintMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tickMark = global::ChernivtsiGuide.Droid.Resource.Attribute.tickMark;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tickMarkTint = global::ChernivtsiGuide.Droid.Resource.Attribute.tickMarkTint;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tickMarkTintMode = global::ChernivtsiGuide.Droid.Resource.Attribute.tickMarkTintMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tint = global::ChernivtsiGuide.Droid.Resource.Attribute.tint;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.tintMode = global::ChernivtsiGuide.Droid.Resource.Attribute.tintMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.title = global::ChernivtsiGuide.Droid.Resource.Attribute.title;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.titleEnabled = global::ChernivtsiGuide.Droid.Resource.Attribute.titleEnabled;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.titleMargin = global::ChernivtsiGuide.Droid.Resource.Attribute.titleMargin;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.titleMarginBottom = global::ChernivtsiGuide.Droid.Resource.Attribute.titleMarginBottom;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.titleMarginEnd = global::ChernivtsiGuide.Droid.Resource.Attribute.titleMarginEnd;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.titleMarginStart = global::ChernivtsiGuide.Droid.Resource.Attribute.titleMarginStart;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.titleMarginTop = global::ChernivtsiGuide.Droid.Resource.Attribute.titleMarginTop;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.titleMargins = global::ChernivtsiGuide.Droid.Resource.Attribute.titleMargins;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.titleTextAppearance = global::ChernivtsiGuide.Droid.Resource.Attribute.titleTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.titleTextColor = global::ChernivtsiGuide.Droid.Resource.Attribute.titleTextColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.titleTextStyle = global::ChernivtsiGuide.Droid.Resource.Attribute.titleTextStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.toolbarId = global::ChernivtsiGuide.Droid.Resource.Attribute.toolbarId;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.toolbarNavigationButtonStyle = global::ChernivtsiGuide.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.toolbarStyle = global::ChernivtsiGuide.Droid.Resource.Attribute.toolbarStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.track = global::ChernivtsiGuide.Droid.Resource.Attribute.track;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.trackTint = global::ChernivtsiGuide.Droid.Resource.Attribute.trackTint;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.trackTintMode = global::ChernivtsiGuide.Droid.Resource.Attribute.trackTintMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.useCompatPadding = global::ChernivtsiGuide.Droid.Resource.Attribute.useCompatPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.voiceIcon = global::ChernivtsiGuide.Droid.Resource.Attribute.voiceIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.vpiCentered = global::ChernivtsiGuide.Droid.Resource.Attribute.vpiCentered;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.vpiCirclePageIndicatorStyle = global::ChernivtsiGuide.Droid.Resource.Attribute.vpiCirclePageIndicatorStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.vpiFillColor = global::ChernivtsiGuide.Droid.Resource.Attribute.vpiFillColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.vpiOrientation = global::ChernivtsiGuide.Droid.Resource.Attribute.vpiOrientation;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.vpiPageColor = global::ChernivtsiGuide.Droid.Resource.Attribute.vpiPageColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.vpiRadius = global::ChernivtsiGuide.Droid.Resource.Attribute.vpiRadius;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.vpiSnap = global::ChernivtsiGuide.Droid.Resource.Attribute.vpiSnap;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.vpiStrokeColor = global::ChernivtsiGuide.Droid.Resource.Attribute.vpiStrokeColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.vpiStrokeWidth = global::ChernivtsiGuide.Droid.Resource.Attribute.vpiStrokeWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.windowActionBar = global::ChernivtsiGuide.Droid.Resource.Attribute.windowActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.windowActionBarOverlay = global::ChernivtsiGuide.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.windowActionModeOverlay = global::ChernivtsiGuide.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.windowFixedHeightMajor = global::ChernivtsiGuide.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.windowFixedHeightMinor = global::ChernivtsiGuide.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.windowFixedWidthMajor = global::ChernivtsiGuide.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.windowFixedWidthMinor = global::ChernivtsiGuide.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.windowMinWidthMajor = global::ChernivtsiGuide.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.windowMinWidthMinor = global::ChernivtsiGuide.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::CarouselView.FormsPlugin.Android.Resource.Attribute.windowNoTitle = global::ChernivtsiGuide.Droid.Resource.Attribute.windowNoTitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Boolean.abc_action_bar_embed_tabs = global::ChernivtsiGuide.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::CarouselView.FormsPlugin.Android.Resource.Boolean.abc_allow_stacked_button_bar = global::ChernivtsiGuide.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::CarouselView.FormsPlugin.Android.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::ChernivtsiGuide.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::CarouselView.FormsPlugin.Android.Resource.Boolean.default_circle_indicator_centered = global::ChernivtsiGuide.Droid.Resource.Boolean.default_circle_indicator_centered;
+			global::CarouselView.FormsPlugin.Android.Resource.Boolean.default_circle_indicator_snap = global::ChernivtsiGuide.Droid.Resource.Boolean.default_circle_indicator_snap;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_background_cache_hint_selector_material_dark = global::ChernivtsiGuide.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_background_cache_hint_selector_material_light = global::ChernivtsiGuide.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_btn_colored_borderless_text_material = global::ChernivtsiGuide.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_btn_colored_text_material = global::ChernivtsiGuide.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_color_highlight_material = global::ChernivtsiGuide.Droid.Resource.Color.abc_color_highlight_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_hint_foreground_material_dark = global::ChernivtsiGuide.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_hint_foreground_material_light = global::ChernivtsiGuide.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_input_method_navigation_guard = global::ChernivtsiGuide.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_primary_text_disable_only_material_dark = global::ChernivtsiGuide.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_primary_text_disable_only_material_light = global::ChernivtsiGuide.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_primary_text_material_dark = global::ChernivtsiGuide.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_primary_text_material_light = global::ChernivtsiGuide.Droid.Resource.Color.abc_primary_text_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_search_url_text = global::ChernivtsiGuide.Droid.Resource.Color.abc_search_url_text;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_search_url_text_normal = global::ChernivtsiGuide.Droid.Resource.Color.abc_search_url_text_normal;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_search_url_text_pressed = global::ChernivtsiGuide.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_search_url_text_selected = global::ChernivtsiGuide.Droid.Resource.Color.abc_search_url_text_selected;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_secondary_text_material_dark = global::ChernivtsiGuide.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_secondary_text_material_light = global::ChernivtsiGuide.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_tint_btn_checkable = global::ChernivtsiGuide.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_tint_default = global::ChernivtsiGuide.Droid.Resource.Color.abc_tint_default;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_tint_edittext = global::ChernivtsiGuide.Droid.Resource.Color.abc_tint_edittext;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_tint_seek_thumb = global::ChernivtsiGuide.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_tint_spinner = global::ChernivtsiGuide.Droid.Resource.Color.abc_tint_spinner;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.abc_tint_switch_track = global::ChernivtsiGuide.Droid.Resource.Color.abc_tint_switch_track;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.accent_material_dark = global::ChernivtsiGuide.Droid.Resource.Color.accent_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.accent_material_light = global::ChernivtsiGuide.Droid.Resource.Color.accent_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.background_floating_material_dark = global::ChernivtsiGuide.Droid.Resource.Color.background_floating_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.background_floating_material_light = global::ChernivtsiGuide.Droid.Resource.Color.background_floating_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.background_material_dark = global::ChernivtsiGuide.Droid.Resource.Color.background_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.background_material_light = global::ChernivtsiGuide.Droid.Resource.Color.background_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.bright_foreground_disabled_material_dark = global::ChernivtsiGuide.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.bright_foreground_disabled_material_light = global::ChernivtsiGuide.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.bright_foreground_inverse_material_dark = global::ChernivtsiGuide.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.bright_foreground_inverse_material_light = global::ChernivtsiGuide.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.bright_foreground_material_dark = global::ChernivtsiGuide.Droid.Resource.Color.bright_foreground_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.bright_foreground_material_light = global::ChernivtsiGuide.Droid.Resource.Color.bright_foreground_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.button_material_dark = global::ChernivtsiGuide.Droid.Resource.Color.button_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.button_material_light = global::ChernivtsiGuide.Droid.Resource.Color.button_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.cardview_dark_background = global::ChernivtsiGuide.Droid.Resource.Color.cardview_dark_background;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.cardview_light_background = global::ChernivtsiGuide.Droid.Resource.Color.cardview_light_background;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.cardview_shadow_end_color = global::ChernivtsiGuide.Droid.Resource.Color.cardview_shadow_end_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.cardview_shadow_start_color = global::ChernivtsiGuide.Droid.Resource.Color.cardview_shadow_start_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.default_circle_indicator_fill_color = global::ChernivtsiGuide.Droid.Resource.Color.default_circle_indicator_fill_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.default_circle_indicator_page_color = global::ChernivtsiGuide.Droid.Resource.Color.default_circle_indicator_page_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.default_circle_indicator_stroke_color = global::ChernivtsiGuide.Droid.Resource.Color.default_circle_indicator_stroke_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.design_bottom_navigation_shadow_color = global::ChernivtsiGuide.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.design_error = global::ChernivtsiGuide.Droid.Resource.Color.design_error;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.design_fab_shadow_end_color = global::ChernivtsiGuide.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.design_fab_shadow_mid_color = global::ChernivtsiGuide.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.design_fab_shadow_start_color = global::ChernivtsiGuide.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.design_fab_stroke_end_inner_color = global::ChernivtsiGuide.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.design_fab_stroke_end_outer_color = global::ChernivtsiGuide.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.design_fab_stroke_top_inner_color = global::ChernivtsiGuide.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.design_fab_stroke_top_outer_color = global::ChernivtsiGuide.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.design_snackbar_background_color = global::ChernivtsiGuide.Droid.Resource.Color.design_snackbar_background_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.design_tint_password_toggle = global::ChernivtsiGuide.Droid.Resource.Color.design_tint_password_toggle;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.dim_foreground_disabled_material_dark = global::ChernivtsiGuide.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.dim_foreground_disabled_material_light = global::ChernivtsiGuide.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.dim_foreground_material_dark = global::ChernivtsiGuide.Droid.Resource.Color.dim_foreground_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.dim_foreground_material_light = global::ChernivtsiGuide.Droid.Resource.Color.dim_foreground_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.foreground_material_dark = global::ChernivtsiGuide.Droid.Resource.Color.foreground_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.foreground_material_light = global::ChernivtsiGuide.Droid.Resource.Color.foreground_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.highlighted_text_material_dark = global::ChernivtsiGuide.Droid.Resource.Color.highlighted_text_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.highlighted_text_material_light = global::ChernivtsiGuide.Droid.Resource.Color.highlighted_text_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.material_blue_grey_800 = global::ChernivtsiGuide.Droid.Resource.Color.material_blue_grey_800;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.material_blue_grey_900 = global::ChernivtsiGuide.Droid.Resource.Color.material_blue_grey_900;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.material_blue_grey_950 = global::ChernivtsiGuide.Droid.Resource.Color.material_blue_grey_950;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.material_deep_teal_200 = global::ChernivtsiGuide.Droid.Resource.Color.material_deep_teal_200;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.material_deep_teal_500 = global::ChernivtsiGuide.Droid.Resource.Color.material_deep_teal_500;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.material_grey_100 = global::ChernivtsiGuide.Droid.Resource.Color.material_grey_100;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.material_grey_300 = global::ChernivtsiGuide.Droid.Resource.Color.material_grey_300;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.material_grey_50 = global::ChernivtsiGuide.Droid.Resource.Color.material_grey_50;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.material_grey_600 = global::ChernivtsiGuide.Droid.Resource.Color.material_grey_600;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.material_grey_800 = global::ChernivtsiGuide.Droid.Resource.Color.material_grey_800;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.material_grey_850 = global::ChernivtsiGuide.Droid.Resource.Color.material_grey_850;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.material_grey_900 = global::ChernivtsiGuide.Droid.Resource.Color.material_grey_900;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.notification_action_color_filter = global::ChernivtsiGuide.Droid.Resource.Color.notification_action_color_filter;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.notification_icon_bg_color = global::ChernivtsiGuide.Droid.Resource.Color.notification_icon_bg_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.notification_material_background_media_default_color = global::ChernivtsiGuide.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.primary_dark_material_dark = global::ChernivtsiGuide.Droid.Resource.Color.primary_dark_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.primary_dark_material_light = global::ChernivtsiGuide.Droid.Resource.Color.primary_dark_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.primary_material_dark = global::ChernivtsiGuide.Droid.Resource.Color.primary_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.primary_material_light = global::ChernivtsiGuide.Droid.Resource.Color.primary_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.primary_text_default_material_dark = global::ChernivtsiGuide.Droid.Resource.Color.primary_text_default_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.primary_text_default_material_light = global::ChernivtsiGuide.Droid.Resource.Color.primary_text_default_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.primary_text_disabled_material_dark = global::ChernivtsiGuide.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.primary_text_disabled_material_light = global::ChernivtsiGuide.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.ripple_material_dark = global::ChernivtsiGuide.Droid.Resource.Color.ripple_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.ripple_material_light = global::ChernivtsiGuide.Droid.Resource.Color.ripple_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.secondary_text_default_material_dark = global::ChernivtsiGuide.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.secondary_text_default_material_light = global::ChernivtsiGuide.Droid.Resource.Color.secondary_text_default_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.secondary_text_disabled_material_dark = global::ChernivtsiGuide.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.secondary_text_disabled_material_light = global::ChernivtsiGuide.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.switch_thumb_disabled_material_dark = global::ChernivtsiGuide.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.switch_thumb_disabled_material_light = global::ChernivtsiGuide.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.switch_thumb_material_dark = global::ChernivtsiGuide.Droid.Resource.Color.switch_thumb_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.switch_thumb_material_light = global::ChernivtsiGuide.Droid.Resource.Color.switch_thumb_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.switch_thumb_normal_material_dark = global::ChernivtsiGuide.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.switch_thumb_normal_material_light = global::ChernivtsiGuide.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.vpi__background_holo_dark = global::ChernivtsiGuide.Droid.Resource.Color.vpi__background_holo_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.vpi__background_holo_light = global::ChernivtsiGuide.Droid.Resource.Color.vpi__background_holo_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.vpi__bright_foreground_disabled_holo_dark = global::ChernivtsiGuide.Droid.Resource.Color.vpi__bright_foreground_disabled_holo_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.vpi__bright_foreground_disabled_holo_light = global::ChernivtsiGuide.Droid.Resource.Color.vpi__bright_foreground_disabled_holo_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.vpi__bright_foreground_holo_dark = global::ChernivtsiGuide.Droid.Resource.Color.vpi__bright_foreground_holo_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.vpi__bright_foreground_holo_light = global::ChernivtsiGuide.Droid.Resource.Color.vpi__bright_foreground_holo_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.vpi__bright_foreground_inverse_holo_dark = global::ChernivtsiGuide.Droid.Resource.Color.vpi__bright_foreground_inverse_holo_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Color.vpi__bright_foreground_inverse_holo_light = global::ChernivtsiGuide.Droid.Resource.Color.vpi__bright_foreground_inverse_holo_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_action_bar_content_inset_material = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_action_bar_default_height_material = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_action_bar_default_padding_end_material = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_action_bar_default_padding_start_material = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_action_bar_elevation_material = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_action_bar_stacked_max_height = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_action_button_min_height_material = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_action_button_min_width_material = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_action_button_min_width_overflow_material = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_alert_dialog_button_bar_height = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_button_inset_horizontal_material = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_button_inset_vertical_material = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_button_padding_horizontal_material = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_button_padding_vertical_material = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_config_prefDialogWidth = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_control_corner_material = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_control_corner_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_control_inset_material = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_control_inset_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_control_padding_material = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_control_padding_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_dialog_fixed_height_major = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_dialog_fixed_height_minor = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_dialog_fixed_width_major = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_dialog_fixed_width_minor = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_dialog_min_width_major = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_dialog_min_width_minor = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_dialog_padding_material = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_dialog_padding_top_material = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_dialog_title_divider_material = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_disabled_alpha_material_dark = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_disabled_alpha_material_light = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_dropdownitem_icon_width = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_dropdownitem_text_padding_left = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_dropdownitem_text_padding_right = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_edit_text_inset_bottom_material = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_edit_text_inset_top_material = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_floating_window_z = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_floating_window_z;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_list_item_padding_horizontal_material = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_panel_menu_list_width = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_progress_bar_height_material = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_search_view_preferred_height = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_search_view_preferred_width = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_seekbar_track_background_height_material = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_seekbar_track_progress_height_material = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_select_dialog_padding_start_material = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_switch_padding = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_switch_padding;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_body_1_material = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_body_2_material = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_button_material = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_caption_material = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_display_1_material = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_display_2_material = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_display_3_material = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_display_4_material = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_headline_material = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_large_material = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_medium_material = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_menu_header_material = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_menu_material = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_small_material = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_subhead_material = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_title_material = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.abc_text_size_title_material_toolbar = global::ChernivtsiGuide.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.cardview_compat_inset_shadow = global::ChernivtsiGuide.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.cardview_default_elevation = global::ChernivtsiGuide.Droid.Resource.Dimension.cardview_default_elevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.cardview_default_radius = global::ChernivtsiGuide.Droid.Resource.Dimension.cardview_default_radius;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.default_circle_indicator_radius = global::ChernivtsiGuide.Droid.Resource.Dimension.default_circle_indicator_radius;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.default_circle_indicator_stroke_width = global::ChernivtsiGuide.Droid.Resource.Dimension.default_circle_indicator_stroke_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_appbar_elevation = global::ChernivtsiGuide.Droid.Resource.Dimension.design_appbar_elevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::ChernivtsiGuide.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_bottom_navigation_active_text_size = global::ChernivtsiGuide.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_bottom_navigation_elevation = global::ChernivtsiGuide.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_bottom_navigation_height = global::ChernivtsiGuide.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_bottom_navigation_item_max_width = global::ChernivtsiGuide.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_bottom_navigation_item_min_width = global::ChernivtsiGuide.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_bottom_navigation_margin = global::ChernivtsiGuide.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_bottom_navigation_shadow_height = global::ChernivtsiGuide.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_bottom_navigation_text_size = global::ChernivtsiGuide.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_bottom_sheet_modal_elevation = global::ChernivtsiGuide.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_bottom_sheet_peek_height_min = global::ChernivtsiGuide.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_fab_border_width = global::ChernivtsiGuide.Droid.Resource.Dimension.design_fab_border_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_fab_elevation = global::ChernivtsiGuide.Droid.Resource.Dimension.design_fab_elevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_fab_image_size = global::ChernivtsiGuide.Droid.Resource.Dimension.design_fab_image_size;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_fab_size_mini = global::ChernivtsiGuide.Droid.Resource.Dimension.design_fab_size_mini;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_fab_size_normal = global::ChernivtsiGuide.Droid.Resource.Dimension.design_fab_size_normal;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_fab_translation_z_pressed = global::ChernivtsiGuide.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_navigation_elevation = global::ChernivtsiGuide.Droid.Resource.Dimension.design_navigation_elevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_navigation_icon_padding = global::ChernivtsiGuide.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_navigation_icon_size = global::ChernivtsiGuide.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_navigation_max_width = global::ChernivtsiGuide.Droid.Resource.Dimension.design_navigation_max_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_navigation_padding_bottom = global::ChernivtsiGuide.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_navigation_separator_vertical_padding = global::ChernivtsiGuide.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_snackbar_action_inline_max_width = global::ChernivtsiGuide.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_snackbar_background_corner_radius = global::ChernivtsiGuide.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_snackbar_elevation = global::ChernivtsiGuide.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::ChernivtsiGuide.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_snackbar_max_width = global::ChernivtsiGuide.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_snackbar_min_width = global::ChernivtsiGuide.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_snackbar_padding_horizontal = global::ChernivtsiGuide.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_snackbar_padding_vertical = global::ChernivtsiGuide.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::ChernivtsiGuide.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_snackbar_text_size = global::ChernivtsiGuide.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_tab_max_width = global::ChernivtsiGuide.Droid.Resource.Dimension.design_tab_max_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_tab_scrollable_min_width = global::ChernivtsiGuide.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_tab_text_size = global::ChernivtsiGuide.Droid.Resource.Dimension.design_tab_text_size;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.design_tab_text_size_2line = global::ChernivtsiGuide.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.disabled_alpha_material_dark = global::ChernivtsiGuide.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.disabled_alpha_material_light = global::ChernivtsiGuide.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.highlight_alpha_material_colored = global::ChernivtsiGuide.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.highlight_alpha_material_dark = global::ChernivtsiGuide.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.highlight_alpha_material_light = global::ChernivtsiGuide.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.hint_alpha_material_dark = global::ChernivtsiGuide.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.hint_alpha_material_light = global::ChernivtsiGuide.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.hint_pressed_alpha_material_dark = global::ChernivtsiGuide.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.hint_pressed_alpha_material_light = global::ChernivtsiGuide.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::ChernivtsiGuide.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::ChernivtsiGuide.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::ChernivtsiGuide.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.mr_controller_volume_group_list_item_height = global::ChernivtsiGuide.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.mr_controller_volume_group_list_item_icon_size = global::ChernivtsiGuide.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.mr_controller_volume_group_list_max_height = global::ChernivtsiGuide.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.mr_controller_volume_group_list_padding_top = global::ChernivtsiGuide.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.mr_dialog_fixed_width_major = global::ChernivtsiGuide.Droid.Resource.Dimension.mr_dialog_fixed_width_major;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.mr_dialog_fixed_width_minor = global::ChernivtsiGuide.Droid.Resource.Dimension.mr_dialog_fixed_width_minor;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.notification_action_icon_size = global::ChernivtsiGuide.Droid.Resource.Dimension.notification_action_icon_size;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.notification_action_text_size = global::ChernivtsiGuide.Droid.Resource.Dimension.notification_action_text_size;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.notification_big_circle_margin = global::ChernivtsiGuide.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.notification_content_margin_start = global::ChernivtsiGuide.Droid.Resource.Dimension.notification_content_margin_start;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.notification_large_icon_height = global::ChernivtsiGuide.Droid.Resource.Dimension.notification_large_icon_height;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.notification_large_icon_width = global::ChernivtsiGuide.Droid.Resource.Dimension.notification_large_icon_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.notification_main_column_padding_top = global::ChernivtsiGuide.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.notification_media_narrow_margin = global::ChernivtsiGuide.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.notification_right_icon_size = global::ChernivtsiGuide.Droid.Resource.Dimension.notification_right_icon_size;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.notification_right_side_padding_top = global::ChernivtsiGuide.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.notification_small_icon_background_padding = global::ChernivtsiGuide.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.notification_small_icon_size_as_large = global::ChernivtsiGuide.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.notification_subtext_size = global::ChernivtsiGuide.Droid.Resource.Dimension.notification_subtext_size;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.notification_top_pad = global::ChernivtsiGuide.Droid.Resource.Dimension.notification_top_pad;
+			global::CarouselView.FormsPlugin.Android.Resource.Dimension.notification_top_pad_large_text = global::ChernivtsiGuide.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_action_bar_item_background_material = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_btn_borderless_material = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_btn_check_material = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_btn_check_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_btn_colored_material = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_btn_default_mtrl_shape = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_btn_radio_material = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_cab_background_internal_bg = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_cab_background_top_material = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_control_background_material = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_control_background_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_dialog_material_background = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_edit_text_material = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_edit_text_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_ab_back_material = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_clear_material = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_go_search_api_material = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_menu_overflow_material = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_search_api_material = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_star_black_16dp = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_star_black_36dp = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_star_black_48dp = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_ic_star_black_48dp;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_star_half_black_16dp = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_star_half_black_36dp = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_star_half_black_48dp = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ic_voice_search_api_material = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_item_background_holo_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_item_background_holo_light = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_list_divider_mtrl_alpha = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_list_focused_holo = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_list_longpressed_holo = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_list_pressed_holo_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_list_pressed_holo_light = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_list_selector_disabled_holo_light = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_list_selector_holo_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_list_selector_holo_light = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_popup_background_mtrl_mult = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ratingbar_indicator_material = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ratingbar_material = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_ratingbar_small_material = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_seekbar_thumb_material = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_seekbar_tick_mark_material = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_seekbar_track_material = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_spinner_textfield_background_material = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_switch_thumb_material = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_switch_track_mtrl_alpha = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_tab_indicator_material = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_text_cursor_material = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_textfield_search_material = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.abc_vector_test = global::ChernivtsiGuide.Droid.Resource.Drawable.abc_vector_test;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.avd_hide_password = global::ChernivtsiGuide.Droid.Resource.Drawable.avd_hide_password;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.avd_show_password = global::ChernivtsiGuide.Droid.Resource.Drawable.avd_show_password;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.design_bottom_navigation_item_background = global::ChernivtsiGuide.Droid.Resource.Drawable.design_bottom_navigation_item_background;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.design_fab_background = global::ChernivtsiGuide.Droid.Resource.Drawable.design_fab_background;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.design_ic_visibility = global::ChernivtsiGuide.Droid.Resource.Drawable.design_ic_visibility;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.design_ic_visibility_off = global::ChernivtsiGuide.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.design_password_eye = global::ChernivtsiGuide.Droid.Resource.Drawable.design_password_eye;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.design_snackbar_background = global::ChernivtsiGuide.Droid.Resource.Drawable.design_snackbar_background;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.Down = global::ChernivtsiGuide.Droid.Resource.Drawable.Down;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_audiotrack_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_audiotrack_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_audiotrack_light = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_audiotrack_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_dialog_close_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_dialog_close_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_dialog_close_light = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_dialog_close_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_00 = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_group_collapse_00;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_01 = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_group_collapse_01;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_02 = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_group_collapse_02;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_03 = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_group_collapse_03;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_04 = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_group_collapse_04;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_05 = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_group_collapse_05;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_06 = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_group_collapse_06;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_07 = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_group_collapse_07;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_08 = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_group_collapse_08;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_09 = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_group_collapse_09;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_10 = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_group_collapse_10;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_11 = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_group_collapse_11;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_12 = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_group_collapse_12;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_13 = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_group_collapse_13;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_14 = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_group_collapse_14;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_collapse_15 = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_group_collapse_15;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_expand_00 = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_group_expand_00;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_expand_01 = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_group_expand_01;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_expand_02 = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_group_expand_02;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_expand_03 = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_group_expand_03;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_expand_04 = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_group_expand_04;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_expand_05 = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_group_expand_05;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_expand_06 = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_group_expand_06;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_expand_07 = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_group_expand_07;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_expand_08 = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_group_expand_08;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_expand_09 = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_group_expand_09;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_expand_10 = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_group_expand_10;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_expand_11 = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_group_expand_11;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_expand_12 = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_group_expand_12;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_expand_13 = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_group_expand_13;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_expand_14 = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_group_expand_14;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_group_expand_15 = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_group_expand_15;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_media_pause_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_media_pause_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_media_pause_light = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_media_pause_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_media_play_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_media_play_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_media_play_light = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_media_play_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_media_stop_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_media_stop_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_media_stop_light = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_media_stop_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_00_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connected_00_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_00_light = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connected_00_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_01_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connected_01_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_01_light = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connected_01_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_02_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connected_02_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_02_light = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connected_02_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_03_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connected_03_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_03_light = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connected_03_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_04_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connected_04_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_04_light = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connected_04_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_05_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connected_05_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_05_light = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connected_05_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_06_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connected_06_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_06_light = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connected_06_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_07_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connected_07_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_07_light = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connected_07_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_08_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connected_08_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_08_light = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connected_08_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_09_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connected_09_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_09_light = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connected_09_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_10_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connected_10_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_10_light = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connected_10_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_11_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connected_11_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_11_light = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connected_11_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_12_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connected_12_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_12_light = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connected_12_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_13_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connected_13_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_13_light = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connected_13_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_14_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connected_14_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_14_light = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connected_14_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_15_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connected_15_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_15_light = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connected_15_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_16_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connected_16_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_16_light = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connected_16_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_17_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connected_17_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_17_light = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connected_17_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_18_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connected_18_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_18_light = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connected_18_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_19_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connected_19_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_19_light = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connected_19_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_20_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connected_20_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_20_light = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connected_20_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_21_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connected_21_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_21_light = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connected_21_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_22_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connected_22_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connected_22_light = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connected_22_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_00_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connecting_00_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_00_light = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connecting_00_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_01_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connecting_01_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_01_light = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connecting_01_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_02_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connecting_02_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_02_light = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connecting_02_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_03_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connecting_03_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_03_light = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connecting_03_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_04_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connecting_04_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_04_light = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connecting_04_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_05_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connecting_05_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_05_light = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connecting_05_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_06_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connecting_06_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_06_light = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connecting_06_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_07_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connecting_07_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_07_light = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connecting_07_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_08_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connecting_08_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_08_light = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connecting_08_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_09_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connecting_09_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_09_light = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connecting_09_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_10_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connecting_10_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_10_light = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connecting_10_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_11_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connecting_11_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_11_light = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connecting_11_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_12_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connecting_12_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_12_light = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connecting_12_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_13_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connecting_13_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_13_light = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connecting_13_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_14_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connecting_14_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_14_light = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connecting_14_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_15_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connecting_15_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_15_light = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connecting_15_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_16_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connecting_16_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_16_light = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connecting_16_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_17_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connecting_17_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_17_light = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connecting_17_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_18_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connecting_18_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_18_light = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connecting_18_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_19_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connecting_19_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_19_light = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connecting_19_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_20_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connecting_20_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_20_light = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connecting_20_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_21_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connecting_21_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_21_light = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connecting_21_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_22_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connecting_22_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_connecting_22_light = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_connecting_22_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_disabled_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_disabled_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_disabled_light = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_disabled_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_disconnected_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_disconnected_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_disconnected_light = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_disconnected_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_mr_button_grey = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_mr_button_grey;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_vol_type_speaker_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_vol_type_speaker_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_vol_type_speaker_group_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_vol_type_speaker_group_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_vol_type_speaker_group_light = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_vol_type_speaker_group_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_vol_type_speaker_light = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_vol_type_speaker_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_vol_type_tv_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_vol_type_tv_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.ic_vol_type_tv_light = global::ChernivtsiGuide.Droid.Resource.Drawable.ic_vol_type_tv_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_button_connected_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.mr_button_connected_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_button_connected_light = global::ChernivtsiGuide.Droid.Resource.Drawable.mr_button_connected_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_button_connecting_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.mr_button_connecting_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_button_connecting_light = global::ChernivtsiGuide.Droid.Resource.Drawable.mr_button_connecting_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_button_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.mr_button_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_button_light = global::ChernivtsiGuide.Droid.Resource.Drawable.mr_button_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_dialog_close_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.mr_dialog_close_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_dialog_close_light = global::ChernivtsiGuide.Droid.Resource.Drawable.mr_dialog_close_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_dialog_material_background_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.mr_dialog_material_background_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_dialog_material_background_light = global::ChernivtsiGuide.Droid.Resource.Drawable.mr_dialog_material_background_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_group_collapse = global::ChernivtsiGuide.Droid.Resource.Drawable.mr_group_collapse;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_group_expand = global::ChernivtsiGuide.Droid.Resource.Drawable.mr_group_expand;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_media_pause_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.mr_media_pause_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_media_pause_light = global::ChernivtsiGuide.Droid.Resource.Drawable.mr_media_pause_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_media_play_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.mr_media_play_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_media_play_light = global::ChernivtsiGuide.Droid.Resource.Drawable.mr_media_play_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_media_stop_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.mr_media_stop_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_media_stop_light = global::ChernivtsiGuide.Droid.Resource.Drawable.mr_media_stop_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_vol_type_audiotrack_dark = global::ChernivtsiGuide.Droid.Resource.Drawable.mr_vol_type_audiotrack_dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.mr_vol_type_audiotrack_light = global::ChernivtsiGuide.Droid.Resource.Drawable.mr_vol_type_audiotrack_light;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.navigation_empty_icon = global::ChernivtsiGuide.Droid.Resource.Drawable.navigation_empty_icon;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.Next = global::ChernivtsiGuide.Droid.Resource.Drawable.Next;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.notification_action_background = global::ChernivtsiGuide.Droid.Resource.Drawable.notification_action_background;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.notification_bg = global::ChernivtsiGuide.Droid.Resource.Drawable.notification_bg;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.notification_bg_low = global::ChernivtsiGuide.Droid.Resource.Drawable.notification_bg_low;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.notification_bg_low_normal = global::ChernivtsiGuide.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.notification_bg_low_pressed = global::ChernivtsiGuide.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.notification_bg_normal = global::ChernivtsiGuide.Droid.Resource.Drawable.notification_bg_normal;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.notification_bg_normal_pressed = global::ChernivtsiGuide.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.notification_icon_background = global::ChernivtsiGuide.Droid.Resource.Drawable.notification_icon_background;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.notification_template_icon_bg = global::ChernivtsiGuide.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.notification_template_icon_low_bg = global::ChernivtsiGuide.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.notification_tile_bg = global::ChernivtsiGuide.Droid.Resource.Drawable.notification_tile_bg;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.notify_panel_notification_icon_bg = global::ChernivtsiGuide.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.Prev = global::ChernivtsiGuide.Droid.Resource.Drawable.Prev;
+			global::CarouselView.FormsPlugin.Android.Resource.Drawable.Up = global::ChernivtsiGuide.Droid.Resource.Drawable.Up;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action0 = global::ChernivtsiGuide.Droid.Resource.Id.action0;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action_bar = global::ChernivtsiGuide.Droid.Resource.Id.action_bar;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action_bar_activity_content = global::ChernivtsiGuide.Droid.Resource.Id.action_bar_activity_content;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action_bar_container = global::ChernivtsiGuide.Droid.Resource.Id.action_bar_container;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action_bar_root = global::ChernivtsiGuide.Droid.Resource.Id.action_bar_root;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action_bar_spinner = global::ChernivtsiGuide.Droid.Resource.Id.action_bar_spinner;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action_bar_subtitle = global::ChernivtsiGuide.Droid.Resource.Id.action_bar_subtitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action_bar_title = global::ChernivtsiGuide.Droid.Resource.Id.action_bar_title;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action_container = global::ChernivtsiGuide.Droid.Resource.Id.action_container;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action_context_bar = global::ChernivtsiGuide.Droid.Resource.Id.action_context_bar;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action_divider = global::ChernivtsiGuide.Droid.Resource.Id.action_divider;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action_image = global::ChernivtsiGuide.Droid.Resource.Id.action_image;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action_menu_divider = global::ChernivtsiGuide.Droid.Resource.Id.action_menu_divider;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action_menu_presenter = global::ChernivtsiGuide.Droid.Resource.Id.action_menu_presenter;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action_mode_bar = global::ChernivtsiGuide.Droid.Resource.Id.action_mode_bar;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action_mode_bar_stub = global::ChernivtsiGuide.Droid.Resource.Id.action_mode_bar_stub;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action_mode_close_button = global::ChernivtsiGuide.Droid.Resource.Id.action_mode_close_button;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.action_text = global::ChernivtsiGuide.Droid.Resource.Id.action_text;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.actions = global::ChernivtsiGuide.Droid.Resource.Id.actions;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.activity_chooser_view_content = global::ChernivtsiGuide.Droid.Resource.Id.activity_chooser_view_content;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.add = global::ChernivtsiGuide.Droid.Resource.Id.add;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.alertTitle = global::ChernivtsiGuide.Droid.Resource.Id.alertTitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.all = global::ChernivtsiGuide.Droid.Resource.Id.all;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.always = global::ChernivtsiGuide.Droid.Resource.Id.always;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.auto = global::ChernivtsiGuide.Droid.Resource.Id.auto;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.beginning = global::ChernivtsiGuide.Droid.Resource.Id.beginning;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.bottom = global::ChernivtsiGuide.Droid.Resource.Id.bottom;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.buttonPanel = global::ChernivtsiGuide.Droid.Resource.Id.buttonPanel;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.cancel_action = global::ChernivtsiGuide.Droid.Resource.Id.cancel_action;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.center = global::ChernivtsiGuide.Droid.Resource.Id.center;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.center_horizontal = global::ChernivtsiGuide.Droid.Resource.Id.center_horizontal;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.center_vertical = global::ChernivtsiGuide.Droid.Resource.Id.center_vertical;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.checkbox = global::ChernivtsiGuide.Droid.Resource.Id.checkbox;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.chronometer = global::ChernivtsiGuide.Droid.Resource.Id.chronometer;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.clip_horizontal = global::ChernivtsiGuide.Droid.Resource.Id.clip_horizontal;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.clip_vertical = global::ChernivtsiGuide.Droid.Resource.Id.clip_vertical;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.collapseActionView = global::ChernivtsiGuide.Droid.Resource.Id.collapseActionView;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.container = global::ChernivtsiGuide.Droid.Resource.Id.container;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.contentPanel = global::ChernivtsiGuide.Droid.Resource.Id.contentPanel;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.coordinator = global::ChernivtsiGuide.Droid.Resource.Id.coordinator;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.custom = global::ChernivtsiGuide.Droid.Resource.Id.custom;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.customPanel = global::ChernivtsiGuide.Droid.Resource.Id.customPanel;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.decor_content_parent = global::ChernivtsiGuide.Droid.Resource.Id.decor_content_parent;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.default_activity_button = global::ChernivtsiGuide.Droid.Resource.Id.default_activity_button;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.design_bottom_sheet = global::ChernivtsiGuide.Droid.Resource.Id.design_bottom_sheet;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.design_menu_item_action_area = global::ChernivtsiGuide.Droid.Resource.Id.design_menu_item_action_area;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.design_menu_item_action_area_stub = global::ChernivtsiGuide.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.design_menu_item_text = global::ChernivtsiGuide.Droid.Resource.Id.design_menu_item_text;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.design_navigation_view = global::ChernivtsiGuide.Droid.Resource.Id.design_navigation_view;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.disableHome = global::ChernivtsiGuide.Droid.Resource.Id.disableHome;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.edit_query = global::ChernivtsiGuide.Droid.Resource.Id.edit_query;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.end = global::ChernivtsiGuide.Droid.Resource.Id.end;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.end_padder = global::ChernivtsiGuide.Droid.Resource.Id.end_padder;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.enterAlways = global::ChernivtsiGuide.Droid.Resource.Id.enterAlways;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.enterAlwaysCollapsed = global::ChernivtsiGuide.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.exitUntilCollapsed = global::ChernivtsiGuide.Droid.Resource.Id.exitUntilCollapsed;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.expand_activities_button = global::ChernivtsiGuide.Droid.Resource.Id.expand_activities_button;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.expanded_menu = global::ChernivtsiGuide.Droid.Resource.Id.expanded_menu;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.fill = global::ChernivtsiGuide.Droid.Resource.Id.fill;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.fill_horizontal = global::ChernivtsiGuide.Droid.Resource.Id.fill_horizontal;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.fill_vertical = global::ChernivtsiGuide.Droid.Resource.Id.fill_vertical;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.@fixed = global::ChernivtsiGuide.Droid.Resource.Id.@fixed;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.home = global::ChernivtsiGuide.Droid.Resource.Id.home;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.homeAsUp = global::ChernivtsiGuide.Droid.Resource.Id.homeAsUp;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.horizontal = global::ChernivtsiGuide.Droid.Resource.Id.horizontal;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.icon = global::ChernivtsiGuide.Droid.Resource.Id.icon;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.icon_group = global::ChernivtsiGuide.Droid.Resource.Id.icon_group;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.ifRoom = global::ChernivtsiGuide.Droid.Resource.Id.ifRoom;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.image = global::ChernivtsiGuide.Droid.Resource.Id.image;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.indicator = global::ChernivtsiGuide.Droid.Resource.Id.indicator;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.info = global::ChernivtsiGuide.Droid.Resource.Id.info;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.item_touch_helper_previous_elevation = global::ChernivtsiGuide.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.largeLabel = global::ChernivtsiGuide.Droid.Resource.Id.largeLabel;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.left = global::ChernivtsiGuide.Droid.Resource.Id.left;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.line1 = global::ChernivtsiGuide.Droid.Resource.Id.line1;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.line3 = global::ChernivtsiGuide.Droid.Resource.Id.line3;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.listMode = global::ChernivtsiGuide.Droid.Resource.Id.listMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.list_item = global::ChernivtsiGuide.Droid.Resource.Id.list_item;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.masked = global::ChernivtsiGuide.Droid.Resource.Id.masked;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.media_actions = global::ChernivtsiGuide.Droid.Resource.Id.media_actions;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.middle = global::ChernivtsiGuide.Droid.Resource.Id.middle;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mini = global::ChernivtsiGuide.Droid.Resource.Id.mini;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_art = global::ChernivtsiGuide.Droid.Resource.Id.mr_art;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_chooser_list = global::ChernivtsiGuide.Droid.Resource.Id.mr_chooser_list;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_chooser_route_desc = global::ChernivtsiGuide.Droid.Resource.Id.mr_chooser_route_desc;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_chooser_route_icon = global::ChernivtsiGuide.Droid.Resource.Id.mr_chooser_route_icon;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_chooser_route_name = global::ChernivtsiGuide.Droid.Resource.Id.mr_chooser_route_name;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_chooser_title = global::ChernivtsiGuide.Droid.Resource.Id.mr_chooser_title;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_close = global::ChernivtsiGuide.Droid.Resource.Id.mr_close;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_control_divider = global::ChernivtsiGuide.Droid.Resource.Id.mr_control_divider;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_control_playback_ctrl = global::ChernivtsiGuide.Droid.Resource.Id.mr_control_playback_ctrl;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_control_subtitle = global::ChernivtsiGuide.Droid.Resource.Id.mr_control_subtitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_control_title = global::ChernivtsiGuide.Droid.Resource.Id.mr_control_title;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_control_title_container = global::ChernivtsiGuide.Droid.Resource.Id.mr_control_title_container;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_custom_control = global::ChernivtsiGuide.Droid.Resource.Id.mr_custom_control;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_default_control = global::ChernivtsiGuide.Droid.Resource.Id.mr_default_control;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_dialog_area = global::ChernivtsiGuide.Droid.Resource.Id.mr_dialog_area;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_expandable_area = global::ChernivtsiGuide.Droid.Resource.Id.mr_expandable_area;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_group_expand_collapse = global::ChernivtsiGuide.Droid.Resource.Id.mr_group_expand_collapse;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_media_main_control = global::ChernivtsiGuide.Droid.Resource.Id.mr_media_main_control;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_name = global::ChernivtsiGuide.Droid.Resource.Id.mr_name;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_playback_control = global::ChernivtsiGuide.Droid.Resource.Id.mr_playback_control;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_title_bar = global::ChernivtsiGuide.Droid.Resource.Id.mr_title_bar;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_volume_control = global::ChernivtsiGuide.Droid.Resource.Id.mr_volume_control;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_volume_group_list = global::ChernivtsiGuide.Droid.Resource.Id.mr_volume_group_list;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_volume_item_icon = global::ChernivtsiGuide.Droid.Resource.Id.mr_volume_item_icon;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.mr_volume_slider = global::ChernivtsiGuide.Droid.Resource.Id.mr_volume_slider;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.multiply = global::ChernivtsiGuide.Droid.Resource.Id.multiply;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.navigation_header_container = global::ChernivtsiGuide.Droid.Resource.Id.navigation_header_container;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.never = global::ChernivtsiGuide.Droid.Resource.Id.never;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.next = global::ChernivtsiGuide.Droid.Resource.Id.next;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.nextArrow = global::ChernivtsiGuide.Droid.Resource.Id.nextArrow;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.none = global::ChernivtsiGuide.Droid.Resource.Id.none;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.normal = global::ChernivtsiGuide.Droid.Resource.Id.normal;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.notification_background = global::ChernivtsiGuide.Droid.Resource.Id.notification_background;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.notification_main_column = global::ChernivtsiGuide.Droid.Resource.Id.notification_main_column;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.notification_main_column_container = global::ChernivtsiGuide.Droid.Resource.Id.notification_main_column_container;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.pager = global::ChernivtsiGuide.Droid.Resource.Id.pager;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.parallax = global::ChernivtsiGuide.Droid.Resource.Id.parallax;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.parentPanel = global::ChernivtsiGuide.Droid.Resource.Id.parentPanel;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.pin = global::ChernivtsiGuide.Droid.Resource.Id.pin;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.prev = global::ChernivtsiGuide.Droid.Resource.Id.prev;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.prevArrow = global::ChernivtsiGuide.Droid.Resource.Id.prevArrow;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.progress_circular = global::ChernivtsiGuide.Droid.Resource.Id.progress_circular;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.progress_horizontal = global::ChernivtsiGuide.Droid.Resource.Id.progress_horizontal;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.radio = global::ChernivtsiGuide.Droid.Resource.Id.radio;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.right = global::ChernivtsiGuide.Droid.Resource.Id.right;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.right_icon = global::ChernivtsiGuide.Droid.Resource.Id.right_icon;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.right_side = global::ChernivtsiGuide.Droid.Resource.Id.right_side;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.screen = global::ChernivtsiGuide.Droid.Resource.Id.screen;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.scroll = global::ChernivtsiGuide.Droid.Resource.Id.scroll;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.scrollIndicatorDown = global::ChernivtsiGuide.Droid.Resource.Id.scrollIndicatorDown;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.scrollIndicatorUp = global::ChernivtsiGuide.Droid.Resource.Id.scrollIndicatorUp;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.scrollView = global::ChernivtsiGuide.Droid.Resource.Id.scrollView;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.scrollable = global::ChernivtsiGuide.Droid.Resource.Id.scrollable;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.search_badge = global::ChernivtsiGuide.Droid.Resource.Id.search_badge;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.search_bar = global::ChernivtsiGuide.Droid.Resource.Id.search_bar;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.search_button = global::ChernivtsiGuide.Droid.Resource.Id.search_button;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.search_close_btn = global::ChernivtsiGuide.Droid.Resource.Id.search_close_btn;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.search_edit_frame = global::ChernivtsiGuide.Droid.Resource.Id.search_edit_frame;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.search_go_btn = global::ChernivtsiGuide.Droid.Resource.Id.search_go_btn;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.search_mag_icon = global::ChernivtsiGuide.Droid.Resource.Id.search_mag_icon;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.search_plate = global::ChernivtsiGuide.Droid.Resource.Id.search_plate;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.search_src_text = global::ChernivtsiGuide.Droid.Resource.Id.search_src_text;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.search_voice_btn = global::ChernivtsiGuide.Droid.Resource.Id.search_voice_btn;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.select_dialog_listview = global::ChernivtsiGuide.Droid.Resource.Id.select_dialog_listview;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.shortcut = global::ChernivtsiGuide.Droid.Resource.Id.shortcut;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.showCustom = global::ChernivtsiGuide.Droid.Resource.Id.showCustom;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.showHome = global::ChernivtsiGuide.Droid.Resource.Id.showHome;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.showTitle = global::ChernivtsiGuide.Droid.Resource.Id.showTitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.smallLabel = global::ChernivtsiGuide.Droid.Resource.Id.smallLabel;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.snackbar_action = global::ChernivtsiGuide.Droid.Resource.Id.snackbar_action;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.snackbar_text = global::ChernivtsiGuide.Droid.Resource.Id.snackbar_text;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.snap = global::ChernivtsiGuide.Droid.Resource.Id.snap;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.spacer = global::ChernivtsiGuide.Droid.Resource.Id.spacer;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.split_action_bar = global::ChernivtsiGuide.Droid.Resource.Id.split_action_bar;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.src_atop = global::ChernivtsiGuide.Droid.Resource.Id.src_atop;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.src_in = global::ChernivtsiGuide.Droid.Resource.Id.src_in;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.src_over = global::ChernivtsiGuide.Droid.Resource.Id.src_over;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.start = global::ChernivtsiGuide.Droid.Resource.Id.start;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.status_bar_latest_event_content = global::ChernivtsiGuide.Droid.Resource.Id.status_bar_latest_event_content;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.submenuarrow = global::ChernivtsiGuide.Droid.Resource.Id.submenuarrow;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.submit_area = global::ChernivtsiGuide.Droid.Resource.Id.submit_area;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.tabMode = global::ChernivtsiGuide.Droid.Resource.Id.tabMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.text = global::ChernivtsiGuide.Droid.Resource.Id.text;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.text2 = global::ChernivtsiGuide.Droid.Resource.Id.text2;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.textSpacerNoButtons = global::ChernivtsiGuide.Droid.Resource.Id.textSpacerNoButtons;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.textSpacerNoTitle = global::ChernivtsiGuide.Droid.Resource.Id.textSpacerNoTitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.text_input_password_toggle = global::ChernivtsiGuide.Droid.Resource.Id.text_input_password_toggle;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.textinput_counter = global::ChernivtsiGuide.Droid.Resource.Id.textinput_counter;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.textinput_error = global::ChernivtsiGuide.Droid.Resource.Id.textinput_error;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.time = global::ChernivtsiGuide.Droid.Resource.Id.time;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.title = global::ChernivtsiGuide.Droid.Resource.Id.title;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.titleDividerNoCustom = global::ChernivtsiGuide.Droid.Resource.Id.titleDividerNoCustom;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.title_template = global::ChernivtsiGuide.Droid.Resource.Id.title_template;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.top = global::ChernivtsiGuide.Droid.Resource.Id.top;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.topPanel = global::ChernivtsiGuide.Droid.Resource.Id.topPanel;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.touch_outside = global::ChernivtsiGuide.Droid.Resource.Id.touch_outside;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.transition_current_scene = global::ChernivtsiGuide.Droid.Resource.Id.transition_current_scene;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.transition_scene_layoutid_cache = global::ChernivtsiGuide.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.up = global::ChernivtsiGuide.Droid.Resource.Id.up;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.useLogo = global::ChernivtsiGuide.Droid.Resource.Id.useLogo;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.vertical = global::ChernivtsiGuide.Droid.Resource.Id.vertical;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.view_offset_helper = global::ChernivtsiGuide.Droid.Resource.Id.view_offset_helper;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.visible = global::ChernivtsiGuide.Droid.Resource.Id.visible;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.volume_item_container = global::ChernivtsiGuide.Droid.Resource.Id.volume_item_container;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.withText = global::ChernivtsiGuide.Droid.Resource.Id.withText;
+			global::CarouselView.FormsPlugin.Android.Resource.Id.wrap_content = global::ChernivtsiGuide.Droid.Resource.Id.wrap_content;
+			global::CarouselView.FormsPlugin.Android.Resource.Integer.abc_config_activityDefaultDur = global::ChernivtsiGuide.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::CarouselView.FormsPlugin.Android.Resource.Integer.abc_config_activityShortDur = global::ChernivtsiGuide.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::CarouselView.FormsPlugin.Android.Resource.Integer.app_bar_elevation_anim_duration = global::ChernivtsiGuide.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::CarouselView.FormsPlugin.Android.Resource.Integer.bottom_sheet_slide_duration = global::ChernivtsiGuide.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::CarouselView.FormsPlugin.Android.Resource.Integer.cancel_button_image_alpha = global::ChernivtsiGuide.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Integer.default_circle_indicator_orientation = global::ChernivtsiGuide.Droid.Resource.Integer.default_circle_indicator_orientation;
+			global::CarouselView.FormsPlugin.Android.Resource.Integer.design_snackbar_text_max_lines = global::ChernivtsiGuide.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::CarouselView.FormsPlugin.Android.Resource.Integer.hide_password_duration = global::ChernivtsiGuide.Droid.Resource.Integer.hide_password_duration;
+			global::CarouselView.FormsPlugin.Android.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms = global::ChernivtsiGuide.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms;
+			global::CarouselView.FormsPlugin.Android.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms = global::ChernivtsiGuide.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms;
+			global::CarouselView.FormsPlugin.Android.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms = global::ChernivtsiGuide.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms;
+			global::CarouselView.FormsPlugin.Android.Resource.Integer.show_password_duration = global::ChernivtsiGuide.Droid.Resource.Integer.show_password_duration;
+			global::CarouselView.FormsPlugin.Android.Resource.Integer.status_bar_notification_info_maxnum = global::ChernivtsiGuide.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::CarouselView.FormsPlugin.Android.Resource.Interpolator.mr_fast_out_slow_in = global::ChernivtsiGuide.Droid.Resource.Interpolator.mr_fast_out_slow_in;
+			global::CarouselView.FormsPlugin.Android.Resource.Interpolator.mr_linear_out_slow_in = global::ChernivtsiGuide.Droid.Resource.Interpolator.mr_linear_out_slow_in;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_action_bar_title_item = global::ChernivtsiGuide.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_action_bar_up_container = global::ChernivtsiGuide.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_action_menu_item_layout = global::ChernivtsiGuide.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_action_menu_layout = global::ChernivtsiGuide.Droid.Resource.Layout.abc_action_menu_layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_action_mode_bar = global::ChernivtsiGuide.Droid.Resource.Layout.abc_action_mode_bar;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_action_mode_close_item_material = global::ChernivtsiGuide.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_activity_chooser_view = global::ChernivtsiGuide.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_activity_chooser_view_list_item = global::ChernivtsiGuide.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_alert_dialog_button_bar_material = global::ChernivtsiGuide.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_alert_dialog_material = global::ChernivtsiGuide.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_alert_dialog_title_material = global::ChernivtsiGuide.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_dialog_title_material = global::ChernivtsiGuide.Droid.Resource.Layout.abc_dialog_title_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_expanded_menu_layout = global::ChernivtsiGuide.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_list_menu_item_checkbox = global::ChernivtsiGuide.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_list_menu_item_icon = global::ChernivtsiGuide.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_list_menu_item_layout = global::ChernivtsiGuide.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_list_menu_item_radio = global::ChernivtsiGuide.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_popup_menu_header_item_layout = global::ChernivtsiGuide.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_popup_menu_item_layout = global::ChernivtsiGuide.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_screen_content_include = global::ChernivtsiGuide.Droid.Resource.Layout.abc_screen_content_include;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_screen_simple = global::ChernivtsiGuide.Droid.Resource.Layout.abc_screen_simple;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_screen_simple_overlay_action_mode = global::ChernivtsiGuide.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_screen_toolbar = global::ChernivtsiGuide.Droid.Resource.Layout.abc_screen_toolbar;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_search_dropdown_item_icons_2line = global::ChernivtsiGuide.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_search_view = global::ChernivtsiGuide.Droid.Resource.Layout.abc_search_view;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.abc_select_dialog_material = global::ChernivtsiGuide.Droid.Resource.Layout.abc_select_dialog_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.design_bottom_navigation_item = global::ChernivtsiGuide.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.design_bottom_sheet_dialog = global::ChernivtsiGuide.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.design_layout_snackbar = global::ChernivtsiGuide.Droid.Resource.Layout.design_layout_snackbar;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.design_layout_snackbar_include = global::ChernivtsiGuide.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.design_layout_tab_icon = global::ChernivtsiGuide.Droid.Resource.Layout.design_layout_tab_icon;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.design_layout_tab_text = global::ChernivtsiGuide.Droid.Resource.Layout.design_layout_tab_text;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.design_menu_item_action_area = global::ChernivtsiGuide.Droid.Resource.Layout.design_menu_item_action_area;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.design_navigation_item = global::ChernivtsiGuide.Droid.Resource.Layout.design_navigation_item;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.design_navigation_item_header = global::ChernivtsiGuide.Droid.Resource.Layout.design_navigation_item_header;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.design_navigation_item_separator = global::ChernivtsiGuide.Droid.Resource.Layout.design_navigation_item_separator;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.design_navigation_item_subheader = global::ChernivtsiGuide.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.design_navigation_menu = global::ChernivtsiGuide.Droid.Resource.Layout.design_navigation_menu;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.design_navigation_menu_item = global::ChernivtsiGuide.Droid.Resource.Layout.design_navigation_menu_item;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.design_text_input_password_icon = global::ChernivtsiGuide.Droid.Resource.Layout.design_text_input_password_icon;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.horizontal_viewpager = global::ChernivtsiGuide.Droid.Resource.Layout.horizontal_viewpager;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.mr_chooser_dialog = global::ChernivtsiGuide.Droid.Resource.Layout.mr_chooser_dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.mr_chooser_list_item = global::ChernivtsiGuide.Droid.Resource.Layout.mr_chooser_list_item;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.mr_controller_material_dialog_b = global::ChernivtsiGuide.Droid.Resource.Layout.mr_controller_material_dialog_b;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.mr_controller_volume_item = global::ChernivtsiGuide.Droid.Resource.Layout.mr_controller_volume_item;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.mr_playback_control = global::ChernivtsiGuide.Droid.Resource.Layout.mr_playback_control;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.mr_volume_control = global::ChernivtsiGuide.Droid.Resource.Layout.mr_volume_control;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.notification_action = global::ChernivtsiGuide.Droid.Resource.Layout.notification_action;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.notification_action_tombstone = global::ChernivtsiGuide.Droid.Resource.Layout.notification_action_tombstone;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.notification_media_action = global::ChernivtsiGuide.Droid.Resource.Layout.notification_media_action;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.notification_media_cancel_action = global::ChernivtsiGuide.Droid.Resource.Layout.notification_media_cancel_action;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.notification_template_big_media = global::ChernivtsiGuide.Droid.Resource.Layout.notification_template_big_media;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.notification_template_big_media_custom = global::ChernivtsiGuide.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.notification_template_big_media_narrow = global::ChernivtsiGuide.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.notification_template_big_media_narrow_custom = global::ChernivtsiGuide.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.notification_template_custom_big = global::ChernivtsiGuide.Droid.Resource.Layout.notification_template_custom_big;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.notification_template_icon_group = global::ChernivtsiGuide.Droid.Resource.Layout.notification_template_icon_group;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.notification_template_lines_media = global::ChernivtsiGuide.Droid.Resource.Layout.notification_template_lines_media;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.notification_template_media = global::ChernivtsiGuide.Droid.Resource.Layout.notification_template_media;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.notification_template_media_custom = global::ChernivtsiGuide.Droid.Resource.Layout.notification_template_media_custom;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.notification_template_part_chronometer = global::ChernivtsiGuide.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.notification_template_part_time = global::ChernivtsiGuide.Droid.Resource.Layout.notification_template_part_time;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.select_dialog_item_material = global::ChernivtsiGuide.Droid.Resource.Layout.select_dialog_item_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.select_dialog_multichoice_material = global::ChernivtsiGuide.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.select_dialog_singlechoice_material = global::ChernivtsiGuide.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.support_simple_spinner_dropdown_item = global::ChernivtsiGuide.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::CarouselView.FormsPlugin.Android.Resource.Layout.vertical_viewpager = global::ChernivtsiGuide.Droid.Resource.Layout.vertical_viewpager;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_action_bar_home_description = global::ChernivtsiGuide.Droid.Resource.String.abc_action_bar_home_description;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_action_bar_up_description = global::ChernivtsiGuide.Droid.Resource.String.abc_action_bar_up_description;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_action_menu_overflow_description = global::ChernivtsiGuide.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_action_mode_done = global::ChernivtsiGuide.Droid.Resource.String.abc_action_mode_done;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_activity_chooser_view_see_all = global::ChernivtsiGuide.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_activitychooserview_choose_application = global::ChernivtsiGuide.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_capital_off = global::ChernivtsiGuide.Droid.Resource.String.abc_capital_off;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_capital_on = global::ChernivtsiGuide.Droid.Resource.String.abc_capital_on;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_font_family_body_1_material = global::ChernivtsiGuide.Droid.Resource.String.abc_font_family_body_1_material;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_font_family_body_2_material = global::ChernivtsiGuide.Droid.Resource.String.abc_font_family_body_2_material;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_font_family_button_material = global::ChernivtsiGuide.Droid.Resource.String.abc_font_family_button_material;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_font_family_caption_material = global::ChernivtsiGuide.Droid.Resource.String.abc_font_family_caption_material;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_font_family_display_1_material = global::ChernivtsiGuide.Droid.Resource.String.abc_font_family_display_1_material;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_font_family_display_2_material = global::ChernivtsiGuide.Droid.Resource.String.abc_font_family_display_2_material;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_font_family_display_3_material = global::ChernivtsiGuide.Droid.Resource.String.abc_font_family_display_3_material;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_font_family_display_4_material = global::ChernivtsiGuide.Droid.Resource.String.abc_font_family_display_4_material;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_font_family_headline_material = global::ChernivtsiGuide.Droid.Resource.String.abc_font_family_headline_material;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_font_family_menu_material = global::ChernivtsiGuide.Droid.Resource.String.abc_font_family_menu_material;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_font_family_subhead_material = global::ChernivtsiGuide.Droid.Resource.String.abc_font_family_subhead_material;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_font_family_title_material = global::ChernivtsiGuide.Droid.Resource.String.abc_font_family_title_material;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_search_hint = global::ChernivtsiGuide.Droid.Resource.String.abc_search_hint;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_searchview_description_clear = global::ChernivtsiGuide.Droid.Resource.String.abc_searchview_description_clear;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_searchview_description_query = global::ChernivtsiGuide.Droid.Resource.String.abc_searchview_description_query;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_searchview_description_search = global::ChernivtsiGuide.Droid.Resource.String.abc_searchview_description_search;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_searchview_description_submit = global::ChernivtsiGuide.Droid.Resource.String.abc_searchview_description_submit;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_searchview_description_voice = global::ChernivtsiGuide.Droid.Resource.String.abc_searchview_description_voice;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_shareactionprovider_share_with = global::ChernivtsiGuide.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_shareactionprovider_share_with_application = global::ChernivtsiGuide.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::CarouselView.FormsPlugin.Android.Resource.String.abc_toolbar_collapse_description = global::ChernivtsiGuide.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::CarouselView.FormsPlugin.Android.Resource.String.appbar_scrolling_view_behavior = global::ChernivtsiGuide.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::CarouselView.FormsPlugin.Android.Resource.String.bottom_sheet_behavior = global::ChernivtsiGuide.Droid.Resource.String.bottom_sheet_behavior;
+			global::CarouselView.FormsPlugin.Android.Resource.String.character_counter_pattern = global::ChernivtsiGuide.Droid.Resource.String.character_counter_pattern;
+			global::CarouselView.FormsPlugin.Android.Resource.String.library_name = global::ChernivtsiGuide.Droid.Resource.String.library_name;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_button_content_description = global::ChernivtsiGuide.Droid.Resource.String.mr_button_content_description;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_cast_button_connected = global::ChernivtsiGuide.Droid.Resource.String.mr_cast_button_connected;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_cast_button_connecting = global::ChernivtsiGuide.Droid.Resource.String.mr_cast_button_connecting;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_cast_button_disconnected = global::ChernivtsiGuide.Droid.Resource.String.mr_cast_button_disconnected;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_chooser_searching = global::ChernivtsiGuide.Droid.Resource.String.mr_chooser_searching;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_chooser_title = global::ChernivtsiGuide.Droid.Resource.String.mr_chooser_title;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_controller_album_art = global::ChernivtsiGuide.Droid.Resource.String.mr_controller_album_art;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_controller_casting_screen = global::ChernivtsiGuide.Droid.Resource.String.mr_controller_casting_screen;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_controller_close_description = global::ChernivtsiGuide.Droid.Resource.String.mr_controller_close_description;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_controller_collapse_group = global::ChernivtsiGuide.Droid.Resource.String.mr_controller_collapse_group;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_controller_disconnect = global::ChernivtsiGuide.Droid.Resource.String.mr_controller_disconnect;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_controller_expand_group = global::ChernivtsiGuide.Droid.Resource.String.mr_controller_expand_group;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_controller_no_info_available = global::ChernivtsiGuide.Droid.Resource.String.mr_controller_no_info_available;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_controller_no_media_selected = global::ChernivtsiGuide.Droid.Resource.String.mr_controller_no_media_selected;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_controller_pause = global::ChernivtsiGuide.Droid.Resource.String.mr_controller_pause;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_controller_play = global::ChernivtsiGuide.Droid.Resource.String.mr_controller_play;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_controller_stop = global::ChernivtsiGuide.Droid.Resource.String.mr_controller_stop;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_controller_stop_casting = global::ChernivtsiGuide.Droid.Resource.String.mr_controller_stop_casting;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_controller_volume_slider = global::ChernivtsiGuide.Droid.Resource.String.mr_controller_volume_slider;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_system_route_name = global::ChernivtsiGuide.Droid.Resource.String.mr_system_route_name;
+			global::CarouselView.FormsPlugin.Android.Resource.String.mr_user_route_category_name = global::ChernivtsiGuide.Droid.Resource.String.mr_user_route_category_name;
+			global::CarouselView.FormsPlugin.Android.Resource.String.password_toggle_content_description = global::ChernivtsiGuide.Droid.Resource.String.password_toggle_content_description;
+			global::CarouselView.FormsPlugin.Android.Resource.String.path_password_eye = global::ChernivtsiGuide.Droid.Resource.String.path_password_eye;
+			global::CarouselView.FormsPlugin.Android.Resource.String.path_password_eye_mask_strike_through = global::ChernivtsiGuide.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::CarouselView.FormsPlugin.Android.Resource.String.path_password_eye_mask_visible = global::ChernivtsiGuide.Droid.Resource.String.path_password_eye_mask_visible;
+			global::CarouselView.FormsPlugin.Android.Resource.String.path_password_strike_through = global::ChernivtsiGuide.Droid.Resource.String.path_password_strike_through;
+			global::CarouselView.FormsPlugin.Android.Resource.String.search_menu_title = global::ChernivtsiGuide.Droid.Resource.String.search_menu_title;
+			global::CarouselView.FormsPlugin.Android.Resource.String.status_bar_notification_info_overflow = global::ChernivtsiGuide.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.AlertDialog_AppCompat = global::ChernivtsiGuide.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.AlertDialog_AppCompat_Light = global::ChernivtsiGuide.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Animation_AppCompat_Dialog = global::ChernivtsiGuide.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Animation_AppCompat_DropDownUp = global::ChernivtsiGuide.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Animation_Design_BottomSheetDialog = global::ChernivtsiGuide.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_AlertDialog_AppCompat = global::ChernivtsiGuide.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_AlertDialog_AppCompat_Light = global::ChernivtsiGuide.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Animation_AppCompat_Dialog = global::ChernivtsiGuide.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::ChernivtsiGuide.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_CardView = global::ChernivtsiGuide.Droid.Resource.Style.Base_CardView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_DialogWindowTitle_AppCompat = global::ChernivtsiGuide.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::ChernivtsiGuide.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat = global::ChernivtsiGuide.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::ChernivtsiGuide.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::ChernivtsiGuide.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Button = global::ChernivtsiGuide.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::ChernivtsiGuide.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::ChernivtsiGuide.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::ChernivtsiGuide.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::ChernivtsiGuide.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::ChernivtsiGuide.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::ChernivtsiGuide.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::ChernivtsiGuide.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Large = global::ChernivtsiGuide.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::ChernivtsiGuide.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::ChernivtsiGuide.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::ChernivtsiGuide.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::ChernivtsiGuide.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::ChernivtsiGuide.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::ChernivtsiGuide.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::ChernivtsiGuide.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::ChernivtsiGuide.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::ChernivtsiGuide.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Small = global::ChernivtsiGuide.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::ChernivtsiGuide.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::ChernivtsiGuide.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::ChernivtsiGuide.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Title = global::ChernivtsiGuide.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::ChernivtsiGuide.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::ChernivtsiGuide.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::ChernivtsiGuide.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::ChernivtsiGuide.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::ChernivtsiGuide.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::ChernivtsiGuide.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::ChernivtsiGuide.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::ChernivtsiGuide.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::ChernivtsiGuide.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::ChernivtsiGuide.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::ChernivtsiGuide.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::ChernivtsiGuide.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::ChernivtsiGuide.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::ChernivtsiGuide.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::ChernivtsiGuide.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::ChernivtsiGuide.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::ChernivtsiGuide.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::ChernivtsiGuide.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::ChernivtsiGuide.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::ChernivtsiGuide.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::ChernivtsiGuide.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat = global::ChernivtsiGuide.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::ChernivtsiGuide.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat_Dialog = global::ChernivtsiGuide.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::ChernivtsiGuide.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::ChernivtsiGuide.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::ChernivtsiGuide.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::ChernivtsiGuide.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat_Light = global::ChernivtsiGuide.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::ChernivtsiGuide.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::ChernivtsiGuide.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::ChernivtsiGuide.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::ChernivtsiGuide.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::ChernivtsiGuide.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::ChernivtsiGuide.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_ThemeOverlay_AppCompat = global::ChernivtsiGuide.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::ChernivtsiGuide.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::ChernivtsiGuide.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::ChernivtsiGuide.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::ChernivtsiGuide.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::ChernivtsiGuide.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::ChernivtsiGuide.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V21_Theme_AppCompat = global::ChernivtsiGuide.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::ChernivtsiGuide.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V21_Theme_AppCompat_Light = global::ChernivtsiGuide.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::ChernivtsiGuide.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::ChernivtsiGuide.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V22_Theme_AppCompat = global::ChernivtsiGuide.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V22_Theme_AppCompat_Light = global::ChernivtsiGuide.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V23_Theme_AppCompat = global::ChernivtsiGuide.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V23_Theme_AppCompat_Light = global::ChernivtsiGuide.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V7_Theme_AppCompat = global::ChernivtsiGuide.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::ChernivtsiGuide.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V7_Theme_AppCompat_Light = global::ChernivtsiGuide.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::ChernivtsiGuide.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::ChernivtsiGuide.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::ChernivtsiGuide.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::ChernivtsiGuide.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ActionBar = global::ChernivtsiGuide.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::ChernivtsiGuide.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::ChernivtsiGuide.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::ChernivtsiGuide.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::ChernivtsiGuide.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ActionButton = global::ChernivtsiGuide.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::ChernivtsiGuide.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::ChernivtsiGuide.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ActionMode = global::ChernivtsiGuide.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::ChernivtsiGuide.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::ChernivtsiGuide.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Button = global::ChernivtsiGuide.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::ChernivtsiGuide.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::ChernivtsiGuide.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::ChernivtsiGuide.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::ChernivtsiGuide.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Button_Small = global::ChernivtsiGuide.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::ChernivtsiGuide.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::ChernivtsiGuide.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::ChernivtsiGuide.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::ChernivtsiGuide.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::ChernivtsiGuide.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::ChernivtsiGuide.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::ChernivtsiGuide.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::ChernivtsiGuide.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_EditText = global::ChernivtsiGuide.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ImageButton = global::ChernivtsiGuide.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::ChernivtsiGuide.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::ChernivtsiGuide.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::ChernivtsiGuide.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::ChernivtsiGuide.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::ChernivtsiGuide.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::ChernivtsiGuide.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::ChernivtsiGuide.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::ChernivtsiGuide.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::ChernivtsiGuide.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::ChernivtsiGuide.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ListView = global::ChernivtsiGuide.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::ChernivtsiGuide.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::ChernivtsiGuide.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::ChernivtsiGuide.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::ChernivtsiGuide.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::ChernivtsiGuide.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::ChernivtsiGuide.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::ChernivtsiGuide.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_RatingBar = global::ChernivtsiGuide.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::ChernivtsiGuide.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::ChernivtsiGuide.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_SearchView = global::ChernivtsiGuide.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::ChernivtsiGuide.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_SeekBar = global::ChernivtsiGuide.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::ChernivtsiGuide.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Spinner = global::ChernivtsiGuide.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::ChernivtsiGuide.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::ChernivtsiGuide.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Toolbar = global::ChernivtsiGuide.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::ChernivtsiGuide.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Base_Widget_Design_TabLayout = global::ChernivtsiGuide.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.CardView = global::ChernivtsiGuide.Droid.Resource.Style.CardView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.CardView_Dark = global::ChernivtsiGuide.Droid.Resource.Style.CardView_Dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.CardView_Light = global::ChernivtsiGuide.Droid.Resource.Style.CardView_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Platform_AppCompat = global::ChernivtsiGuide.Droid.Resource.Style.Platform_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Platform_AppCompat_Light = global::ChernivtsiGuide.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Platform_ThemeOverlay_AppCompat = global::ChernivtsiGuide.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::ChernivtsiGuide.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::ChernivtsiGuide.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Platform_V21_AppCompat = global::ChernivtsiGuide.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Platform_V21_AppCompat_Light = global::ChernivtsiGuide.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Platform_V25_AppCompat = global::ChernivtsiGuide.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Platform_V25_AppCompat_Light = global::ChernivtsiGuide.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Platform_Widget_AppCompat_Spinner = global::ChernivtsiGuide.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::ChernivtsiGuide.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::ChernivtsiGuide.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::ChernivtsiGuide.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::ChernivtsiGuide.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::ChernivtsiGuide.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::ChernivtsiGuide.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::ChernivtsiGuide.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::ChernivtsiGuide.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::ChernivtsiGuide.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::ChernivtsiGuide.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::ChernivtsiGuide.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::ChernivtsiGuide.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::ChernivtsiGuide.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::ChernivtsiGuide.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat = global::ChernivtsiGuide.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Body1 = global::ChernivtsiGuide.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Body2 = global::ChernivtsiGuide.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Button = global::ChernivtsiGuide.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Caption = global::ChernivtsiGuide.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Display1 = global::ChernivtsiGuide.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Display2 = global::ChernivtsiGuide.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Display3 = global::ChernivtsiGuide.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Display4 = global::ChernivtsiGuide.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Headline = global::ChernivtsiGuide.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Inverse = global::ChernivtsiGuide.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Large = global::ChernivtsiGuide.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::ChernivtsiGuide.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::ChernivtsiGuide.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::ChernivtsiGuide.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::ChernivtsiGuide.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::ChernivtsiGuide.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Medium = global::ChernivtsiGuide.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::ChernivtsiGuide.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Menu = global::ChernivtsiGuide.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::ChernivtsiGuide.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::ChernivtsiGuide.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Small = global::ChernivtsiGuide.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::ChernivtsiGuide.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Subhead = global::ChernivtsiGuide.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::ChernivtsiGuide.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Title = global::ChernivtsiGuide.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::ChernivtsiGuide.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::ChernivtsiGuide.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::ChernivtsiGuide.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::ChernivtsiGuide.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::ChernivtsiGuide.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::ChernivtsiGuide.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::ChernivtsiGuide.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::ChernivtsiGuide.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::ChernivtsiGuide.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::ChernivtsiGuide.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::ChernivtsiGuide.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::ChernivtsiGuide.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::ChernivtsiGuide.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::ChernivtsiGuide.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::ChernivtsiGuide.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::ChernivtsiGuide.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::ChernivtsiGuide.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::ChernivtsiGuide.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::ChernivtsiGuide.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::ChernivtsiGuide.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::ChernivtsiGuide.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_Design_Counter = global::ChernivtsiGuide.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_Design_Counter_Overflow = global::ChernivtsiGuide.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_Design_Error = global::ChernivtsiGuide.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_Design_Hint = global::ChernivtsiGuide.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_Design_Snackbar_Message = global::ChernivtsiGuide.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_Design_Tab = global::ChernivtsiGuide.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_MediaRouter_PrimaryText = global::ChernivtsiGuide.Droid.Resource.Style.TextAppearance_MediaRouter_PrimaryText;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_MediaRouter_SecondaryText = global::ChernivtsiGuide.Droid.Resource.Style.TextAppearance_MediaRouter_SecondaryText;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_MediaRouter_Title = global::ChernivtsiGuide.Droid.Resource.Style.TextAppearance_MediaRouter_Title;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::ChernivtsiGuide.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::ChernivtsiGuide.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::ChernivtsiGuide.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat = global::ChernivtsiGuide.Droid.Resource.Style.Theme_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_CompactMenu = global::ChernivtsiGuide.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_DayNight = global::ChernivtsiGuide.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::ChernivtsiGuide.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::ChernivtsiGuide.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::ChernivtsiGuide.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::ChernivtsiGuide.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::ChernivtsiGuide.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::ChernivtsiGuide.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_Dialog = global::ChernivtsiGuide.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_Dialog_Alert = global::ChernivtsiGuide.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::ChernivtsiGuide.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::ChernivtsiGuide.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_Light = global::ChernivtsiGuide.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::ChernivtsiGuide.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_Light_Dialog = global::ChernivtsiGuide.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::ChernivtsiGuide.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::ChernivtsiGuide.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::ChernivtsiGuide.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::ChernivtsiGuide.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_AppCompat_NoActionBar = global::ChernivtsiGuide.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_Design = global::ChernivtsiGuide.Droid.Resource.Style.Theme_Design;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_Design_BottomSheetDialog = global::ChernivtsiGuide.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_Design_Light = global::ChernivtsiGuide.Droid.Resource.Style.Theme_Design_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::ChernivtsiGuide.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_Design_Light_NoActionBar = global::ChernivtsiGuide.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_Design_NoActionBar = global::ChernivtsiGuide.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_MediaRouter = global::ChernivtsiGuide.Droid.Resource.Style.Theme_MediaRouter;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_MediaRouter_Light = global::ChernivtsiGuide.Droid.Resource.Style.Theme_MediaRouter_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel = global::ChernivtsiGuide.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_MediaRouter_LightControlPanel = global::ChernivtsiGuide.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Theme_PageIndicatorDefaults = global::ChernivtsiGuide.Droid.Resource.Style.Theme_PageIndicatorDefaults;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.ThemeOverlay_AppCompat = global::ChernivtsiGuide.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::ChernivtsiGuide.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.ThemeOverlay_AppCompat_Dark = global::ChernivtsiGuide.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::ChernivtsiGuide.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::ChernivtsiGuide.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::ChernivtsiGuide.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.ThemeOverlay_AppCompat_Light = global::ChernivtsiGuide.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.ThemeOverlay_MediaRouter_Dark = global::ChernivtsiGuide.Droid.Resource.Style.ThemeOverlay_MediaRouter_Dark;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.ThemeOverlay_MediaRouter_Light = global::ChernivtsiGuide.Droid.Resource.Style.ThemeOverlay_MediaRouter_Light;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget = global::ChernivtsiGuide.Droid.Resource.Style.Widget;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ActionBar = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ActionButton = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ActionMode = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ActivityChooserView = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Button = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Button_Borderless = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Button_Colored = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Button_Small = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ButtonBar = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_EditText = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ImageButton = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActionButton = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_SearchView = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ListMenuView = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ListPopupWindow = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ListView = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ListView_DropDown = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ListView_Menu = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_PopupMenu = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_PopupWindow = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ProgressBar = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_RatingBar = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_RatingBar_Small = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_SearchView = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_SeekBar = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Spinner = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Toolbar = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::ChernivtsiGuide.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_CirclePageIndicator = global::ChernivtsiGuide.Droid.Resource.Style.Widget_CirclePageIndicator;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_Design_AppBarLayout = global::ChernivtsiGuide.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_Design_BottomNavigationView = global::ChernivtsiGuide.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_Design_BottomSheet_Modal = global::ChernivtsiGuide.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_Design_CollapsingToolbar = global::ChernivtsiGuide.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_Design_FloatingActionButton = global::ChernivtsiGuide.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_Design_NavigationView = global::ChernivtsiGuide.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::ChernivtsiGuide.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_Design_Snackbar = global::ChernivtsiGuide.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_Design_TabLayout = global::ChernivtsiGuide.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_Design_TextInputLayout = global::ChernivtsiGuide.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::ChernivtsiGuide.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
+			global::CarouselView.FormsPlugin.Android.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::ChernivtsiGuide.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar = global::ChernivtsiGuide.Droid.Resource.Styleable.ActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_background = global::ChernivtsiGuide.Droid.Resource.Styleable.ActionBar_background;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_backgroundSplit = global::ChernivtsiGuide.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_backgroundStacked = global::ChernivtsiGuide.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_contentInsetEnd = global::ChernivtsiGuide.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::ChernivtsiGuide.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_contentInsetLeft = global::ChernivtsiGuide.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_contentInsetRight = global::ChernivtsiGuide.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_contentInsetStart = global::ChernivtsiGuide.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::ChernivtsiGuide.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_customNavigationLayout = global::ChernivtsiGuide.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_displayOptions = global::ChernivtsiGuide.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_divider = global::ChernivtsiGuide.Droid.Resource.Styleable.ActionBar_divider;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_elevation = global::ChernivtsiGuide.Droid.Resource.Styleable.ActionBar_elevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_height = global::ChernivtsiGuide.Droid.Resource.Styleable.ActionBar_height;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_hideOnContentScroll = global::ChernivtsiGuide.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_homeAsUpIndicator = global::ChernivtsiGuide.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_homeLayout = global::ChernivtsiGuide.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_icon = global::ChernivtsiGuide.Droid.Resource.Styleable.ActionBar_icon;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::ChernivtsiGuide.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_itemPadding = global::ChernivtsiGuide.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_logo = global::ChernivtsiGuide.Droid.Resource.Styleable.ActionBar_logo;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_navigationMode = global::ChernivtsiGuide.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_popupTheme = global::ChernivtsiGuide.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_progressBarPadding = global::ChernivtsiGuide.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_progressBarStyle = global::ChernivtsiGuide.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_subtitle = global::ChernivtsiGuide.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_subtitleTextStyle = global::ChernivtsiGuide.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_title = global::ChernivtsiGuide.Droid.Resource.Styleable.ActionBar_title;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBar_titleTextStyle = global::ChernivtsiGuide.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBarLayout = global::ChernivtsiGuide.Droid.Resource.Styleable.ActionBarLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::ChernivtsiGuide.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionMenuItemView = global::ChernivtsiGuide.Droid.Resource.Styleable.ActionMenuItemView;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionMenuItemView_android_minWidth = global::ChernivtsiGuide.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionMenuView = global::ChernivtsiGuide.Droid.Resource.Styleable.ActionMenuView;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionMode = global::ChernivtsiGuide.Droid.Resource.Styleable.ActionMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionMode_background = global::ChernivtsiGuide.Droid.Resource.Styleable.ActionMode_background;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionMode_backgroundSplit = global::ChernivtsiGuide.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionMode_closeItemLayout = global::ChernivtsiGuide.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionMode_height = global::ChernivtsiGuide.Droid.Resource.Styleable.ActionMode_height;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionMode_subtitleTextStyle = global::ChernivtsiGuide.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActionMode_titleTextStyle = global::ChernivtsiGuide.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActivityChooserView = global::ChernivtsiGuide.Droid.Resource.Styleable.ActivityChooserView;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::ChernivtsiGuide.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ActivityChooserView_initialActivityCount = global::ChernivtsiGuide.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AlertDialog = global::ChernivtsiGuide.Droid.Resource.Styleable.AlertDialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AlertDialog_android_layout = global::ChernivtsiGuide.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::ChernivtsiGuide.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AlertDialog_listItemLayout = global::ChernivtsiGuide.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AlertDialog_listLayout = global::ChernivtsiGuide.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::ChernivtsiGuide.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AlertDialog_showTitle = global::ChernivtsiGuide.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::ChernivtsiGuide.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppBarLayout = global::ChernivtsiGuide.Droid.Resource.Styleable.AppBarLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppBarLayout_android_background = global::ChernivtsiGuide.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppBarLayout_elevation = global::ChernivtsiGuide.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppBarLayout_expanded = global::ChernivtsiGuide.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppBarLayoutStates = global::ChernivtsiGuide.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::ChernivtsiGuide.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::ChernivtsiGuide.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppBarLayout_Layout = global::ChernivtsiGuide.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::ChernivtsiGuide.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::ChernivtsiGuide.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatImageView = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatImageView;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatImageView_android_src = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatImageView_srcCompat = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatImageView_tint = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatImageView_tintMode = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatSeekBar = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatSeekBar_android_thumb = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatSeekBar_tickMark = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTextHelper = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTextView = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTextView;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTextView_android_textAppearance = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTextView_textAllCaps = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionBarDivider = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionBarSize = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionBarStyle = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionBarTheme = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionModeBackground = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionModeStyle = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_buttonStyle = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_checkboxStyle = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_colorAccent = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_colorControlActivated = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_colorControlNormal = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_colorPrimary = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_controlBackground = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_dialogTheme = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_dividerVertical = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_editTextBackground = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_editTextColor = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_editTextStyle = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_panelBackground = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_searchViewStyle = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_seekBarStyle = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_spinnerStyle = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_switchStyle = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_toolbarStyle = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_windowActionBar = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.AppCompatTheme_windowNoTitle = global::ChernivtsiGuide.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.BottomNavigationView = global::ChernivtsiGuide.Droid.Resource.Styleable.BottomNavigationView;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.BottomNavigationView_elevation = global::ChernivtsiGuide.Droid.Resource.Styleable.BottomNavigationView_elevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.BottomNavigationView_itemBackground = global::ChernivtsiGuide.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.BottomNavigationView_itemIconTint = global::ChernivtsiGuide.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.BottomNavigationView_itemTextColor = global::ChernivtsiGuide.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.BottomNavigationView_menu = global::ChernivtsiGuide.Droid.Resource.Styleable.BottomNavigationView_menu;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.BottomSheetBehavior_Layout = global::ChernivtsiGuide.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::ChernivtsiGuide.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::ChernivtsiGuide.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::ChernivtsiGuide.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ButtonBarLayout = global::ChernivtsiGuide.Droid.Resource.Styleable.ButtonBarLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ButtonBarLayout_allowStacking = global::ChernivtsiGuide.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CardView = global::ChernivtsiGuide.Droid.Resource.Styleable.CardView;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CardView_android_minHeight = global::ChernivtsiGuide.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CardView_android_minWidth = global::ChernivtsiGuide.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CardView_cardBackgroundColor = global::ChernivtsiGuide.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CardView_cardCornerRadius = global::ChernivtsiGuide.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CardView_cardElevation = global::ChernivtsiGuide.Droid.Resource.Styleable.CardView_cardElevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CardView_cardMaxElevation = global::ChernivtsiGuide.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CardView_cardPreventCornerOverlap = global::ChernivtsiGuide.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CardView_cardUseCompatPadding = global::ChernivtsiGuide.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CardView_contentPadding = global::ChernivtsiGuide.Droid.Resource.Styleable.CardView_contentPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CardView_contentPaddingBottom = global::ChernivtsiGuide.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CardView_contentPaddingLeft = global::ChernivtsiGuide.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CardView_contentPaddingRight = global::ChernivtsiGuide.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CardView_contentPaddingTop = global::ChernivtsiGuide.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CirclePageIndicator = global::ChernivtsiGuide.Droid.Resource.Styleable.CirclePageIndicator;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CirclePageIndicator_vpiCentered = global::ChernivtsiGuide.Droid.Resource.Styleable.CirclePageIndicator_vpiCentered;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CirclePageIndicator_vpiFillColor = global::ChernivtsiGuide.Droid.Resource.Styleable.CirclePageIndicator_vpiFillColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CirclePageIndicator_vpiOrientation = global::ChernivtsiGuide.Droid.Resource.Styleable.CirclePageIndicator_vpiOrientation;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CirclePageIndicator_vpiPageColor = global::ChernivtsiGuide.Droid.Resource.Styleable.CirclePageIndicator_vpiPageColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CirclePageIndicator_vpiRadius = global::ChernivtsiGuide.Droid.Resource.Styleable.CirclePageIndicator_vpiRadius;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CirclePageIndicator_vpiSnap = global::ChernivtsiGuide.Droid.Resource.Styleable.CirclePageIndicator_vpiSnap;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CirclePageIndicator_vpiStrokeColor = global::ChernivtsiGuide.Droid.Resource.Styleable.CirclePageIndicator_vpiStrokeColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CirclePageIndicator_vpiStrokeWidth = global::ChernivtsiGuide.Droid.Resource.Styleable.CirclePageIndicator_vpiStrokeWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout = global::ChernivtsiGuide.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::ChernivtsiGuide.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::ChernivtsiGuide.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::ChernivtsiGuide.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::ChernivtsiGuide.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::ChernivtsiGuide.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::ChernivtsiGuide.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::ChernivtsiGuide.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::ChernivtsiGuide.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::ChernivtsiGuide.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::ChernivtsiGuide.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::ChernivtsiGuide.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::ChernivtsiGuide.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::ChernivtsiGuide.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_title = global::ChernivtsiGuide.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::ChernivtsiGuide.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::ChernivtsiGuide.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_Layout = global::ChernivtsiGuide.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::ChernivtsiGuide.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::ChernivtsiGuide.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ColorStateListItem = global::ChernivtsiGuide.Droid.Resource.Styleable.ColorStateListItem;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ColorStateListItem_alpha = global::ChernivtsiGuide.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ColorStateListItem_android_alpha = global::ChernivtsiGuide.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ColorStateListItem_android_color = global::ChernivtsiGuide.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CompoundButton = global::ChernivtsiGuide.Droid.Resource.Styleable.CompoundButton;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CompoundButton_android_button = global::ChernivtsiGuide.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CompoundButton_buttonTint = global::ChernivtsiGuide.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CompoundButton_buttonTintMode = global::ChernivtsiGuide.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CoordinatorLayout = global::ChernivtsiGuide.Droid.Resource.Styleable.CoordinatorLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CoordinatorLayout_keylines = global::ChernivtsiGuide.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::ChernivtsiGuide.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CoordinatorLayout_Layout = global::ChernivtsiGuide.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::ChernivtsiGuide.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::ChernivtsiGuide.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::ChernivtsiGuide.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::ChernivtsiGuide.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::ChernivtsiGuide.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::ChernivtsiGuide.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::ChernivtsiGuide.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.DesignTheme = global::ChernivtsiGuide.Droid.Resource.Styleable.DesignTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::ChernivtsiGuide.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.DesignTheme_bottomSheetStyle = global::ChernivtsiGuide.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.DrawerArrowToggle = global::ChernivtsiGuide.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::ChernivtsiGuide.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::ChernivtsiGuide.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.DrawerArrowToggle_barLength = global::ChernivtsiGuide.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.DrawerArrowToggle_color = global::ChernivtsiGuide.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.DrawerArrowToggle_drawableSize = global::ChernivtsiGuide.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::ChernivtsiGuide.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.DrawerArrowToggle_spinBars = global::ChernivtsiGuide.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.DrawerArrowToggle_thickness = global::ChernivtsiGuide.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.FloatingActionButton = global::ChernivtsiGuide.Droid.Resource.Styleable.FloatingActionButton;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.FloatingActionButton_backgroundTint = global::ChernivtsiGuide.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::ChernivtsiGuide.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.FloatingActionButton_borderWidth = global::ChernivtsiGuide.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.FloatingActionButton_elevation = global::ChernivtsiGuide.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.FloatingActionButton_fabSize = global::ChernivtsiGuide.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::ChernivtsiGuide.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.FloatingActionButton_rippleColor = global::ChernivtsiGuide.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.FloatingActionButton_useCompatPadding = global::ChernivtsiGuide.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::ChernivtsiGuide.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::ChernivtsiGuide.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ForegroundLinearLayout = global::ChernivtsiGuide.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::ChernivtsiGuide.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::ChernivtsiGuide.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::ChernivtsiGuide.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat = global::ChernivtsiGuide.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::ChernivtsiGuide.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::ChernivtsiGuide.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_android_gravity = global::ChernivtsiGuide.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_android_orientation = global::ChernivtsiGuide.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::ChernivtsiGuide.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_divider = global::ChernivtsiGuide.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::ChernivtsiGuide.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::ChernivtsiGuide.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_showDividers = global::ChernivtsiGuide.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_Layout = global::ChernivtsiGuide.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::ChernivtsiGuide.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::ChernivtsiGuide.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::ChernivtsiGuide.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::ChernivtsiGuide.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ListPopupWindow = global::ChernivtsiGuide.Droid.Resource.Styleable.ListPopupWindow;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::ChernivtsiGuide.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::ChernivtsiGuide.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MediaRouteButton = global::ChernivtsiGuide.Droid.Resource.Styleable.MediaRouteButton;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MediaRouteButton_android_minHeight = global::ChernivtsiGuide.Droid.Resource.Styleable.MediaRouteButton_android_minHeight;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MediaRouteButton_android_minWidth = global::ChernivtsiGuide.Droid.Resource.Styleable.MediaRouteButton_android_minWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::ChernivtsiGuide.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuGroup = global::ChernivtsiGuide.Droid.Resource.Styleable.MenuGroup;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuGroup_android_checkableBehavior = global::ChernivtsiGuide.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuGroup_android_enabled = global::ChernivtsiGuide.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuGroup_android_id = global::ChernivtsiGuide.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuGroup_android_menuCategory = global::ChernivtsiGuide.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuGroup_android_orderInCategory = global::ChernivtsiGuide.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuGroup_android_visible = global::ChernivtsiGuide.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem = global::ChernivtsiGuide.Droid.Resource.Styleable.MenuItem;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_actionLayout = global::ChernivtsiGuide.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_actionProviderClass = global::ChernivtsiGuide.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_actionViewClass = global::ChernivtsiGuide.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::ChernivtsiGuide.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_android_checkable = global::ChernivtsiGuide.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_android_checked = global::ChernivtsiGuide.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_android_enabled = global::ChernivtsiGuide.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_android_icon = global::ChernivtsiGuide.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_android_id = global::ChernivtsiGuide.Droid.Resource.Styleable.MenuItem_android_id;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_android_menuCategory = global::ChernivtsiGuide.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_android_numericShortcut = global::ChernivtsiGuide.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_android_onClick = global::ChernivtsiGuide.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_android_orderInCategory = global::ChernivtsiGuide.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_android_title = global::ChernivtsiGuide.Droid.Resource.Styleable.MenuItem_android_title;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_android_titleCondensed = global::ChernivtsiGuide.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_android_visible = global::ChernivtsiGuide.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuItem_showAsAction = global::ChernivtsiGuide.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuView = global::ChernivtsiGuide.Droid.Resource.Styleable.MenuView;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuView_android_headerBackground = global::ChernivtsiGuide.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuView_android_horizontalDivider = global::ChernivtsiGuide.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuView_android_itemBackground = global::ChernivtsiGuide.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::ChernivtsiGuide.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuView_android_itemTextAppearance = global::ChernivtsiGuide.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuView_android_verticalDivider = global::ChernivtsiGuide.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuView_android_windowAnimationStyle = global::ChernivtsiGuide.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuView_preserveIconSpacing = global::ChernivtsiGuide.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.MenuView_subMenuArrow = global::ChernivtsiGuide.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.NavigationView = global::ChernivtsiGuide.Droid.Resource.Styleable.NavigationView;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.NavigationView_android_background = global::ChernivtsiGuide.Droid.Resource.Styleable.NavigationView_android_background;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::ChernivtsiGuide.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.NavigationView_android_maxWidth = global::ChernivtsiGuide.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.NavigationView_elevation = global::ChernivtsiGuide.Droid.Resource.Styleable.NavigationView_elevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.NavigationView_headerLayout = global::ChernivtsiGuide.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.NavigationView_itemBackground = global::ChernivtsiGuide.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.NavigationView_itemIconTint = global::ChernivtsiGuide.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.NavigationView_itemTextAppearance = global::ChernivtsiGuide.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.NavigationView_itemTextColor = global::ChernivtsiGuide.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.NavigationView_menu = global::ChernivtsiGuide.Droid.Resource.Styleable.NavigationView_menu;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.PopupWindow = global::ChernivtsiGuide.Droid.Resource.Styleable.PopupWindow;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::ChernivtsiGuide.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.PopupWindow_android_popupBackground = global::ChernivtsiGuide.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.PopupWindow_overlapAnchor = global::ChernivtsiGuide.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.PopupWindowBackgroundState = global::ChernivtsiGuide.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::ChernivtsiGuide.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.RecycleListView = global::ChernivtsiGuide.Droid.Resource.Styleable.RecycleListView;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::ChernivtsiGuide.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::ChernivtsiGuide.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.RecyclerView = global::ChernivtsiGuide.Droid.Resource.Styleable.RecyclerView;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.RecyclerView_android_descendantFocusability = global::ChernivtsiGuide.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.RecyclerView_android_orientation = global::ChernivtsiGuide.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.RecyclerView_layoutManager = global::ChernivtsiGuide.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.RecyclerView_reverseLayout = global::ChernivtsiGuide.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.RecyclerView_spanCount = global::ChernivtsiGuide.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.RecyclerView_stackFromEnd = global::ChernivtsiGuide.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ScrimInsetsFrameLayout = global::ChernivtsiGuide.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::ChernivtsiGuide.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ScrollingViewBehavior_Layout = global::ChernivtsiGuide.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::ChernivtsiGuide.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView = global::ChernivtsiGuide.Droid.Resource.Styleable.SearchView;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView_android_focusable = global::ChernivtsiGuide.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView_android_imeOptions = global::ChernivtsiGuide.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView_android_inputType = global::ChernivtsiGuide.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView_android_maxWidth = global::ChernivtsiGuide.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView_closeIcon = global::ChernivtsiGuide.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView_commitIcon = global::ChernivtsiGuide.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView_defaultQueryHint = global::ChernivtsiGuide.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView_goIcon = global::ChernivtsiGuide.Droid.Resource.Styleable.SearchView_goIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView_iconifiedByDefault = global::ChernivtsiGuide.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView_layout = global::ChernivtsiGuide.Droid.Resource.Styleable.SearchView_layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView_queryBackground = global::ChernivtsiGuide.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView_queryHint = global::ChernivtsiGuide.Droid.Resource.Styleable.SearchView_queryHint;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView_searchHintIcon = global::ChernivtsiGuide.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView_searchIcon = global::ChernivtsiGuide.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView_submitBackground = global::ChernivtsiGuide.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView_suggestionRowLayout = global::ChernivtsiGuide.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SearchView_voiceIcon = global::ChernivtsiGuide.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SnackbarLayout = global::ChernivtsiGuide.Droid.Resource.Styleable.SnackbarLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SnackbarLayout_android_maxWidth = global::ChernivtsiGuide.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SnackbarLayout_elevation = global::ChernivtsiGuide.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::ChernivtsiGuide.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Spinner = global::ChernivtsiGuide.Droid.Resource.Styleable.Spinner;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Spinner_android_dropDownWidth = global::ChernivtsiGuide.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Spinner_android_entries = global::ChernivtsiGuide.Droid.Resource.Styleable.Spinner_android_entries;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Spinner_android_popupBackground = global::ChernivtsiGuide.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Spinner_android_prompt = global::ChernivtsiGuide.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Spinner_popupTheme = global::ChernivtsiGuide.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SwitchCompat = global::ChernivtsiGuide.Droid.Resource.Styleable.SwitchCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SwitchCompat_android_textOff = global::ChernivtsiGuide.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SwitchCompat_android_textOn = global::ChernivtsiGuide.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SwitchCompat_android_thumb = global::ChernivtsiGuide.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SwitchCompat_showText = global::ChernivtsiGuide.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SwitchCompat_splitTrack = global::ChernivtsiGuide.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SwitchCompat_switchMinWidth = global::ChernivtsiGuide.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SwitchCompat_switchPadding = global::ChernivtsiGuide.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SwitchCompat_switchTextAppearance = global::ChernivtsiGuide.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SwitchCompat_thumbTextPadding = global::ChernivtsiGuide.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SwitchCompat_thumbTint = global::ChernivtsiGuide.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SwitchCompat_thumbTintMode = global::ChernivtsiGuide.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SwitchCompat_track = global::ChernivtsiGuide.Droid.Resource.Styleable.SwitchCompat_track;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SwitchCompat_trackTint = global::ChernivtsiGuide.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.SwitchCompat_trackTintMode = global::ChernivtsiGuide.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabItem = global::ChernivtsiGuide.Droid.Resource.Styleable.TabItem;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabItem_android_icon = global::ChernivtsiGuide.Droid.Resource.Styleable.TabItem_android_icon;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabItem_android_layout = global::ChernivtsiGuide.Droid.Resource.Styleable.TabItem_android_layout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabItem_android_text = global::ChernivtsiGuide.Droid.Resource.Styleable.TabItem_android_text;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout = global::ChernivtsiGuide.Droid.Resource.Styleable.TabLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout_tabBackground = global::ChernivtsiGuide.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout_tabContentStart = global::ChernivtsiGuide.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout_tabGravity = global::ChernivtsiGuide.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout_tabIndicatorColor = global::ChernivtsiGuide.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout_tabIndicatorHeight = global::ChernivtsiGuide.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout_tabMaxWidth = global::ChernivtsiGuide.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout_tabMinWidth = global::ChernivtsiGuide.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout_tabMode = global::ChernivtsiGuide.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout_tabPadding = global::ChernivtsiGuide.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout_tabPaddingBottom = global::ChernivtsiGuide.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout_tabPaddingEnd = global::ChernivtsiGuide.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout_tabPaddingStart = global::ChernivtsiGuide.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout_tabPaddingTop = global::ChernivtsiGuide.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout_tabSelectedTextColor = global::ChernivtsiGuide.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout_tabTextAppearance = global::ChernivtsiGuide.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TabLayout_tabTextColor = global::ChernivtsiGuide.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextAppearance = global::ChernivtsiGuide.Droid.Resource.Styleable.TextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextAppearance_android_shadowColor = global::ChernivtsiGuide.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextAppearance_android_shadowDx = global::ChernivtsiGuide.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextAppearance_android_shadowDy = global::ChernivtsiGuide.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextAppearance_android_shadowRadius = global::ChernivtsiGuide.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextAppearance_android_textColor = global::ChernivtsiGuide.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextAppearance_android_textColorHint = global::ChernivtsiGuide.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextAppearance_android_textSize = global::ChernivtsiGuide.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextAppearance_android_textStyle = global::ChernivtsiGuide.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextAppearance_android_typeface = global::ChernivtsiGuide.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextAppearance_textAllCaps = global::ChernivtsiGuide.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout = global::ChernivtsiGuide.Droid.Resource.Styleable.TextInputLayout;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout_android_hint = global::ChernivtsiGuide.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout_android_textColorHint = global::ChernivtsiGuide.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout_counterEnabled = global::ChernivtsiGuide.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout_counterMaxLength = global::ChernivtsiGuide.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::ChernivtsiGuide.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout_counterTextAppearance = global::ChernivtsiGuide.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout_errorEnabled = global::ChernivtsiGuide.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout_errorTextAppearance = global::ChernivtsiGuide.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::ChernivtsiGuide.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout_hintEnabled = global::ChernivtsiGuide.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout_hintTextAppearance = global::ChernivtsiGuide.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::ChernivtsiGuide.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::ChernivtsiGuide.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::ChernivtsiGuide.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout_passwordToggleTint = global::ChernivtsiGuide.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::ChernivtsiGuide.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar = global::ChernivtsiGuide.Droid.Resource.Styleable.Toolbar;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_android_gravity = global::ChernivtsiGuide.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_android_minHeight = global::ChernivtsiGuide.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_buttonGravity = global::ChernivtsiGuide.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_collapseContentDescription = global::ChernivtsiGuide.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_collapseIcon = global::ChernivtsiGuide.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_contentInsetEnd = global::ChernivtsiGuide.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::ChernivtsiGuide.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_contentInsetLeft = global::ChernivtsiGuide.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_contentInsetRight = global::ChernivtsiGuide.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_contentInsetStart = global::ChernivtsiGuide.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::ChernivtsiGuide.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_logo = global::ChernivtsiGuide.Droid.Resource.Styleable.Toolbar_logo;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_logoDescription = global::ChernivtsiGuide.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_maxButtonHeight = global::ChernivtsiGuide.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_navigationContentDescription = global::ChernivtsiGuide.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_navigationIcon = global::ChernivtsiGuide.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_popupTheme = global::ChernivtsiGuide.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_subtitle = global::ChernivtsiGuide.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_subtitleTextAppearance = global::ChernivtsiGuide.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_subtitleTextColor = global::ChernivtsiGuide.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_title = global::ChernivtsiGuide.Droid.Resource.Styleable.Toolbar_title;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_titleMargin = global::ChernivtsiGuide.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_titleMarginBottom = global::ChernivtsiGuide.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_titleMarginEnd = global::ChernivtsiGuide.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_titleMarginStart = global::ChernivtsiGuide.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_titleMarginTop = global::ChernivtsiGuide.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_titleMargins = global::ChernivtsiGuide.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_titleTextAppearance = global::ChernivtsiGuide.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.Toolbar_titleTextColor = global::ChernivtsiGuide.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.View = global::ChernivtsiGuide.Droid.Resource.Styleable.View;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.View_android_focusable = global::ChernivtsiGuide.Droid.Resource.Styleable.View_android_focusable;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.View_android_theme = global::ChernivtsiGuide.Droid.Resource.Styleable.View_android_theme;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.View_paddingEnd = global::ChernivtsiGuide.Droid.Resource.Styleable.View_paddingEnd;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.View_paddingStart = global::ChernivtsiGuide.Droid.Resource.Styleable.View_paddingStart;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.View_theme = global::ChernivtsiGuide.Droid.Resource.Styleable.View_theme;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ViewBackgroundHelper = global::ChernivtsiGuide.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ViewBackgroundHelper_android_background = global::ChernivtsiGuide.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::ChernivtsiGuide.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::ChernivtsiGuide.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ViewPagerIndicator = global::ChernivtsiGuide.Droid.Resource.Styleable.ViewPagerIndicator;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ViewPagerIndicator_vpiCirclePageIndicatorStyle = global::ChernivtsiGuide.Droid.Resource.Styleable.ViewPagerIndicator_vpiCirclePageIndicatorStyle;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ViewStubCompat = global::ChernivtsiGuide.Droid.Resource.Styleable.ViewStubCompat;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ViewStubCompat_android_id = global::ChernivtsiGuide.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ViewStubCompat_android_inflatedId = global::ChernivtsiGuide.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::CarouselView.FormsPlugin.Android.Resource.Styleable.ViewStubCompat_android_layout = global::ChernivtsiGuide.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::Com.Android.DeskClock.Resource.String.library_name = global::ChernivtsiGuide.Droid.Resource.String.library_name;
+			global::Com.ViewPagerIndicator.Resource.Attribute.vpiCentered = global::ChernivtsiGuide.Droid.Resource.Attribute.vpiCentered;
+			global::Com.ViewPagerIndicator.Resource.Attribute.vpiCirclePageIndicatorStyle = global::ChernivtsiGuide.Droid.Resource.Attribute.vpiCirclePageIndicatorStyle;
+			global::Com.ViewPagerIndicator.Resource.Attribute.vpiFillColor = global::ChernivtsiGuide.Droid.Resource.Attribute.vpiFillColor;
+			global::Com.ViewPagerIndicator.Resource.Attribute.vpiOrientation = global::ChernivtsiGuide.Droid.Resource.Attribute.vpiOrientation;
+			global::Com.ViewPagerIndicator.Resource.Attribute.vpiPageColor = global::ChernivtsiGuide.Droid.Resource.Attribute.vpiPageColor;
+			global::Com.ViewPagerIndicator.Resource.Attribute.vpiRadius = global::ChernivtsiGuide.Droid.Resource.Attribute.vpiRadius;
+			global::Com.ViewPagerIndicator.Resource.Attribute.vpiSnap = global::ChernivtsiGuide.Droid.Resource.Attribute.vpiSnap;
+			global::Com.ViewPagerIndicator.Resource.Attribute.vpiStrokeColor = global::ChernivtsiGuide.Droid.Resource.Attribute.vpiStrokeColor;
+			global::Com.ViewPagerIndicator.Resource.Attribute.vpiStrokeWidth = global::ChernivtsiGuide.Droid.Resource.Attribute.vpiStrokeWidth;
+			global::Com.ViewPagerIndicator.Resource.Boolean.default_circle_indicator_centered = global::ChernivtsiGuide.Droid.Resource.Boolean.default_circle_indicator_centered;
+			global::Com.ViewPagerIndicator.Resource.Boolean.default_circle_indicator_snap = global::ChernivtsiGuide.Droid.Resource.Boolean.default_circle_indicator_snap;
+			global::Com.ViewPagerIndicator.Resource.Color.default_circle_indicator_fill_color = global::ChernivtsiGuide.Droid.Resource.Color.default_circle_indicator_fill_color;
+			global::Com.ViewPagerIndicator.Resource.Color.default_circle_indicator_page_color = global::ChernivtsiGuide.Droid.Resource.Color.default_circle_indicator_page_color;
+			global::Com.ViewPagerIndicator.Resource.Color.default_circle_indicator_stroke_color = global::ChernivtsiGuide.Droid.Resource.Color.default_circle_indicator_stroke_color;
+			global::Com.ViewPagerIndicator.Resource.Color.vpi__background_holo_dark = global::ChernivtsiGuide.Droid.Resource.Color.vpi__background_holo_dark;
+			global::Com.ViewPagerIndicator.Resource.Color.vpi__background_holo_light = global::ChernivtsiGuide.Droid.Resource.Color.vpi__background_holo_light;
+			global::Com.ViewPagerIndicator.Resource.Color.vpi__bright_foreground_disabled_holo_dark = global::ChernivtsiGuide.Droid.Resource.Color.vpi__bright_foreground_disabled_holo_dark;
+			global::Com.ViewPagerIndicator.Resource.Color.vpi__bright_foreground_disabled_holo_light = global::ChernivtsiGuide.Droid.Resource.Color.vpi__bright_foreground_disabled_holo_light;
+			global::Com.ViewPagerIndicator.Resource.Color.vpi__bright_foreground_holo_dark = global::ChernivtsiGuide.Droid.Resource.Color.vpi__bright_foreground_holo_dark;
+			global::Com.ViewPagerIndicator.Resource.Color.vpi__bright_foreground_holo_light = global::ChernivtsiGuide.Droid.Resource.Color.vpi__bright_foreground_holo_light;
+			global::Com.ViewPagerIndicator.Resource.Color.vpi__bright_foreground_inverse_holo_dark = global::ChernivtsiGuide.Droid.Resource.Color.vpi__bright_foreground_inverse_holo_dark;
+			global::Com.ViewPagerIndicator.Resource.Color.vpi__bright_foreground_inverse_holo_light = global::ChernivtsiGuide.Droid.Resource.Color.vpi__bright_foreground_inverse_holo_light;
+			global::Com.ViewPagerIndicator.Resource.Dimension.default_circle_indicator_radius = global::ChernivtsiGuide.Droid.Resource.Dimension.default_circle_indicator_radius;
+			global::Com.ViewPagerIndicator.Resource.Dimension.default_circle_indicator_stroke_width = global::ChernivtsiGuide.Droid.Resource.Dimension.default_circle_indicator_stroke_width;
+			global::Com.ViewPagerIndicator.Resource.Id.horizontal = global::ChernivtsiGuide.Droid.Resource.Id.horizontal;
+			global::Com.ViewPagerIndicator.Resource.Id.vertical = global::ChernivtsiGuide.Droid.Resource.Id.vertical;
+			global::Com.ViewPagerIndicator.Resource.Integer.default_circle_indicator_orientation = global::ChernivtsiGuide.Droid.Resource.Integer.default_circle_indicator_orientation;
+			global::Com.ViewPagerIndicator.Resource.String.library_name = global::ChernivtsiGuide.Droid.Resource.String.library_name;
+			global::Com.ViewPagerIndicator.Resource.Style.Theme_PageIndicatorDefaults = global::ChernivtsiGuide.Droid.Resource.Style.Theme_PageIndicatorDefaults;
+			global::Com.ViewPagerIndicator.Resource.Style.Widget = global::ChernivtsiGuide.Droid.Resource.Style.Widget;
+			global::Com.ViewPagerIndicator.Resource.Style.Widget_CirclePageIndicator = global::ChernivtsiGuide.Droid.Resource.Style.Widget_CirclePageIndicator;
+			global::Com.ViewPagerIndicator.Resource.Styleable.CirclePageIndicator = global::ChernivtsiGuide.Droid.Resource.Styleable.CirclePageIndicator;
+			global::Com.ViewPagerIndicator.Resource.Styleable.CirclePageIndicator_vpiCentered = global::ChernivtsiGuide.Droid.Resource.Styleable.CirclePageIndicator_vpiCentered;
+			global::Com.ViewPagerIndicator.Resource.Styleable.CirclePageIndicator_vpiFillColor = global::ChernivtsiGuide.Droid.Resource.Styleable.CirclePageIndicator_vpiFillColor;
+			global::Com.ViewPagerIndicator.Resource.Styleable.CirclePageIndicator_vpiOrientation = global::ChernivtsiGuide.Droid.Resource.Styleable.CirclePageIndicator_vpiOrientation;
+			global::Com.ViewPagerIndicator.Resource.Styleable.CirclePageIndicator_vpiPageColor = global::ChernivtsiGuide.Droid.Resource.Styleable.CirclePageIndicator_vpiPageColor;
+			global::Com.ViewPagerIndicator.Resource.Styleable.CirclePageIndicator_vpiRadius = global::ChernivtsiGuide.Droid.Resource.Styleable.CirclePageIndicator_vpiRadius;
+			global::Com.ViewPagerIndicator.Resource.Styleable.CirclePageIndicator_vpiSnap = global::ChernivtsiGuide.Droid.Resource.Styleable.CirclePageIndicator_vpiSnap;
+			global::Com.ViewPagerIndicator.Resource.Styleable.CirclePageIndicator_vpiStrokeColor = global::ChernivtsiGuide.Droid.Resource.Styleable.CirclePageIndicator_vpiStrokeColor;
+			global::Com.ViewPagerIndicator.Resource.Styleable.CirclePageIndicator_vpiStrokeWidth = global::ChernivtsiGuide.Droid.Resource.Styleable.CirclePageIndicator_vpiStrokeWidth;
+			global::Com.ViewPagerIndicator.Resource.Styleable.ViewPagerIndicator = global::ChernivtsiGuide.Droid.Resource.Styleable.ViewPagerIndicator;
+			global::Com.ViewPagerIndicator.Resource.Styleable.ViewPagerIndicator_vpiCirclePageIndicatorStyle = global::ChernivtsiGuide.Droid.Resource.Styleable.ViewPagerIndicator_vpiCirclePageIndicatorStyle;
 			global::Xamarin.Essentials.Resource.Attribute.alpha = global::ChernivtsiGuide.Droid.Resource.Attribute.alpha;
 			global::Xamarin.Essentials.Resource.Attribute.coordinatorLayoutStyle = global::ChernivtsiGuide.Droid.Resource.Attribute.coordinatorLayoutStyle;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::ChernivtsiGuide.Droid.Resource.Attribute.font;
@@ -4335,34 +6503,61 @@ namespace ChernivtsiGuide.Droid
 			public const int voiceIcon = 2130903520;
 			
 			// aapt resource value: 0x7F0301E1
-			public const int windowActionBar = 2130903521;
+			public const int vpiCentered = 2130903521;
 			
 			// aapt resource value: 0x7F0301E2
-			public const int windowActionBarOverlay = 2130903522;
+			public const int vpiCirclePageIndicatorStyle = 2130903522;
 			
 			// aapt resource value: 0x7F0301E3
-			public const int windowActionModeOverlay = 2130903523;
+			public const int vpiFillColor = 2130903523;
 			
 			// aapt resource value: 0x7F0301E4
-			public const int windowFixedHeightMajor = 2130903524;
+			public const int vpiOrientation = 2130903524;
 			
 			// aapt resource value: 0x7F0301E5
-			public const int windowFixedHeightMinor = 2130903525;
+			public const int vpiPageColor = 2130903525;
 			
 			// aapt resource value: 0x7F0301E6
-			public const int windowFixedWidthMajor = 2130903526;
+			public const int vpiRadius = 2130903526;
 			
 			// aapt resource value: 0x7F0301E7
-			public const int windowFixedWidthMinor = 2130903527;
+			public const int vpiSnap = 2130903527;
 			
 			// aapt resource value: 0x7F0301E8
-			public const int windowMinWidthMajor = 2130903528;
+			public const int vpiStrokeColor = 2130903528;
 			
 			// aapt resource value: 0x7F0301E9
-			public const int windowMinWidthMinor = 2130903529;
+			public const int vpiStrokeWidth = 2130903529;
 			
 			// aapt resource value: 0x7F0301EA
-			public const int windowNoTitle = 2130903530;
+			public const int windowActionBar = 2130903530;
+			
+			// aapt resource value: 0x7F0301EB
+			public const int windowActionBarOverlay = 2130903531;
+			
+			// aapt resource value: 0x7F0301EC
+			public const int windowActionModeOverlay = 2130903532;
+			
+			// aapt resource value: 0x7F0301ED
+			public const int windowFixedHeightMajor = 2130903533;
+			
+			// aapt resource value: 0x7F0301EE
+			public const int windowFixedHeightMinor = 2130903534;
+			
+			// aapt resource value: 0x7F0301EF
+			public const int windowFixedWidthMajor = 2130903535;
+			
+			// aapt resource value: 0x7F0301F0
+			public const int windowFixedWidthMinor = 2130903536;
+			
+			// aapt resource value: 0x7F0301F1
+			public const int windowMinWidthMajor = 2130903537;
+			
+			// aapt resource value: 0x7F0301F2
+			public const int windowMinWidthMinor = 2130903538;
+			
+			// aapt resource value: 0x7F0301F3
+			public const int windowNoTitle = 2130903539;
 			
 			static Attribute()
 			{
@@ -4387,7 +6582,13 @@ namespace ChernivtsiGuide.Droid
 			public const int abc_config_actionMenuItemAllCaps = 2130968578;
 			
 			// aapt resource value: 0x7F040003
-			public const int mtrl_btn_textappearance_all_caps = 2130968579;
+			public const int default_circle_indicator_centered = 2130968579;
+			
+			// aapt resource value: 0x7F040004
+			public const int default_circle_indicator_snap = 2130968580;
+			
+			// aapt resource value: 0x7F040005
+			public const int mtrl_btn_textappearance_all_caps = 2130968581;
 			
 			static Boolean()
 			{
@@ -4550,265 +6751,298 @@ namespace ChernivtsiGuide.Droid
 			public const int colorPrimaryDark = 2131034160;
 			
 			// aapt resource value: 0x7F050031
-			public const int design_bottom_navigation_shadow_color = 2131034161;
+			public const int default_circle_indicator_fill_color = 2131034161;
 			
 			// aapt resource value: 0x7F050032
-			public const int design_default_color_primary = 2131034162;
+			public const int default_circle_indicator_page_color = 2131034162;
 			
 			// aapt resource value: 0x7F050033
-			public const int design_default_color_primary_dark = 2131034163;
+			public const int default_circle_indicator_stroke_color = 2131034163;
 			
 			// aapt resource value: 0x7F050034
-			public const int design_error = 2131034164;
+			public const int design_bottom_navigation_shadow_color = 2131034164;
 			
 			// aapt resource value: 0x7F050035
-			public const int design_fab_shadow_end_color = 2131034165;
+			public const int design_default_color_primary = 2131034165;
 			
 			// aapt resource value: 0x7F050036
-			public const int design_fab_shadow_mid_color = 2131034166;
+			public const int design_default_color_primary_dark = 2131034166;
 			
 			// aapt resource value: 0x7F050037
-			public const int design_fab_shadow_start_color = 2131034167;
+			public const int design_error = 2131034167;
 			
 			// aapt resource value: 0x7F050038
-			public const int design_fab_stroke_end_inner_color = 2131034168;
+			public const int design_fab_shadow_end_color = 2131034168;
 			
 			// aapt resource value: 0x7F050039
-			public const int design_fab_stroke_end_outer_color = 2131034169;
+			public const int design_fab_shadow_mid_color = 2131034169;
 			
 			// aapt resource value: 0x7F05003A
-			public const int design_fab_stroke_top_inner_color = 2131034170;
+			public const int design_fab_shadow_start_color = 2131034170;
 			
 			// aapt resource value: 0x7F05003B
-			public const int design_fab_stroke_top_outer_color = 2131034171;
+			public const int design_fab_stroke_end_inner_color = 2131034171;
 			
 			// aapt resource value: 0x7F05003C
-			public const int design_snackbar_background_color = 2131034172;
+			public const int design_fab_stroke_end_outer_color = 2131034172;
 			
 			// aapt resource value: 0x7F05003D
-			public const int design_tint_password_toggle = 2131034173;
+			public const int design_fab_stroke_top_inner_color = 2131034173;
 			
 			// aapt resource value: 0x7F05003E
-			public const int dim_foreground_disabled_material_dark = 2131034174;
+			public const int design_fab_stroke_top_outer_color = 2131034174;
 			
 			// aapt resource value: 0x7F05003F
-			public const int dim_foreground_disabled_material_light = 2131034175;
+			public const int design_snackbar_background_color = 2131034175;
 			
 			// aapt resource value: 0x7F050040
-			public const int dim_foreground_material_dark = 2131034176;
+			public const int design_tint_password_toggle = 2131034176;
 			
 			// aapt resource value: 0x7F050041
-			public const int dim_foreground_material_light = 2131034177;
+			public const int dim_foreground_disabled_material_dark = 2131034177;
 			
 			// aapt resource value: 0x7F050042
-			public const int error_color_material_dark = 2131034178;
+			public const int dim_foreground_disabled_material_light = 2131034178;
 			
 			// aapt resource value: 0x7F050043
-			public const int error_color_material_light = 2131034179;
+			public const int dim_foreground_material_dark = 2131034179;
 			
 			// aapt resource value: 0x7F050044
-			public const int foreground_material_dark = 2131034180;
+			public const int dim_foreground_material_light = 2131034180;
 			
 			// aapt resource value: 0x7F050045
-			public const int foreground_material_light = 2131034181;
+			public const int error_color_material_dark = 2131034181;
 			
 			// aapt resource value: 0x7F050046
-			public const int highlighted_text_material_dark = 2131034182;
+			public const int error_color_material_light = 2131034182;
 			
 			// aapt resource value: 0x7F050047
-			public const int highlighted_text_material_light = 2131034183;
+			public const int foreground_material_dark = 2131034183;
 			
 			// aapt resource value: 0x7F050048
-			public const int launcher_background = 2131034184;
+			public const int foreground_material_light = 2131034184;
 			
 			// aapt resource value: 0x7F050049
-			public const int material_blue_grey_800 = 2131034185;
+			public const int highlighted_text_material_dark = 2131034185;
 			
 			// aapt resource value: 0x7F05004A
-			public const int material_blue_grey_900 = 2131034186;
+			public const int highlighted_text_material_light = 2131034186;
 			
 			// aapt resource value: 0x7F05004B
-			public const int material_blue_grey_950 = 2131034187;
+			public const int launcher_background = 2131034187;
 			
 			// aapt resource value: 0x7F05004C
-			public const int material_deep_teal_200 = 2131034188;
+			public const int material_blue_grey_800 = 2131034188;
 			
 			// aapt resource value: 0x7F05004D
-			public const int material_deep_teal_500 = 2131034189;
+			public const int material_blue_grey_900 = 2131034189;
 			
 			// aapt resource value: 0x7F05004E
-			public const int material_grey_100 = 2131034190;
+			public const int material_blue_grey_950 = 2131034190;
 			
 			// aapt resource value: 0x7F05004F
-			public const int material_grey_300 = 2131034191;
+			public const int material_deep_teal_200 = 2131034191;
 			
 			// aapt resource value: 0x7F050050
-			public const int material_grey_50 = 2131034192;
+			public const int material_deep_teal_500 = 2131034192;
 			
 			// aapt resource value: 0x7F050051
-			public const int material_grey_600 = 2131034193;
+			public const int material_grey_100 = 2131034193;
 			
 			// aapt resource value: 0x7F050052
-			public const int material_grey_800 = 2131034194;
+			public const int material_grey_300 = 2131034194;
 			
 			// aapt resource value: 0x7F050053
-			public const int material_grey_850 = 2131034195;
+			public const int material_grey_50 = 2131034195;
 			
 			// aapt resource value: 0x7F050054
-			public const int material_grey_900 = 2131034196;
+			public const int material_grey_600 = 2131034196;
 			
 			// aapt resource value: 0x7F050055
-			public const int mtrl_bottom_nav_colored_item_tint = 2131034197;
+			public const int material_grey_800 = 2131034197;
 			
 			// aapt resource value: 0x7F050056
-			public const int mtrl_bottom_nav_item_tint = 2131034198;
+			public const int material_grey_850 = 2131034198;
 			
 			// aapt resource value: 0x7F050057
-			public const int mtrl_btn_bg_color_disabled = 2131034199;
+			public const int material_grey_900 = 2131034199;
 			
 			// aapt resource value: 0x7F050058
-			public const int mtrl_btn_bg_color_selector = 2131034200;
+			public const int mtrl_bottom_nav_colored_item_tint = 2131034200;
 			
 			// aapt resource value: 0x7F050059
-			public const int mtrl_btn_ripple_color = 2131034201;
+			public const int mtrl_bottom_nav_item_tint = 2131034201;
 			
 			// aapt resource value: 0x7F05005A
-			public const int mtrl_btn_stroke_color_selector = 2131034202;
+			public const int mtrl_btn_bg_color_disabled = 2131034202;
 			
 			// aapt resource value: 0x7F05005B
-			public const int mtrl_btn_text_btn_ripple_color = 2131034203;
+			public const int mtrl_btn_bg_color_selector = 2131034203;
 			
 			// aapt resource value: 0x7F05005C
-			public const int mtrl_btn_text_color_disabled = 2131034204;
+			public const int mtrl_btn_ripple_color = 2131034204;
 			
 			// aapt resource value: 0x7F05005D
-			public const int mtrl_btn_text_color_selector = 2131034205;
+			public const int mtrl_btn_stroke_color_selector = 2131034205;
 			
 			// aapt resource value: 0x7F05005E
-			public const int mtrl_btn_transparent_bg_color = 2131034206;
+			public const int mtrl_btn_text_btn_ripple_color = 2131034206;
 			
 			// aapt resource value: 0x7F05005F
-			public const int mtrl_chip_background_color = 2131034207;
+			public const int mtrl_btn_text_color_disabled = 2131034207;
 			
 			// aapt resource value: 0x7F050060
-			public const int mtrl_chip_close_icon_tint = 2131034208;
+			public const int mtrl_btn_text_color_selector = 2131034208;
 			
 			// aapt resource value: 0x7F050061
-			public const int mtrl_chip_ripple_color = 2131034209;
+			public const int mtrl_btn_transparent_bg_color = 2131034209;
 			
 			// aapt resource value: 0x7F050062
-			public const int mtrl_chip_text_color = 2131034210;
+			public const int mtrl_chip_background_color = 2131034210;
 			
 			// aapt resource value: 0x7F050063
-			public const int mtrl_fab_ripple_color = 2131034211;
+			public const int mtrl_chip_close_icon_tint = 2131034211;
 			
 			// aapt resource value: 0x7F050064
-			public const int mtrl_scrim_color = 2131034212;
+			public const int mtrl_chip_ripple_color = 2131034212;
 			
 			// aapt resource value: 0x7F050065
-			public const int mtrl_tabs_colored_ripple_color = 2131034213;
+			public const int mtrl_chip_text_color = 2131034213;
 			
 			// aapt resource value: 0x7F050066
-			public const int mtrl_tabs_icon_color_selector = 2131034214;
+			public const int mtrl_fab_ripple_color = 2131034214;
 			
 			// aapt resource value: 0x7F050067
-			public const int mtrl_tabs_icon_color_selector_colored = 2131034215;
+			public const int mtrl_scrim_color = 2131034215;
 			
 			// aapt resource value: 0x7F050068
-			public const int mtrl_tabs_legacy_text_color_selector = 2131034216;
+			public const int mtrl_tabs_colored_ripple_color = 2131034216;
 			
 			// aapt resource value: 0x7F050069
-			public const int mtrl_tabs_ripple_color = 2131034217;
-			
-			// aapt resource value: 0x7F05006B
-			public const int mtrl_textinput_default_box_stroke_color = 2131034219;
-			
-			// aapt resource value: 0x7F05006C
-			public const int mtrl_textinput_disabled_color = 2131034220;
-			
-			// aapt resource value: 0x7F05006D
-			public const int mtrl_textinput_filled_box_default_background_color = 2131034221;
-			
-			// aapt resource value: 0x7F05006E
-			public const int mtrl_textinput_hovered_box_stroke_color = 2131034222;
+			public const int mtrl_tabs_icon_color_selector = 2131034217;
 			
 			// aapt resource value: 0x7F05006A
-			public const int mtrl_text_btn_text_color_selector = 2131034218;
+			public const int mtrl_tabs_icon_color_selector_colored = 2131034218;
+			
+			// aapt resource value: 0x7F05006B
+			public const int mtrl_tabs_legacy_text_color_selector = 2131034219;
+			
+			// aapt resource value: 0x7F05006C
+			public const int mtrl_tabs_ripple_color = 2131034220;
+			
+			// aapt resource value: 0x7F05006E
+			public const int mtrl_textinput_default_box_stroke_color = 2131034222;
 			
 			// aapt resource value: 0x7F05006F
-			public const int notification_action_color_filter = 2131034223;
+			public const int mtrl_textinput_disabled_color = 2131034223;
 			
 			// aapt resource value: 0x7F050070
-			public const int notification_icon_bg_color = 2131034224;
+			public const int mtrl_textinput_filled_box_default_background_color = 2131034224;
 			
 			// aapt resource value: 0x7F050071
-			public const int notification_material_background_media_default_color = 2131034225;
+			public const int mtrl_textinput_hovered_box_stroke_color = 2131034225;
+			
+			// aapt resource value: 0x7F05006D
+			public const int mtrl_text_btn_text_color_selector = 2131034221;
 			
 			// aapt resource value: 0x7F050072
-			public const int primary_dark_material_dark = 2131034226;
+			public const int notification_action_color_filter = 2131034226;
 			
 			// aapt resource value: 0x7F050073
-			public const int primary_dark_material_light = 2131034227;
+			public const int notification_icon_bg_color = 2131034227;
 			
 			// aapt resource value: 0x7F050074
-			public const int primary_material_dark = 2131034228;
+			public const int notification_material_background_media_default_color = 2131034228;
 			
 			// aapt resource value: 0x7F050075
-			public const int primary_material_light = 2131034229;
+			public const int primary_dark_material_dark = 2131034229;
 			
 			// aapt resource value: 0x7F050076
-			public const int primary_text_default_material_dark = 2131034230;
+			public const int primary_dark_material_light = 2131034230;
 			
 			// aapt resource value: 0x7F050077
-			public const int primary_text_default_material_light = 2131034231;
+			public const int primary_material_dark = 2131034231;
 			
 			// aapt resource value: 0x7F050078
-			public const int primary_text_disabled_material_dark = 2131034232;
+			public const int primary_material_light = 2131034232;
 			
 			// aapt resource value: 0x7F050079
-			public const int primary_text_disabled_material_light = 2131034233;
+			public const int primary_text_default_material_dark = 2131034233;
 			
 			// aapt resource value: 0x7F05007A
-			public const int ripple_material_dark = 2131034234;
+			public const int primary_text_default_material_light = 2131034234;
 			
 			// aapt resource value: 0x7F05007B
-			public const int ripple_material_light = 2131034235;
+			public const int primary_text_disabled_material_dark = 2131034235;
 			
 			// aapt resource value: 0x7F05007C
-			public const int secondary_text_default_material_dark = 2131034236;
+			public const int primary_text_disabled_material_light = 2131034236;
 			
 			// aapt resource value: 0x7F05007D
-			public const int secondary_text_default_material_light = 2131034237;
+			public const int ripple_material_dark = 2131034237;
 			
 			// aapt resource value: 0x7F05007E
-			public const int secondary_text_disabled_material_dark = 2131034238;
+			public const int ripple_material_light = 2131034238;
 			
 			// aapt resource value: 0x7F05007F
-			public const int secondary_text_disabled_material_light = 2131034239;
+			public const int secondary_text_default_material_dark = 2131034239;
 			
 			// aapt resource value: 0x7F050080
-			public const int switch_thumb_disabled_material_dark = 2131034240;
+			public const int secondary_text_default_material_light = 2131034240;
 			
 			// aapt resource value: 0x7F050081
-			public const int switch_thumb_disabled_material_light = 2131034241;
+			public const int secondary_text_disabled_material_dark = 2131034241;
 			
 			// aapt resource value: 0x7F050082
-			public const int switch_thumb_material_dark = 2131034242;
+			public const int secondary_text_disabled_material_light = 2131034242;
 			
 			// aapt resource value: 0x7F050083
-			public const int switch_thumb_material_light = 2131034243;
+			public const int switch_thumb_disabled_material_dark = 2131034243;
 			
 			// aapt resource value: 0x7F050084
-			public const int switch_thumb_normal_material_dark = 2131034244;
+			public const int switch_thumb_disabled_material_light = 2131034244;
 			
 			// aapt resource value: 0x7F050085
-			public const int switch_thumb_normal_material_light = 2131034245;
+			public const int switch_thumb_material_dark = 2131034245;
 			
 			// aapt resource value: 0x7F050086
-			public const int tooltip_background_dark = 2131034246;
+			public const int switch_thumb_material_light = 2131034246;
 			
 			// aapt resource value: 0x7F050087
-			public const int tooltip_background_light = 2131034247;
+			public const int switch_thumb_normal_material_dark = 2131034247;
+			
+			// aapt resource value: 0x7F050088
+			public const int switch_thumb_normal_material_light = 2131034248;
+			
+			// aapt resource value: 0x7F050089
+			public const int tooltip_background_dark = 2131034249;
+			
+			// aapt resource value: 0x7F05008A
+			public const int tooltip_background_light = 2131034250;
+			
+			// aapt resource value: 0x7F05008B
+			public const int vpi__background_holo_dark = 2131034251;
+			
+			// aapt resource value: 0x7F05008C
+			public const int vpi__background_holo_light = 2131034252;
+			
+			// aapt resource value: 0x7F05008D
+			public const int vpi__bright_foreground_disabled_holo_dark = 2131034253;
+			
+			// aapt resource value: 0x7F05008E
+			public const int vpi__bright_foreground_disabled_holo_light = 2131034254;
+			
+			// aapt resource value: 0x7F05008F
+			public const int vpi__bright_foreground_holo_dark = 2131034255;
+			
+			// aapt resource value: 0x7F050090
+			public const int vpi__bright_foreground_holo_light = 2131034256;
+			
+			// aapt resource value: 0x7F050091
+			public const int vpi__bright_foreground_inverse_holo_dark = 2131034257;
+			
+			// aapt resource value: 0x7F050092
+			public const int vpi__bright_foreground_inverse_holo_light = 2131034258;
 			
 			static Color()
 			{
@@ -5085,424 +7319,430 @@ namespace ChernivtsiGuide.Droid
 			public const int compat_notification_large_icon_max_width = 2131099734;
 			
 			// aapt resource value: 0x7F060057
-			public const int design_appbar_elevation = 2131099735;
+			public const int default_circle_indicator_radius = 2131099735;
 			
 			// aapt resource value: 0x7F060058
-			public const int design_bottom_navigation_active_item_max_width = 2131099736;
+			public const int default_circle_indicator_stroke_width = 2131099736;
 			
 			// aapt resource value: 0x7F060059
-			public const int design_bottom_navigation_active_item_min_width = 2131099737;
+			public const int design_appbar_elevation = 2131099737;
 			
 			// aapt resource value: 0x7F06005A
-			public const int design_bottom_navigation_active_text_size = 2131099738;
+			public const int design_bottom_navigation_active_item_max_width = 2131099738;
 			
 			// aapt resource value: 0x7F06005B
-			public const int design_bottom_navigation_elevation = 2131099739;
+			public const int design_bottom_navigation_active_item_min_width = 2131099739;
 			
 			// aapt resource value: 0x7F06005C
-			public const int design_bottom_navigation_height = 2131099740;
+			public const int design_bottom_navigation_active_text_size = 2131099740;
 			
 			// aapt resource value: 0x7F06005D
-			public const int design_bottom_navigation_icon_size = 2131099741;
+			public const int design_bottom_navigation_elevation = 2131099741;
 			
 			// aapt resource value: 0x7F06005E
-			public const int design_bottom_navigation_item_max_width = 2131099742;
+			public const int design_bottom_navigation_height = 2131099742;
 			
 			// aapt resource value: 0x7F06005F
-			public const int design_bottom_navigation_item_min_width = 2131099743;
+			public const int design_bottom_navigation_icon_size = 2131099743;
 			
 			// aapt resource value: 0x7F060060
-			public const int design_bottom_navigation_margin = 2131099744;
+			public const int design_bottom_navigation_item_max_width = 2131099744;
 			
 			// aapt resource value: 0x7F060061
-			public const int design_bottom_navigation_shadow_height = 2131099745;
+			public const int design_bottom_navigation_item_min_width = 2131099745;
 			
 			// aapt resource value: 0x7F060062
-			public const int design_bottom_navigation_text_size = 2131099746;
+			public const int design_bottom_navigation_margin = 2131099746;
 			
 			// aapt resource value: 0x7F060063
-			public const int design_bottom_sheet_modal_elevation = 2131099747;
+			public const int design_bottom_navigation_shadow_height = 2131099747;
 			
 			// aapt resource value: 0x7F060064
-			public const int design_bottom_sheet_peek_height_min = 2131099748;
+			public const int design_bottom_navigation_text_size = 2131099748;
 			
 			// aapt resource value: 0x7F060065
-			public const int design_fab_border_width = 2131099749;
+			public const int design_bottom_sheet_modal_elevation = 2131099749;
 			
 			// aapt resource value: 0x7F060066
-			public const int design_fab_elevation = 2131099750;
+			public const int design_bottom_sheet_peek_height_min = 2131099750;
 			
 			// aapt resource value: 0x7F060067
-			public const int design_fab_image_size = 2131099751;
+			public const int design_fab_border_width = 2131099751;
 			
 			// aapt resource value: 0x7F060068
-			public const int design_fab_size_mini = 2131099752;
+			public const int design_fab_elevation = 2131099752;
 			
 			// aapt resource value: 0x7F060069
-			public const int design_fab_size_normal = 2131099753;
+			public const int design_fab_image_size = 2131099753;
 			
 			// aapt resource value: 0x7F06006A
-			public const int design_fab_translation_z_hovered_focused = 2131099754;
+			public const int design_fab_size_mini = 2131099754;
 			
 			// aapt resource value: 0x7F06006B
-			public const int design_fab_translation_z_pressed = 2131099755;
+			public const int design_fab_size_normal = 2131099755;
 			
 			// aapt resource value: 0x7F06006C
-			public const int design_navigation_elevation = 2131099756;
+			public const int design_fab_translation_z_hovered_focused = 2131099756;
 			
 			// aapt resource value: 0x7F06006D
-			public const int design_navigation_icon_padding = 2131099757;
+			public const int design_fab_translation_z_pressed = 2131099757;
 			
 			// aapt resource value: 0x7F06006E
-			public const int design_navigation_icon_size = 2131099758;
+			public const int design_navigation_elevation = 2131099758;
 			
 			// aapt resource value: 0x7F06006F
-			public const int design_navigation_item_horizontal_padding = 2131099759;
+			public const int design_navigation_icon_padding = 2131099759;
 			
 			// aapt resource value: 0x7F060070
-			public const int design_navigation_item_icon_padding = 2131099760;
+			public const int design_navigation_icon_size = 2131099760;
 			
 			// aapt resource value: 0x7F060071
-			public const int design_navigation_max_width = 2131099761;
+			public const int design_navigation_item_horizontal_padding = 2131099761;
 			
 			// aapt resource value: 0x7F060072
-			public const int design_navigation_padding_bottom = 2131099762;
+			public const int design_navigation_item_icon_padding = 2131099762;
 			
 			// aapt resource value: 0x7F060073
-			public const int design_navigation_separator_vertical_padding = 2131099763;
+			public const int design_navigation_max_width = 2131099763;
 			
 			// aapt resource value: 0x7F060074
-			public const int design_snackbar_action_inline_max_width = 2131099764;
+			public const int design_navigation_padding_bottom = 2131099764;
 			
 			// aapt resource value: 0x7F060075
-			public const int design_snackbar_background_corner_radius = 2131099765;
+			public const int design_navigation_separator_vertical_padding = 2131099765;
 			
 			// aapt resource value: 0x7F060076
-			public const int design_snackbar_elevation = 2131099766;
+			public const int design_snackbar_action_inline_max_width = 2131099766;
 			
 			// aapt resource value: 0x7F060077
-			public const int design_snackbar_extra_spacing_horizontal = 2131099767;
+			public const int design_snackbar_background_corner_radius = 2131099767;
 			
 			// aapt resource value: 0x7F060078
-			public const int design_snackbar_max_width = 2131099768;
+			public const int design_snackbar_elevation = 2131099768;
 			
 			// aapt resource value: 0x7F060079
-			public const int design_snackbar_min_width = 2131099769;
+			public const int design_snackbar_extra_spacing_horizontal = 2131099769;
 			
 			// aapt resource value: 0x7F06007A
-			public const int design_snackbar_padding_horizontal = 2131099770;
+			public const int design_snackbar_max_width = 2131099770;
 			
 			// aapt resource value: 0x7F06007B
-			public const int design_snackbar_padding_vertical = 2131099771;
+			public const int design_snackbar_min_width = 2131099771;
 			
 			// aapt resource value: 0x7F06007C
-			public const int design_snackbar_padding_vertical_2lines = 2131099772;
+			public const int design_snackbar_padding_horizontal = 2131099772;
 			
 			// aapt resource value: 0x7F06007D
-			public const int design_snackbar_text_size = 2131099773;
+			public const int design_snackbar_padding_vertical = 2131099773;
 			
 			// aapt resource value: 0x7F06007E
-			public const int design_tab_max_width = 2131099774;
+			public const int design_snackbar_padding_vertical_2lines = 2131099774;
 			
 			// aapt resource value: 0x7F06007F
-			public const int design_tab_scrollable_min_width = 2131099775;
+			public const int design_snackbar_text_size = 2131099775;
 			
 			// aapt resource value: 0x7F060080
-			public const int design_tab_text_size = 2131099776;
+			public const int design_tab_max_width = 2131099776;
 			
 			// aapt resource value: 0x7F060081
-			public const int design_tab_text_size_2line = 2131099777;
+			public const int design_tab_scrollable_min_width = 2131099777;
 			
 			// aapt resource value: 0x7F060082
-			public const int design_textinput_caption_translate_y = 2131099778;
+			public const int design_tab_text_size = 2131099778;
 			
 			// aapt resource value: 0x7F060083
-			public const int disabled_alpha_material_dark = 2131099779;
+			public const int design_tab_text_size_2line = 2131099779;
 			
 			// aapt resource value: 0x7F060084
-			public const int disabled_alpha_material_light = 2131099780;
+			public const int design_textinput_caption_translate_y = 2131099780;
 			
 			// aapt resource value: 0x7F060085
-			public const int fastscroll_default_thickness = 2131099781;
+			public const int disabled_alpha_material_dark = 2131099781;
 			
 			// aapt resource value: 0x7F060086
-			public const int fastscroll_margin = 2131099782;
+			public const int disabled_alpha_material_light = 2131099782;
 			
 			// aapt resource value: 0x7F060087
-			public const int fastscroll_minimum_range = 2131099783;
+			public const int fastscroll_default_thickness = 2131099783;
 			
 			// aapt resource value: 0x7F060088
-			public const int highlight_alpha_material_colored = 2131099784;
+			public const int fastscroll_margin = 2131099784;
 			
 			// aapt resource value: 0x7F060089
-			public const int highlight_alpha_material_dark = 2131099785;
+			public const int fastscroll_minimum_range = 2131099785;
 			
 			// aapt resource value: 0x7F06008A
-			public const int highlight_alpha_material_light = 2131099786;
+			public const int highlight_alpha_material_colored = 2131099786;
 			
 			// aapt resource value: 0x7F06008B
-			public const int hint_alpha_material_dark = 2131099787;
+			public const int highlight_alpha_material_dark = 2131099787;
 			
 			// aapt resource value: 0x7F06008C
-			public const int hint_alpha_material_light = 2131099788;
+			public const int highlight_alpha_material_light = 2131099788;
 			
 			// aapt resource value: 0x7F06008D
-			public const int hint_pressed_alpha_material_dark = 2131099789;
+			public const int hint_alpha_material_dark = 2131099789;
 			
 			// aapt resource value: 0x7F06008E
-			public const int hint_pressed_alpha_material_light = 2131099790;
+			public const int hint_alpha_material_light = 2131099790;
 			
 			// aapt resource value: 0x7F06008F
-			public const int item_touch_helper_max_drag_scroll_per_frame = 2131099791;
+			public const int hint_pressed_alpha_material_dark = 2131099791;
 			
 			// aapt resource value: 0x7F060090
-			public const int item_touch_helper_swipe_escape_max_velocity = 2131099792;
+			public const int hint_pressed_alpha_material_light = 2131099792;
 			
 			// aapt resource value: 0x7F060091
-			public const int item_touch_helper_swipe_escape_velocity = 2131099793;
+			public const int item_touch_helper_max_drag_scroll_per_frame = 2131099793;
 			
 			// aapt resource value: 0x7F060092
-			public const int mr_controller_volume_group_list_item_height = 2131099794;
+			public const int item_touch_helper_swipe_escape_max_velocity = 2131099794;
 			
 			// aapt resource value: 0x7F060093
-			public const int mr_controller_volume_group_list_item_icon_size = 2131099795;
+			public const int item_touch_helper_swipe_escape_velocity = 2131099795;
 			
 			// aapt resource value: 0x7F060094
-			public const int mr_controller_volume_group_list_max_height = 2131099796;
+			public const int mr_controller_volume_group_list_item_height = 2131099796;
 			
 			// aapt resource value: 0x7F060095
-			public const int mr_controller_volume_group_list_padding_top = 2131099797;
+			public const int mr_controller_volume_group_list_item_icon_size = 2131099797;
 			
 			// aapt resource value: 0x7F060096
-			public const int mr_dialog_fixed_width_major = 2131099798;
+			public const int mr_controller_volume_group_list_max_height = 2131099798;
 			
 			// aapt resource value: 0x7F060097
-			public const int mr_dialog_fixed_width_minor = 2131099799;
+			public const int mr_controller_volume_group_list_padding_top = 2131099799;
 			
 			// aapt resource value: 0x7F060098
-			public const int mtrl_bottomappbar_fabOffsetEndMode = 2131099800;
+			public const int mr_dialog_fixed_width_major = 2131099800;
 			
 			// aapt resource value: 0x7F060099
-			public const int mtrl_bottomappbar_fab_cradle_margin = 2131099801;
+			public const int mr_dialog_fixed_width_minor = 2131099801;
 			
 			// aapt resource value: 0x7F06009A
-			public const int mtrl_bottomappbar_fab_cradle_rounded_corner_radius = 2131099802;
+			public const int mtrl_bottomappbar_fabOffsetEndMode = 2131099802;
 			
 			// aapt resource value: 0x7F06009B
-			public const int mtrl_bottomappbar_fab_cradle_vertical_offset = 2131099803;
+			public const int mtrl_bottomappbar_fab_cradle_margin = 2131099803;
 			
 			// aapt resource value: 0x7F06009C
-			public const int mtrl_bottomappbar_height = 2131099804;
+			public const int mtrl_bottomappbar_fab_cradle_rounded_corner_radius = 2131099804;
 			
 			// aapt resource value: 0x7F06009D
-			public const int mtrl_btn_corner_radius = 2131099805;
+			public const int mtrl_bottomappbar_fab_cradle_vertical_offset = 2131099805;
 			
 			// aapt resource value: 0x7F06009E
-			public const int mtrl_btn_dialog_btn_min_width = 2131099806;
+			public const int mtrl_bottomappbar_height = 2131099806;
 			
 			// aapt resource value: 0x7F06009F
-			public const int mtrl_btn_disabled_elevation = 2131099807;
+			public const int mtrl_btn_corner_radius = 2131099807;
 			
 			// aapt resource value: 0x7F0600A0
-			public const int mtrl_btn_disabled_z = 2131099808;
+			public const int mtrl_btn_dialog_btn_min_width = 2131099808;
 			
 			// aapt resource value: 0x7F0600A1
-			public const int mtrl_btn_elevation = 2131099809;
+			public const int mtrl_btn_disabled_elevation = 2131099809;
 			
 			// aapt resource value: 0x7F0600A2
-			public const int mtrl_btn_focused_z = 2131099810;
+			public const int mtrl_btn_disabled_z = 2131099810;
 			
 			// aapt resource value: 0x7F0600A3
-			public const int mtrl_btn_hovered_z = 2131099811;
+			public const int mtrl_btn_elevation = 2131099811;
 			
 			// aapt resource value: 0x7F0600A4
-			public const int mtrl_btn_icon_btn_padding_left = 2131099812;
+			public const int mtrl_btn_focused_z = 2131099812;
 			
 			// aapt resource value: 0x7F0600A5
-			public const int mtrl_btn_icon_padding = 2131099813;
+			public const int mtrl_btn_hovered_z = 2131099813;
 			
 			// aapt resource value: 0x7F0600A6
-			public const int mtrl_btn_inset = 2131099814;
+			public const int mtrl_btn_icon_btn_padding_left = 2131099814;
 			
 			// aapt resource value: 0x7F0600A7
-			public const int mtrl_btn_letter_spacing = 2131099815;
+			public const int mtrl_btn_icon_padding = 2131099815;
 			
 			// aapt resource value: 0x7F0600A8
-			public const int mtrl_btn_padding_bottom = 2131099816;
+			public const int mtrl_btn_inset = 2131099816;
 			
 			// aapt resource value: 0x7F0600A9
-			public const int mtrl_btn_padding_left = 2131099817;
+			public const int mtrl_btn_letter_spacing = 2131099817;
 			
 			// aapt resource value: 0x7F0600AA
-			public const int mtrl_btn_padding_right = 2131099818;
+			public const int mtrl_btn_padding_bottom = 2131099818;
 			
 			// aapt resource value: 0x7F0600AB
-			public const int mtrl_btn_padding_top = 2131099819;
+			public const int mtrl_btn_padding_left = 2131099819;
 			
 			// aapt resource value: 0x7F0600AC
-			public const int mtrl_btn_pressed_z = 2131099820;
+			public const int mtrl_btn_padding_right = 2131099820;
 			
 			// aapt resource value: 0x7F0600AD
-			public const int mtrl_btn_stroke_size = 2131099821;
+			public const int mtrl_btn_padding_top = 2131099821;
 			
 			// aapt resource value: 0x7F0600AE
-			public const int mtrl_btn_text_btn_icon_padding = 2131099822;
+			public const int mtrl_btn_pressed_z = 2131099822;
 			
 			// aapt resource value: 0x7F0600AF
-			public const int mtrl_btn_text_btn_padding_left = 2131099823;
+			public const int mtrl_btn_stroke_size = 2131099823;
 			
 			// aapt resource value: 0x7F0600B0
-			public const int mtrl_btn_text_btn_padding_right = 2131099824;
+			public const int mtrl_btn_text_btn_icon_padding = 2131099824;
 			
 			// aapt resource value: 0x7F0600B1
-			public const int mtrl_btn_text_size = 2131099825;
+			public const int mtrl_btn_text_btn_padding_left = 2131099825;
 			
 			// aapt resource value: 0x7F0600B2
-			public const int mtrl_btn_z = 2131099826;
+			public const int mtrl_btn_text_btn_padding_right = 2131099826;
 			
 			// aapt resource value: 0x7F0600B3
-			public const int mtrl_card_elevation = 2131099827;
+			public const int mtrl_btn_text_size = 2131099827;
 			
 			// aapt resource value: 0x7F0600B4
-			public const int mtrl_card_spacing = 2131099828;
+			public const int mtrl_btn_z = 2131099828;
 			
 			// aapt resource value: 0x7F0600B5
-			public const int mtrl_chip_pressed_translation_z = 2131099829;
+			public const int mtrl_card_elevation = 2131099829;
 			
 			// aapt resource value: 0x7F0600B6
-			public const int mtrl_chip_text_size = 2131099830;
+			public const int mtrl_card_spacing = 2131099830;
 			
 			// aapt resource value: 0x7F0600B7
-			public const int mtrl_fab_elevation = 2131099831;
+			public const int mtrl_chip_pressed_translation_z = 2131099831;
 			
 			// aapt resource value: 0x7F0600B8
-			public const int mtrl_fab_translation_z_hovered_focused = 2131099832;
+			public const int mtrl_chip_text_size = 2131099832;
 			
 			// aapt resource value: 0x7F0600B9
-			public const int mtrl_fab_translation_z_pressed = 2131099833;
+			public const int mtrl_fab_elevation = 2131099833;
 			
 			// aapt resource value: 0x7F0600BA
-			public const int mtrl_navigation_elevation = 2131099834;
+			public const int mtrl_fab_translation_z_hovered_focused = 2131099834;
 			
 			// aapt resource value: 0x7F0600BB
-			public const int mtrl_navigation_item_horizontal_padding = 2131099835;
+			public const int mtrl_fab_translation_z_pressed = 2131099835;
 			
 			// aapt resource value: 0x7F0600BC
-			public const int mtrl_navigation_item_icon_padding = 2131099836;
+			public const int mtrl_navigation_elevation = 2131099836;
 			
 			// aapt resource value: 0x7F0600BD
-			public const int mtrl_snackbar_background_corner_radius = 2131099837;
+			public const int mtrl_navigation_item_horizontal_padding = 2131099837;
 			
 			// aapt resource value: 0x7F0600BE
-			public const int mtrl_snackbar_margin = 2131099838;
+			public const int mtrl_navigation_item_icon_padding = 2131099838;
 			
 			// aapt resource value: 0x7F0600BF
-			public const int mtrl_textinput_box_bottom_offset = 2131099839;
+			public const int mtrl_snackbar_background_corner_radius = 2131099839;
 			
 			// aapt resource value: 0x7F0600C0
-			public const int mtrl_textinput_box_corner_radius_medium = 2131099840;
+			public const int mtrl_snackbar_margin = 2131099840;
 			
 			// aapt resource value: 0x7F0600C1
-			public const int mtrl_textinput_box_corner_radius_small = 2131099841;
+			public const int mtrl_textinput_box_bottom_offset = 2131099841;
 			
 			// aapt resource value: 0x7F0600C2
-			public const int mtrl_textinput_box_label_cutout_padding = 2131099842;
+			public const int mtrl_textinput_box_corner_radius_medium = 2131099842;
 			
 			// aapt resource value: 0x7F0600C3
-			public const int mtrl_textinput_box_padding_end = 2131099843;
+			public const int mtrl_textinput_box_corner_radius_small = 2131099843;
 			
 			// aapt resource value: 0x7F0600C4
-			public const int mtrl_textinput_box_stroke_width_default = 2131099844;
+			public const int mtrl_textinput_box_label_cutout_padding = 2131099844;
 			
 			// aapt resource value: 0x7F0600C5
-			public const int mtrl_textinput_box_stroke_width_focused = 2131099845;
+			public const int mtrl_textinput_box_padding_end = 2131099845;
 			
 			// aapt resource value: 0x7F0600C6
-			public const int mtrl_textinput_outline_box_expanded_padding = 2131099846;
+			public const int mtrl_textinput_box_stroke_width_default = 2131099846;
 			
 			// aapt resource value: 0x7F0600C7
-			public const int mtrl_toolbar_default_height = 2131099847;
+			public const int mtrl_textinput_box_stroke_width_focused = 2131099847;
 			
 			// aapt resource value: 0x7F0600C8
-			public const int notification_action_icon_size = 2131099848;
+			public const int mtrl_textinput_outline_box_expanded_padding = 2131099848;
 			
 			// aapt resource value: 0x7F0600C9
-			public const int notification_action_text_size = 2131099849;
+			public const int mtrl_toolbar_default_height = 2131099849;
 			
 			// aapt resource value: 0x7F0600CA
-			public const int notification_big_circle_margin = 2131099850;
+			public const int notification_action_icon_size = 2131099850;
 			
 			// aapt resource value: 0x7F0600CB
-			public const int notification_content_margin_start = 2131099851;
+			public const int notification_action_text_size = 2131099851;
 			
 			// aapt resource value: 0x7F0600CC
-			public const int notification_large_icon_height = 2131099852;
+			public const int notification_big_circle_margin = 2131099852;
 			
 			// aapt resource value: 0x7F0600CD
-			public const int notification_large_icon_width = 2131099853;
+			public const int notification_content_margin_start = 2131099853;
 			
 			// aapt resource value: 0x7F0600CE
-			public const int notification_main_column_padding_top = 2131099854;
+			public const int notification_large_icon_height = 2131099854;
 			
 			// aapt resource value: 0x7F0600CF
-			public const int notification_media_narrow_margin = 2131099855;
+			public const int notification_large_icon_width = 2131099855;
 			
 			// aapt resource value: 0x7F0600D0
-			public const int notification_right_icon_size = 2131099856;
+			public const int notification_main_column_padding_top = 2131099856;
 			
 			// aapt resource value: 0x7F0600D1
-			public const int notification_right_side_padding_top = 2131099857;
+			public const int notification_media_narrow_margin = 2131099857;
 			
 			// aapt resource value: 0x7F0600D2
-			public const int notification_small_icon_background_padding = 2131099858;
+			public const int notification_right_icon_size = 2131099858;
 			
 			// aapt resource value: 0x7F0600D3
-			public const int notification_small_icon_size_as_large = 2131099859;
+			public const int notification_right_side_padding_top = 2131099859;
 			
 			// aapt resource value: 0x7F0600D4
-			public const int notification_subtext_size = 2131099860;
+			public const int notification_small_icon_background_padding = 2131099860;
 			
 			// aapt resource value: 0x7F0600D5
-			public const int notification_top_pad = 2131099861;
+			public const int notification_small_icon_size_as_large = 2131099861;
 			
 			// aapt resource value: 0x7F0600D6
-			public const int notification_top_pad_large_text = 2131099862;
+			public const int notification_subtext_size = 2131099862;
 			
 			// aapt resource value: 0x7F0600D7
-			public const int subtitle_corner_radius = 2131099863;
+			public const int notification_top_pad = 2131099863;
 			
 			// aapt resource value: 0x7F0600D8
-			public const int subtitle_outline_width = 2131099864;
+			public const int notification_top_pad_large_text = 2131099864;
 			
 			// aapt resource value: 0x7F0600D9
-			public const int subtitle_shadow_offset = 2131099865;
+			public const int subtitle_corner_radius = 2131099865;
 			
 			// aapt resource value: 0x7F0600DA
-			public const int subtitle_shadow_radius = 2131099866;
+			public const int subtitle_outline_width = 2131099866;
 			
 			// aapt resource value: 0x7F0600DB
-			public const int tooltip_corner_radius = 2131099867;
+			public const int subtitle_shadow_offset = 2131099867;
 			
 			// aapt resource value: 0x7F0600DC
-			public const int tooltip_horizontal_padding = 2131099868;
+			public const int subtitle_shadow_radius = 2131099868;
 			
 			// aapt resource value: 0x7F0600DD
-			public const int tooltip_margin = 2131099869;
+			public const int tooltip_corner_radius = 2131099869;
 			
 			// aapt resource value: 0x7F0600DE
-			public const int tooltip_precise_anchor_extra_offset = 2131099870;
+			public const int tooltip_horizontal_padding = 2131099870;
 			
 			// aapt resource value: 0x7F0600DF
-			public const int tooltip_precise_anchor_threshold = 2131099871;
+			public const int tooltip_margin = 2131099871;
 			
 			// aapt resource value: 0x7F0600E0
-			public const int tooltip_vertical_padding = 2131099872;
+			public const int tooltip_precise_anchor_extra_offset = 2131099872;
 			
 			// aapt resource value: 0x7F0600E1
-			public const int tooltip_y_offset_non_touch = 2131099873;
+			public const int tooltip_precise_anchor_threshold = 2131099873;
 			
 			// aapt resource value: 0x7F0600E2
-			public const int tooltip_y_offset_touch = 2131099874;
+			public const int tooltip_vertical_padding = 2131099874;
+			
+			// aapt resource value: 0x7F0600E3
+			public const int tooltip_y_offset_non_touch = 2131099875;
+			
+			// aapt resource value: 0x7F0600E4
+			public const int tooltip_y_offset_touch = 2131099876;
 			
 			static Dimension()
 			{
@@ -6145,1975 +8385,1987 @@ namespace ChernivtsiGuide.Droid
 			public const int design_snackbar_background = 2131165398;
 			
 			// aapt resource value: 0x7F0700D7
-			public const int entertainment_center_10_1 = 2131165399;
+			public const int Down = 2131165399;
 			
 			// aapt resource value: 0x7F0700D8
-			public const int entertainment_center_10_2 = 2131165400;
+			public const int entertainment_center_10_1 = 2131165400;
 			
 			// aapt resource value: 0x7F0700D9
-			public const int entertainment_center_11_1 = 2131165401;
+			public const int entertainment_center_10_2 = 2131165401;
 			
 			// aapt resource value: 0x7F0700DA
-			public const int entertainment_center_11_2 = 2131165402;
+			public const int entertainment_center_11_1 = 2131165402;
 			
 			// aapt resource value: 0x7F0700DB
-			public const int entertainment_center_11_3 = 2131165403;
+			public const int entertainment_center_11_2 = 2131165403;
 			
 			// aapt resource value: 0x7F0700DC
-			public const int entertainment_center_12_1 = 2131165404;
+			public const int entertainment_center_11_3 = 2131165404;
 			
 			// aapt resource value: 0x7F0700DD
-			public const int entertainment_center_12_2 = 2131165405;
+			public const int entertainment_center_12_1 = 2131165405;
 			
 			// aapt resource value: 0x7F0700DE
-			public const int entertainment_center_1_1 = 2131165406;
+			public const int entertainment_center_12_2 = 2131165406;
 			
 			// aapt resource value: 0x7F0700DF
-			public const int entertainment_center_1_2 = 2131165407;
+			public const int entertainment_center_1_1 = 2131165407;
 			
 			// aapt resource value: 0x7F0700E0
-			public const int entertainment_center_1_3 = 2131165408;
+			public const int entertainment_center_1_2 = 2131165408;
 			
 			// aapt resource value: 0x7F0700E1
-			public const int entertainment_center_2_1 = 2131165409;
+			public const int entertainment_center_1_3 = 2131165409;
 			
 			// aapt resource value: 0x7F0700E2
-			public const int entertainment_center_2_2 = 2131165410;
+			public const int entertainment_center_2_1 = 2131165410;
 			
 			// aapt resource value: 0x7F0700E3
-			public const int entertainment_center_2_3 = 2131165411;
+			public const int entertainment_center_2_2 = 2131165411;
 			
 			// aapt resource value: 0x7F0700E4
-			public const int entertainment_center_3_1 = 2131165412;
+			public const int entertainment_center_2_3 = 2131165412;
 			
 			// aapt resource value: 0x7F0700E5
-			public const int entertainment_center_3_2 = 2131165413;
+			public const int entertainment_center_3_1 = 2131165413;
 			
 			// aapt resource value: 0x7F0700E6
-			public const int entertainment_center_4_1 = 2131165414;
+			public const int entertainment_center_3_2 = 2131165414;
 			
 			// aapt resource value: 0x7F0700E7
-			public const int entertainment_center_4_2 = 2131165415;
+			public const int entertainment_center_4_1 = 2131165415;
 			
 			// aapt resource value: 0x7F0700E8
-			public const int entertainment_center_5_1 = 2131165416;
+			public const int entertainment_center_4_2 = 2131165416;
 			
 			// aapt resource value: 0x7F0700E9
-			public const int entertainment_center_5_2 = 2131165417;
+			public const int entertainment_center_5_1 = 2131165417;
 			
 			// aapt resource value: 0x7F0700EA
-			public const int entertainment_center_6_1 = 2131165418;
+			public const int entertainment_center_5_2 = 2131165418;
 			
 			// aapt resource value: 0x7F0700EB
-			public const int entertainment_center_6_2 = 2131165419;
+			public const int entertainment_center_6_1 = 2131165419;
 			
 			// aapt resource value: 0x7F0700EC
-			public const int entertainment_center_6_3 = 2131165420;
+			public const int entertainment_center_6_2 = 2131165420;
 			
 			// aapt resource value: 0x7F0700ED
-			public const int entertainment_center_7_1 = 2131165421;
+			public const int entertainment_center_6_3 = 2131165421;
 			
 			// aapt resource value: 0x7F0700EE
-			public const int entertainment_center_7_2 = 2131165422;
+			public const int entertainment_center_7_1 = 2131165422;
 			
 			// aapt resource value: 0x7F0700EF
-			public const int entertainment_center_8_1 = 2131165423;
+			public const int entertainment_center_7_2 = 2131165423;
 			
 			// aapt resource value: 0x7F0700F0
-			public const int entertainment_center_8_2 = 2131165424;
+			public const int entertainment_center_8_1 = 2131165424;
 			
 			// aapt resource value: 0x7F0700F1
-			public const int entertainment_center_8_3 = 2131165425;
+			public const int entertainment_center_8_2 = 2131165425;
 			
 			// aapt resource value: 0x7F0700F2
-			public const int entertainment_center_9_1 = 2131165426;
+			public const int entertainment_center_8_3 = 2131165426;
 			
 			// aapt resource value: 0x7F0700F3
-			public const int entertainment_center_9_2 = 2131165427;
+			public const int entertainment_center_9_1 = 2131165427;
 			
 			// aapt resource value: 0x7F0700F4
-			public const int entertainment_center_9_3 = 2131165428;
+			public const int entertainment_center_9_2 = 2131165428;
 			
 			// aapt resource value: 0x7F0700F5
-			public const int entertainment_center_logo = 2131165429;
+			public const int entertainment_center_9_3 = 2131165429;
 			
 			// aapt resource value: 0x7F0700F6
-			public const int entertainment_logo = 2131165430;
+			public const int entertainment_center_logo = 2131165430;
 			
 			// aapt resource value: 0x7F0700F7
-			public const int fast_food_1_1 = 2131165431;
+			public const int entertainment_logo = 2131165431;
 			
 			// aapt resource value: 0x7F0700F8
-			public const int fast_food_1_2 = 2131165432;
+			public const int fast_food_1_1 = 2131165432;
 			
 			// aapt resource value: 0x7F0700F9
-			public const int fast_food_1_3 = 2131165433;
+			public const int fast_food_1_2 = 2131165433;
 			
 			// aapt resource value: 0x7F0700FA
-			public const int fast_food_2_1 = 2131165434;
+			public const int fast_food_1_3 = 2131165434;
 			
 			// aapt resource value: 0x7F0700FB
-			public const int fast_food_2_2 = 2131165435;
+			public const int fast_food_2_1 = 2131165435;
 			
 			// aapt resource value: 0x7F0700FC
-			public const int fast_food_logo = 2131165436;
+			public const int fast_food_2_2 = 2131165436;
 			
 			// aapt resource value: 0x7F0700FD
-			public const int food_logo = 2131165437;
+			public const int fast_food_logo = 2131165437;
 			
 			// aapt resource value: 0x7F0700FE
-			public const int ic_audiotrack_dark = 2131165438;
+			public const int food_logo = 2131165438;
 			
 			// aapt resource value: 0x7F0700FF
-			public const int ic_audiotrack_light = 2131165439;
+			public const int ic_audiotrack_dark = 2131165439;
 			
 			// aapt resource value: 0x7F070100
-			public const int ic_dialog_close_dark = 2131165440;
+			public const int ic_audiotrack_light = 2131165440;
 			
 			// aapt resource value: 0x7F070101
-			public const int ic_dialog_close_light = 2131165441;
+			public const int ic_dialog_close_dark = 2131165441;
 			
 			// aapt resource value: 0x7F070102
-			public const int ic_group_collapse_00 = 2131165442;
+			public const int ic_dialog_close_light = 2131165442;
 			
 			// aapt resource value: 0x7F070103
-			public const int ic_group_collapse_01 = 2131165443;
+			public const int ic_group_collapse_00 = 2131165443;
 			
 			// aapt resource value: 0x7F070104
-			public const int ic_group_collapse_02 = 2131165444;
+			public const int ic_group_collapse_01 = 2131165444;
 			
 			// aapt resource value: 0x7F070105
-			public const int ic_group_collapse_03 = 2131165445;
+			public const int ic_group_collapse_02 = 2131165445;
 			
 			// aapt resource value: 0x7F070106
-			public const int ic_group_collapse_04 = 2131165446;
+			public const int ic_group_collapse_03 = 2131165446;
 			
 			// aapt resource value: 0x7F070107
-			public const int ic_group_collapse_05 = 2131165447;
+			public const int ic_group_collapse_04 = 2131165447;
 			
 			// aapt resource value: 0x7F070108
-			public const int ic_group_collapse_06 = 2131165448;
+			public const int ic_group_collapse_05 = 2131165448;
 			
 			// aapt resource value: 0x7F070109
-			public const int ic_group_collapse_07 = 2131165449;
+			public const int ic_group_collapse_06 = 2131165449;
 			
 			// aapt resource value: 0x7F07010A
-			public const int ic_group_collapse_08 = 2131165450;
+			public const int ic_group_collapse_07 = 2131165450;
 			
 			// aapt resource value: 0x7F07010B
-			public const int ic_group_collapse_09 = 2131165451;
+			public const int ic_group_collapse_08 = 2131165451;
 			
 			// aapt resource value: 0x7F07010C
-			public const int ic_group_collapse_10 = 2131165452;
+			public const int ic_group_collapse_09 = 2131165452;
 			
 			// aapt resource value: 0x7F07010D
-			public const int ic_group_collapse_11 = 2131165453;
+			public const int ic_group_collapse_10 = 2131165453;
 			
 			// aapt resource value: 0x7F07010E
-			public const int ic_group_collapse_12 = 2131165454;
+			public const int ic_group_collapse_11 = 2131165454;
 			
 			// aapt resource value: 0x7F07010F
-			public const int ic_group_collapse_13 = 2131165455;
+			public const int ic_group_collapse_12 = 2131165455;
 			
 			// aapt resource value: 0x7F070110
-			public const int ic_group_collapse_14 = 2131165456;
+			public const int ic_group_collapse_13 = 2131165456;
 			
 			// aapt resource value: 0x7F070111
-			public const int ic_group_collapse_15 = 2131165457;
+			public const int ic_group_collapse_14 = 2131165457;
 			
 			// aapt resource value: 0x7F070112
-			public const int ic_group_expand_00 = 2131165458;
+			public const int ic_group_collapse_15 = 2131165458;
 			
 			// aapt resource value: 0x7F070113
-			public const int ic_group_expand_01 = 2131165459;
+			public const int ic_group_expand_00 = 2131165459;
 			
 			// aapt resource value: 0x7F070114
-			public const int ic_group_expand_02 = 2131165460;
+			public const int ic_group_expand_01 = 2131165460;
 			
 			// aapt resource value: 0x7F070115
-			public const int ic_group_expand_03 = 2131165461;
+			public const int ic_group_expand_02 = 2131165461;
 			
 			// aapt resource value: 0x7F070116
-			public const int ic_group_expand_04 = 2131165462;
+			public const int ic_group_expand_03 = 2131165462;
 			
 			// aapt resource value: 0x7F070117
-			public const int ic_group_expand_05 = 2131165463;
+			public const int ic_group_expand_04 = 2131165463;
 			
 			// aapt resource value: 0x7F070118
-			public const int ic_group_expand_06 = 2131165464;
+			public const int ic_group_expand_05 = 2131165464;
 			
 			// aapt resource value: 0x7F070119
-			public const int ic_group_expand_07 = 2131165465;
+			public const int ic_group_expand_06 = 2131165465;
 			
 			// aapt resource value: 0x7F07011A
-			public const int ic_group_expand_08 = 2131165466;
+			public const int ic_group_expand_07 = 2131165466;
 			
 			// aapt resource value: 0x7F07011B
-			public const int ic_group_expand_09 = 2131165467;
+			public const int ic_group_expand_08 = 2131165467;
 			
 			// aapt resource value: 0x7F07011C
-			public const int ic_group_expand_10 = 2131165468;
+			public const int ic_group_expand_09 = 2131165468;
 			
 			// aapt resource value: 0x7F07011D
-			public const int ic_group_expand_11 = 2131165469;
+			public const int ic_group_expand_10 = 2131165469;
 			
 			// aapt resource value: 0x7F07011E
-			public const int ic_group_expand_12 = 2131165470;
+			public const int ic_group_expand_11 = 2131165470;
 			
 			// aapt resource value: 0x7F07011F
-			public const int ic_group_expand_13 = 2131165471;
+			public const int ic_group_expand_12 = 2131165471;
 			
 			// aapt resource value: 0x7F070120
-			public const int ic_group_expand_14 = 2131165472;
+			public const int ic_group_expand_13 = 2131165472;
 			
 			// aapt resource value: 0x7F070121
-			public const int ic_group_expand_15 = 2131165473;
+			public const int ic_group_expand_14 = 2131165473;
 			
 			// aapt resource value: 0x7F070122
-			public const int ic_media_pause_dark = 2131165474;
+			public const int ic_group_expand_15 = 2131165474;
 			
 			// aapt resource value: 0x7F070123
-			public const int ic_media_pause_light = 2131165475;
+			public const int ic_media_pause_dark = 2131165475;
 			
 			// aapt resource value: 0x7F070124
-			public const int ic_media_play_dark = 2131165476;
+			public const int ic_media_pause_light = 2131165476;
 			
 			// aapt resource value: 0x7F070125
-			public const int ic_media_play_light = 2131165477;
+			public const int ic_media_play_dark = 2131165477;
 			
 			// aapt resource value: 0x7F070126
-			public const int ic_media_stop_dark = 2131165478;
+			public const int ic_media_play_light = 2131165478;
 			
 			// aapt resource value: 0x7F070127
-			public const int ic_media_stop_light = 2131165479;
+			public const int ic_media_stop_dark = 2131165479;
 			
 			// aapt resource value: 0x7F070128
-			public const int ic_mr_button_connected_00_dark = 2131165480;
+			public const int ic_media_stop_light = 2131165480;
 			
 			// aapt resource value: 0x7F070129
-			public const int ic_mr_button_connected_00_light = 2131165481;
+			public const int ic_mr_button_connected_00_dark = 2131165481;
 			
 			// aapt resource value: 0x7F07012A
-			public const int ic_mr_button_connected_01_dark = 2131165482;
+			public const int ic_mr_button_connected_00_light = 2131165482;
 			
 			// aapt resource value: 0x7F07012B
-			public const int ic_mr_button_connected_01_light = 2131165483;
+			public const int ic_mr_button_connected_01_dark = 2131165483;
 			
 			// aapt resource value: 0x7F07012C
-			public const int ic_mr_button_connected_02_dark = 2131165484;
+			public const int ic_mr_button_connected_01_light = 2131165484;
 			
 			// aapt resource value: 0x7F07012D
-			public const int ic_mr_button_connected_02_light = 2131165485;
+			public const int ic_mr_button_connected_02_dark = 2131165485;
 			
 			// aapt resource value: 0x7F07012E
-			public const int ic_mr_button_connected_03_dark = 2131165486;
+			public const int ic_mr_button_connected_02_light = 2131165486;
 			
 			// aapt resource value: 0x7F07012F
-			public const int ic_mr_button_connected_03_light = 2131165487;
+			public const int ic_mr_button_connected_03_dark = 2131165487;
 			
 			// aapt resource value: 0x7F070130
-			public const int ic_mr_button_connected_04_dark = 2131165488;
+			public const int ic_mr_button_connected_03_light = 2131165488;
 			
 			// aapt resource value: 0x7F070131
-			public const int ic_mr_button_connected_04_light = 2131165489;
+			public const int ic_mr_button_connected_04_dark = 2131165489;
 			
 			// aapt resource value: 0x7F070132
-			public const int ic_mr_button_connected_05_dark = 2131165490;
+			public const int ic_mr_button_connected_04_light = 2131165490;
 			
 			// aapt resource value: 0x7F070133
-			public const int ic_mr_button_connected_05_light = 2131165491;
+			public const int ic_mr_button_connected_05_dark = 2131165491;
 			
 			// aapt resource value: 0x7F070134
-			public const int ic_mr_button_connected_06_dark = 2131165492;
+			public const int ic_mr_button_connected_05_light = 2131165492;
 			
 			// aapt resource value: 0x7F070135
-			public const int ic_mr_button_connected_06_light = 2131165493;
+			public const int ic_mr_button_connected_06_dark = 2131165493;
 			
 			// aapt resource value: 0x7F070136
-			public const int ic_mr_button_connected_07_dark = 2131165494;
+			public const int ic_mr_button_connected_06_light = 2131165494;
 			
 			// aapt resource value: 0x7F070137
-			public const int ic_mr_button_connected_07_light = 2131165495;
+			public const int ic_mr_button_connected_07_dark = 2131165495;
 			
 			// aapt resource value: 0x7F070138
-			public const int ic_mr_button_connected_08_dark = 2131165496;
+			public const int ic_mr_button_connected_07_light = 2131165496;
 			
 			// aapt resource value: 0x7F070139
-			public const int ic_mr_button_connected_08_light = 2131165497;
+			public const int ic_mr_button_connected_08_dark = 2131165497;
 			
 			// aapt resource value: 0x7F07013A
-			public const int ic_mr_button_connected_09_dark = 2131165498;
+			public const int ic_mr_button_connected_08_light = 2131165498;
 			
 			// aapt resource value: 0x7F07013B
-			public const int ic_mr_button_connected_09_light = 2131165499;
+			public const int ic_mr_button_connected_09_dark = 2131165499;
 			
 			// aapt resource value: 0x7F07013C
-			public const int ic_mr_button_connected_10_dark = 2131165500;
+			public const int ic_mr_button_connected_09_light = 2131165500;
 			
 			// aapt resource value: 0x7F07013D
-			public const int ic_mr_button_connected_10_light = 2131165501;
+			public const int ic_mr_button_connected_10_dark = 2131165501;
 			
 			// aapt resource value: 0x7F07013E
-			public const int ic_mr_button_connected_11_dark = 2131165502;
+			public const int ic_mr_button_connected_10_light = 2131165502;
 			
 			// aapt resource value: 0x7F07013F
-			public const int ic_mr_button_connected_11_light = 2131165503;
+			public const int ic_mr_button_connected_11_dark = 2131165503;
 			
 			// aapt resource value: 0x7F070140
-			public const int ic_mr_button_connected_12_dark = 2131165504;
+			public const int ic_mr_button_connected_11_light = 2131165504;
 			
 			// aapt resource value: 0x7F070141
-			public const int ic_mr_button_connected_12_light = 2131165505;
+			public const int ic_mr_button_connected_12_dark = 2131165505;
 			
 			// aapt resource value: 0x7F070142
-			public const int ic_mr_button_connected_13_dark = 2131165506;
+			public const int ic_mr_button_connected_12_light = 2131165506;
 			
 			// aapt resource value: 0x7F070143
-			public const int ic_mr_button_connected_13_light = 2131165507;
+			public const int ic_mr_button_connected_13_dark = 2131165507;
 			
 			// aapt resource value: 0x7F070144
-			public const int ic_mr_button_connected_14_dark = 2131165508;
+			public const int ic_mr_button_connected_13_light = 2131165508;
 			
 			// aapt resource value: 0x7F070145
-			public const int ic_mr_button_connected_14_light = 2131165509;
+			public const int ic_mr_button_connected_14_dark = 2131165509;
 			
 			// aapt resource value: 0x7F070146
-			public const int ic_mr_button_connected_15_dark = 2131165510;
+			public const int ic_mr_button_connected_14_light = 2131165510;
 			
 			// aapt resource value: 0x7F070147
-			public const int ic_mr_button_connected_15_light = 2131165511;
+			public const int ic_mr_button_connected_15_dark = 2131165511;
 			
 			// aapt resource value: 0x7F070148
-			public const int ic_mr_button_connected_16_dark = 2131165512;
+			public const int ic_mr_button_connected_15_light = 2131165512;
 			
 			// aapt resource value: 0x7F070149
-			public const int ic_mr_button_connected_16_light = 2131165513;
+			public const int ic_mr_button_connected_16_dark = 2131165513;
 			
 			// aapt resource value: 0x7F07014A
-			public const int ic_mr_button_connected_17_dark = 2131165514;
+			public const int ic_mr_button_connected_16_light = 2131165514;
 			
 			// aapt resource value: 0x7F07014B
-			public const int ic_mr_button_connected_17_light = 2131165515;
+			public const int ic_mr_button_connected_17_dark = 2131165515;
 			
 			// aapt resource value: 0x7F07014C
-			public const int ic_mr_button_connected_18_dark = 2131165516;
+			public const int ic_mr_button_connected_17_light = 2131165516;
 			
 			// aapt resource value: 0x7F07014D
-			public const int ic_mr_button_connected_18_light = 2131165517;
+			public const int ic_mr_button_connected_18_dark = 2131165517;
 			
 			// aapt resource value: 0x7F07014E
-			public const int ic_mr_button_connected_19_dark = 2131165518;
+			public const int ic_mr_button_connected_18_light = 2131165518;
 			
 			// aapt resource value: 0x7F07014F
-			public const int ic_mr_button_connected_19_light = 2131165519;
+			public const int ic_mr_button_connected_19_dark = 2131165519;
 			
 			// aapt resource value: 0x7F070150
-			public const int ic_mr_button_connected_20_dark = 2131165520;
+			public const int ic_mr_button_connected_19_light = 2131165520;
 			
 			// aapt resource value: 0x7F070151
-			public const int ic_mr_button_connected_20_light = 2131165521;
+			public const int ic_mr_button_connected_20_dark = 2131165521;
 			
 			// aapt resource value: 0x7F070152
-			public const int ic_mr_button_connected_21_dark = 2131165522;
+			public const int ic_mr_button_connected_20_light = 2131165522;
 			
 			// aapt resource value: 0x7F070153
-			public const int ic_mr_button_connected_21_light = 2131165523;
+			public const int ic_mr_button_connected_21_dark = 2131165523;
 			
 			// aapt resource value: 0x7F070154
-			public const int ic_mr_button_connected_22_dark = 2131165524;
+			public const int ic_mr_button_connected_21_light = 2131165524;
 			
 			// aapt resource value: 0x7F070155
-			public const int ic_mr_button_connected_22_light = 2131165525;
+			public const int ic_mr_button_connected_22_dark = 2131165525;
 			
 			// aapt resource value: 0x7F070156
-			public const int ic_mr_button_connected_23_dark = 2131165526;
+			public const int ic_mr_button_connected_22_light = 2131165526;
 			
 			// aapt resource value: 0x7F070157
-			public const int ic_mr_button_connected_23_light = 2131165527;
+			public const int ic_mr_button_connected_23_dark = 2131165527;
 			
 			// aapt resource value: 0x7F070158
-			public const int ic_mr_button_connected_24_dark = 2131165528;
+			public const int ic_mr_button_connected_23_light = 2131165528;
 			
 			// aapt resource value: 0x7F070159
-			public const int ic_mr_button_connected_24_light = 2131165529;
+			public const int ic_mr_button_connected_24_dark = 2131165529;
 			
 			// aapt resource value: 0x7F07015A
-			public const int ic_mr_button_connected_25_dark = 2131165530;
+			public const int ic_mr_button_connected_24_light = 2131165530;
 			
 			// aapt resource value: 0x7F07015B
-			public const int ic_mr_button_connected_25_light = 2131165531;
+			public const int ic_mr_button_connected_25_dark = 2131165531;
 			
 			// aapt resource value: 0x7F07015C
-			public const int ic_mr_button_connected_26_dark = 2131165532;
+			public const int ic_mr_button_connected_25_light = 2131165532;
 			
 			// aapt resource value: 0x7F07015D
-			public const int ic_mr_button_connected_26_light = 2131165533;
+			public const int ic_mr_button_connected_26_dark = 2131165533;
 			
 			// aapt resource value: 0x7F07015E
-			public const int ic_mr_button_connected_27_dark = 2131165534;
+			public const int ic_mr_button_connected_26_light = 2131165534;
 			
 			// aapt resource value: 0x7F07015F
-			public const int ic_mr_button_connected_27_light = 2131165535;
+			public const int ic_mr_button_connected_27_dark = 2131165535;
 			
 			// aapt resource value: 0x7F070160
-			public const int ic_mr_button_connected_28_dark = 2131165536;
+			public const int ic_mr_button_connected_27_light = 2131165536;
 			
 			// aapt resource value: 0x7F070161
-			public const int ic_mr_button_connected_28_light = 2131165537;
+			public const int ic_mr_button_connected_28_dark = 2131165537;
 			
 			// aapt resource value: 0x7F070162
-			public const int ic_mr_button_connected_29_dark = 2131165538;
+			public const int ic_mr_button_connected_28_light = 2131165538;
 			
 			// aapt resource value: 0x7F070163
-			public const int ic_mr_button_connected_29_light = 2131165539;
+			public const int ic_mr_button_connected_29_dark = 2131165539;
 			
 			// aapt resource value: 0x7F070164
-			public const int ic_mr_button_connected_30_dark = 2131165540;
+			public const int ic_mr_button_connected_29_light = 2131165540;
 			
 			// aapt resource value: 0x7F070165
-			public const int ic_mr_button_connected_30_light = 2131165541;
+			public const int ic_mr_button_connected_30_dark = 2131165541;
 			
 			// aapt resource value: 0x7F070166
-			public const int ic_mr_button_connecting_00_dark = 2131165542;
+			public const int ic_mr_button_connected_30_light = 2131165542;
 			
 			// aapt resource value: 0x7F070167
-			public const int ic_mr_button_connecting_00_light = 2131165543;
+			public const int ic_mr_button_connecting_00_dark = 2131165543;
 			
 			// aapt resource value: 0x7F070168
-			public const int ic_mr_button_connecting_01_dark = 2131165544;
+			public const int ic_mr_button_connecting_00_light = 2131165544;
 			
 			// aapt resource value: 0x7F070169
-			public const int ic_mr_button_connecting_01_light = 2131165545;
+			public const int ic_mr_button_connecting_01_dark = 2131165545;
 			
 			// aapt resource value: 0x7F07016A
-			public const int ic_mr_button_connecting_02_dark = 2131165546;
+			public const int ic_mr_button_connecting_01_light = 2131165546;
 			
 			// aapt resource value: 0x7F07016B
-			public const int ic_mr_button_connecting_02_light = 2131165547;
+			public const int ic_mr_button_connecting_02_dark = 2131165547;
 			
 			// aapt resource value: 0x7F07016C
-			public const int ic_mr_button_connecting_03_dark = 2131165548;
+			public const int ic_mr_button_connecting_02_light = 2131165548;
 			
 			// aapt resource value: 0x7F07016D
-			public const int ic_mr_button_connecting_03_light = 2131165549;
+			public const int ic_mr_button_connecting_03_dark = 2131165549;
 			
 			// aapt resource value: 0x7F07016E
-			public const int ic_mr_button_connecting_04_dark = 2131165550;
+			public const int ic_mr_button_connecting_03_light = 2131165550;
 			
 			// aapt resource value: 0x7F07016F
-			public const int ic_mr_button_connecting_04_light = 2131165551;
+			public const int ic_mr_button_connecting_04_dark = 2131165551;
 			
 			// aapt resource value: 0x7F070170
-			public const int ic_mr_button_connecting_05_dark = 2131165552;
+			public const int ic_mr_button_connecting_04_light = 2131165552;
 			
 			// aapt resource value: 0x7F070171
-			public const int ic_mr_button_connecting_05_light = 2131165553;
+			public const int ic_mr_button_connecting_05_dark = 2131165553;
 			
 			// aapt resource value: 0x7F070172
-			public const int ic_mr_button_connecting_06_dark = 2131165554;
+			public const int ic_mr_button_connecting_05_light = 2131165554;
 			
 			// aapt resource value: 0x7F070173
-			public const int ic_mr_button_connecting_06_light = 2131165555;
+			public const int ic_mr_button_connecting_06_dark = 2131165555;
 			
 			// aapt resource value: 0x7F070174
-			public const int ic_mr_button_connecting_07_dark = 2131165556;
+			public const int ic_mr_button_connecting_06_light = 2131165556;
 			
 			// aapt resource value: 0x7F070175
-			public const int ic_mr_button_connecting_07_light = 2131165557;
+			public const int ic_mr_button_connecting_07_dark = 2131165557;
 			
 			// aapt resource value: 0x7F070176
-			public const int ic_mr_button_connecting_08_dark = 2131165558;
+			public const int ic_mr_button_connecting_07_light = 2131165558;
 			
 			// aapt resource value: 0x7F070177
-			public const int ic_mr_button_connecting_08_light = 2131165559;
+			public const int ic_mr_button_connecting_08_dark = 2131165559;
 			
 			// aapt resource value: 0x7F070178
-			public const int ic_mr_button_connecting_09_dark = 2131165560;
+			public const int ic_mr_button_connecting_08_light = 2131165560;
 			
 			// aapt resource value: 0x7F070179
-			public const int ic_mr_button_connecting_09_light = 2131165561;
+			public const int ic_mr_button_connecting_09_dark = 2131165561;
 			
 			// aapt resource value: 0x7F07017A
-			public const int ic_mr_button_connecting_10_dark = 2131165562;
+			public const int ic_mr_button_connecting_09_light = 2131165562;
 			
 			// aapt resource value: 0x7F07017B
-			public const int ic_mr_button_connecting_10_light = 2131165563;
+			public const int ic_mr_button_connecting_10_dark = 2131165563;
 			
 			// aapt resource value: 0x7F07017C
-			public const int ic_mr_button_connecting_11_dark = 2131165564;
+			public const int ic_mr_button_connecting_10_light = 2131165564;
 			
 			// aapt resource value: 0x7F07017D
-			public const int ic_mr_button_connecting_11_light = 2131165565;
+			public const int ic_mr_button_connecting_11_dark = 2131165565;
 			
 			// aapt resource value: 0x7F07017E
-			public const int ic_mr_button_connecting_12_dark = 2131165566;
+			public const int ic_mr_button_connecting_11_light = 2131165566;
 			
 			// aapt resource value: 0x7F07017F
-			public const int ic_mr_button_connecting_12_light = 2131165567;
+			public const int ic_mr_button_connecting_12_dark = 2131165567;
 			
 			// aapt resource value: 0x7F070180
-			public const int ic_mr_button_connecting_13_dark = 2131165568;
+			public const int ic_mr_button_connecting_12_light = 2131165568;
 			
 			// aapt resource value: 0x7F070181
-			public const int ic_mr_button_connecting_13_light = 2131165569;
+			public const int ic_mr_button_connecting_13_dark = 2131165569;
 			
 			// aapt resource value: 0x7F070182
-			public const int ic_mr_button_connecting_14_dark = 2131165570;
+			public const int ic_mr_button_connecting_13_light = 2131165570;
 			
 			// aapt resource value: 0x7F070183
-			public const int ic_mr_button_connecting_14_light = 2131165571;
+			public const int ic_mr_button_connecting_14_dark = 2131165571;
 			
 			// aapt resource value: 0x7F070184
-			public const int ic_mr_button_connecting_15_dark = 2131165572;
+			public const int ic_mr_button_connecting_14_light = 2131165572;
 			
 			// aapt resource value: 0x7F070185
-			public const int ic_mr_button_connecting_15_light = 2131165573;
+			public const int ic_mr_button_connecting_15_dark = 2131165573;
 			
 			// aapt resource value: 0x7F070186
-			public const int ic_mr_button_connecting_16_dark = 2131165574;
+			public const int ic_mr_button_connecting_15_light = 2131165574;
 			
 			// aapt resource value: 0x7F070187
-			public const int ic_mr_button_connecting_16_light = 2131165575;
+			public const int ic_mr_button_connecting_16_dark = 2131165575;
 			
 			// aapt resource value: 0x7F070188
-			public const int ic_mr_button_connecting_17_dark = 2131165576;
+			public const int ic_mr_button_connecting_16_light = 2131165576;
 			
 			// aapt resource value: 0x7F070189
-			public const int ic_mr_button_connecting_17_light = 2131165577;
+			public const int ic_mr_button_connecting_17_dark = 2131165577;
 			
 			// aapt resource value: 0x7F07018A
-			public const int ic_mr_button_connecting_18_dark = 2131165578;
+			public const int ic_mr_button_connecting_17_light = 2131165578;
 			
 			// aapt resource value: 0x7F07018B
-			public const int ic_mr_button_connecting_18_light = 2131165579;
+			public const int ic_mr_button_connecting_18_dark = 2131165579;
 			
 			// aapt resource value: 0x7F07018C
-			public const int ic_mr_button_connecting_19_dark = 2131165580;
+			public const int ic_mr_button_connecting_18_light = 2131165580;
 			
 			// aapt resource value: 0x7F07018D
-			public const int ic_mr_button_connecting_19_light = 2131165581;
+			public const int ic_mr_button_connecting_19_dark = 2131165581;
 			
 			// aapt resource value: 0x7F07018E
-			public const int ic_mr_button_connecting_20_dark = 2131165582;
+			public const int ic_mr_button_connecting_19_light = 2131165582;
 			
 			// aapt resource value: 0x7F07018F
-			public const int ic_mr_button_connecting_20_light = 2131165583;
+			public const int ic_mr_button_connecting_20_dark = 2131165583;
 			
 			// aapt resource value: 0x7F070190
-			public const int ic_mr_button_connecting_21_dark = 2131165584;
+			public const int ic_mr_button_connecting_20_light = 2131165584;
 			
 			// aapt resource value: 0x7F070191
-			public const int ic_mr_button_connecting_21_light = 2131165585;
+			public const int ic_mr_button_connecting_21_dark = 2131165585;
 			
 			// aapt resource value: 0x7F070192
-			public const int ic_mr_button_connecting_22_dark = 2131165586;
+			public const int ic_mr_button_connecting_21_light = 2131165586;
 			
 			// aapt resource value: 0x7F070193
-			public const int ic_mr_button_connecting_22_light = 2131165587;
+			public const int ic_mr_button_connecting_22_dark = 2131165587;
 			
 			// aapt resource value: 0x7F070194
-			public const int ic_mr_button_connecting_23_dark = 2131165588;
+			public const int ic_mr_button_connecting_22_light = 2131165588;
 			
 			// aapt resource value: 0x7F070195
-			public const int ic_mr_button_connecting_23_light = 2131165589;
+			public const int ic_mr_button_connecting_23_dark = 2131165589;
 			
 			// aapt resource value: 0x7F070196
-			public const int ic_mr_button_connecting_24_dark = 2131165590;
+			public const int ic_mr_button_connecting_23_light = 2131165590;
 			
 			// aapt resource value: 0x7F070197
-			public const int ic_mr_button_connecting_24_light = 2131165591;
+			public const int ic_mr_button_connecting_24_dark = 2131165591;
 			
 			// aapt resource value: 0x7F070198
-			public const int ic_mr_button_connecting_25_dark = 2131165592;
+			public const int ic_mr_button_connecting_24_light = 2131165592;
 			
 			// aapt resource value: 0x7F070199
-			public const int ic_mr_button_connecting_25_light = 2131165593;
+			public const int ic_mr_button_connecting_25_dark = 2131165593;
 			
 			// aapt resource value: 0x7F07019A
-			public const int ic_mr_button_connecting_26_dark = 2131165594;
+			public const int ic_mr_button_connecting_25_light = 2131165594;
 			
 			// aapt resource value: 0x7F07019B
-			public const int ic_mr_button_connecting_26_light = 2131165595;
+			public const int ic_mr_button_connecting_26_dark = 2131165595;
 			
 			// aapt resource value: 0x7F07019C
-			public const int ic_mr_button_connecting_27_dark = 2131165596;
+			public const int ic_mr_button_connecting_26_light = 2131165596;
 			
 			// aapt resource value: 0x7F07019D
-			public const int ic_mr_button_connecting_27_light = 2131165597;
+			public const int ic_mr_button_connecting_27_dark = 2131165597;
 			
 			// aapt resource value: 0x7F07019E
-			public const int ic_mr_button_connecting_28_dark = 2131165598;
+			public const int ic_mr_button_connecting_27_light = 2131165598;
 			
 			// aapt resource value: 0x7F07019F
-			public const int ic_mr_button_connecting_28_light = 2131165599;
+			public const int ic_mr_button_connecting_28_dark = 2131165599;
 			
 			// aapt resource value: 0x7F0701A0
-			public const int ic_mr_button_connecting_29_dark = 2131165600;
+			public const int ic_mr_button_connecting_28_light = 2131165600;
 			
 			// aapt resource value: 0x7F0701A1
-			public const int ic_mr_button_connecting_29_light = 2131165601;
+			public const int ic_mr_button_connecting_29_dark = 2131165601;
 			
 			// aapt resource value: 0x7F0701A2
-			public const int ic_mr_button_connecting_30_dark = 2131165602;
+			public const int ic_mr_button_connecting_29_light = 2131165602;
 			
 			// aapt resource value: 0x7F0701A3
-			public const int ic_mr_button_connecting_30_light = 2131165603;
+			public const int ic_mr_button_connecting_30_dark = 2131165603;
 			
 			// aapt resource value: 0x7F0701A4
-			public const int ic_mr_button_disabled_dark = 2131165604;
+			public const int ic_mr_button_connecting_30_light = 2131165604;
 			
 			// aapt resource value: 0x7F0701A5
-			public const int ic_mr_button_disabled_light = 2131165605;
+			public const int ic_mr_button_disabled_dark = 2131165605;
 			
 			// aapt resource value: 0x7F0701A6
-			public const int ic_mr_button_disconnected_dark = 2131165606;
+			public const int ic_mr_button_disabled_light = 2131165606;
 			
 			// aapt resource value: 0x7F0701A7
-			public const int ic_mr_button_disconnected_light = 2131165607;
+			public const int ic_mr_button_disconnected_dark = 2131165607;
 			
 			// aapt resource value: 0x7F0701A8
-			public const int ic_mr_button_grey = 2131165608;
+			public const int ic_mr_button_disconnected_light = 2131165608;
 			
 			// aapt resource value: 0x7F0701A9
-			public const int ic_mtrl_chip_checked_black = 2131165609;
+			public const int ic_mr_button_grey = 2131165609;
 			
 			// aapt resource value: 0x7F0701AA
-			public const int ic_mtrl_chip_checked_circle = 2131165610;
+			public const int ic_mtrl_chip_checked_black = 2131165610;
 			
 			// aapt resource value: 0x7F0701AB
-			public const int ic_mtrl_chip_close_circle = 2131165611;
+			public const int ic_mtrl_chip_checked_circle = 2131165611;
 			
 			// aapt resource value: 0x7F0701AC
-			public const int ic_vol_type_speaker_dark = 2131165612;
+			public const int ic_mtrl_chip_close_circle = 2131165612;
 			
 			// aapt resource value: 0x7F0701AD
-			public const int ic_vol_type_speaker_group_dark = 2131165613;
+			public const int ic_vol_type_speaker_dark = 2131165613;
 			
 			// aapt resource value: 0x7F0701AE
-			public const int ic_vol_type_speaker_group_light = 2131165614;
+			public const int ic_vol_type_speaker_group_dark = 2131165614;
 			
 			// aapt resource value: 0x7F0701AF
-			public const int ic_vol_type_speaker_light = 2131165615;
+			public const int ic_vol_type_speaker_group_light = 2131165615;
 			
 			// aapt resource value: 0x7F0701B0
-			public const int ic_vol_type_tv_dark = 2131165616;
+			public const int ic_vol_type_speaker_light = 2131165616;
 			
 			// aapt resource value: 0x7F0701B1
-			public const int ic_vol_type_tv_light = 2131165617;
+			public const int ic_vol_type_tv_dark = 2131165617;
 			
 			// aapt resource value: 0x7F0701B2
-			public const int monument_10_1 = 2131165618;
+			public const int ic_vol_type_tv_light = 2131165618;
 			
 			// aapt resource value: 0x7F0701B3
-			public const int monument_10_2 = 2131165619;
+			public const int monument_10_1 = 2131165619;
 			
 			// aapt resource value: 0x7F0701B4
-			public const int monument_10_3 = 2131165620;
+			public const int monument_10_2 = 2131165620;
 			
 			// aapt resource value: 0x7F0701B5
-			public const int monument_11_1 = 2131165621;
+			public const int monument_10_3 = 2131165621;
 			
 			// aapt resource value: 0x7F0701B6
-			public const int monument_11_2 = 2131165622;
+			public const int monument_11_1 = 2131165622;
 			
 			// aapt resource value: 0x7F0701B7
-			public const int monument_12_1 = 2131165623;
+			public const int monument_11_2 = 2131165623;
 			
 			// aapt resource value: 0x7F0701B8
-			public const int monument_12_2 = 2131165624;
+			public const int monument_12_1 = 2131165624;
 			
 			// aapt resource value: 0x7F0701B9
-			public const int monument_12_3 = 2131165625;
+			public const int monument_12_2 = 2131165625;
 			
 			// aapt resource value: 0x7F0701BA
-			public const int monument_13_1 = 2131165626;
+			public const int monument_12_3 = 2131165626;
 			
 			// aapt resource value: 0x7F0701BB
-			public const int monument_13_2 = 2131165627;
+			public const int monument_13_1 = 2131165627;
 			
 			// aapt resource value: 0x7F0701BC
-			public const int monument_13_3 = 2131165628;
+			public const int monument_13_2 = 2131165628;
 			
 			// aapt resource value: 0x7F0701BD
-			public const int monument_14_1 = 2131165629;
+			public const int monument_13_3 = 2131165629;
 			
 			// aapt resource value: 0x7F0701BE
-			public const int monument_15_1 = 2131165630;
+			public const int monument_14_1 = 2131165630;
 			
 			// aapt resource value: 0x7F0701BF
-			public const int monument_15_2 = 2131165631;
+			public const int monument_15_1 = 2131165631;
 			
 			// aapt resource value: 0x7F0701C0
-			public const int monument_16_1 = 2131165632;
+			public const int monument_15_2 = 2131165632;
 			
 			// aapt resource value: 0x7F0701C1
-			public const int monument_16_2 = 2131165633;
+			public const int monument_16_1 = 2131165633;
 			
 			// aapt resource value: 0x7F0701C2
-			public const int monument_16_3 = 2131165634;
+			public const int monument_16_2 = 2131165634;
 			
 			// aapt resource value: 0x7F0701C3
-			public const int monument_17_1 = 2131165635;
+			public const int monument_16_3 = 2131165635;
 			
 			// aapt resource value: 0x7F0701C4
-			public const int monument_17_2 = 2131165636;
+			public const int monument_17_1 = 2131165636;
 			
 			// aapt resource value: 0x7F0701C5
-			public const int monument_17_3 = 2131165637;
+			public const int monument_17_2 = 2131165637;
 			
 			// aapt resource value: 0x7F0701C6
-			public const int monument_18_1 = 2131165638;
+			public const int monument_17_3 = 2131165638;
 			
 			// aapt resource value: 0x7F0701C7
-			public const int monument_19_1 = 2131165639;
+			public const int monument_18_1 = 2131165639;
 			
 			// aapt resource value: 0x7F0701C8
-			public const int monument_19_2 = 2131165640;
+			public const int monument_19_1 = 2131165640;
 			
 			// aapt resource value: 0x7F0701C9
-			public const int monument_1_1 = 2131165641;
+			public const int monument_19_2 = 2131165641;
 			
 			// aapt resource value: 0x7F0701CA
-			public const int monument_1_2 = 2131165642;
+			public const int monument_1_1 = 2131165642;
 			
 			// aapt resource value: 0x7F0701CB
-			public const int monument_1_3 = 2131165643;
+			public const int monument_1_2 = 2131165643;
 			
 			// aapt resource value: 0x7F0701CC
-			public const int monument_2_1 = 2131165644;
+			public const int monument_1_3 = 2131165644;
 			
 			// aapt resource value: 0x7F0701CD
-			public const int monument_2_2 = 2131165645;
+			public const int monument_2_1 = 2131165645;
 			
 			// aapt resource value: 0x7F0701CE
-			public const int monument_2_3 = 2131165646;
+			public const int monument_2_2 = 2131165646;
 			
 			// aapt resource value: 0x7F0701CF
-			public const int monument_3_1 = 2131165647;
+			public const int monument_2_3 = 2131165647;
 			
 			// aapt resource value: 0x7F0701D0
-			public const int monument_3_2 = 2131165648;
+			public const int monument_3_1 = 2131165648;
 			
 			// aapt resource value: 0x7F0701D1
-			public const int monument_4_1 = 2131165649;
+			public const int monument_3_2 = 2131165649;
 			
 			// aapt resource value: 0x7F0701D2
-			public const int monument_4_2 = 2131165650;
+			public const int monument_4_1 = 2131165650;
 			
 			// aapt resource value: 0x7F0701D3
-			public const int monument_4_3 = 2131165651;
+			public const int monument_4_2 = 2131165651;
 			
 			// aapt resource value: 0x7F0701D4
-			public const int monument_5_1 = 2131165652;
+			public const int monument_4_3 = 2131165652;
 			
 			// aapt resource value: 0x7F0701D5
-			public const int monument_5_2 = 2131165653;
+			public const int monument_5_1 = 2131165653;
 			
 			// aapt resource value: 0x7F0701D6
-			public const int monument_5_3 = 2131165654;
+			public const int monument_5_2 = 2131165654;
 			
 			// aapt resource value: 0x7F0701D7
-			public const int monument_6_1 = 2131165655;
+			public const int monument_5_3 = 2131165655;
 			
 			// aapt resource value: 0x7F0701D8
-			public const int monument_6_2 = 2131165656;
+			public const int monument_6_1 = 2131165656;
 			
 			// aapt resource value: 0x7F0701D9
-			public const int monument_6_3 = 2131165657;
+			public const int monument_6_2 = 2131165657;
 			
 			// aapt resource value: 0x7F0701DA
-			public const int monument_7_1 = 2131165658;
+			public const int monument_6_3 = 2131165658;
 			
 			// aapt resource value: 0x7F0701DB
-			public const int monument_7_2 = 2131165659;
+			public const int monument_7_1 = 2131165659;
 			
 			// aapt resource value: 0x7F0701DC
-			public const int monument_8_1 = 2131165660;
+			public const int monument_7_2 = 2131165660;
 			
 			// aapt resource value: 0x7F0701DD
-			public const int monument_8_2 = 2131165661;
+			public const int monument_8_1 = 2131165661;
 			
 			// aapt resource value: 0x7F0701DE
-			public const int monument_9_1 = 2131165662;
+			public const int monument_8_2 = 2131165662;
 			
 			// aapt resource value: 0x7F0701DF
-			public const int monument_9_2 = 2131165663;
+			public const int monument_9_1 = 2131165663;
 			
 			// aapt resource value: 0x7F0701E0
-			public const int monument_9_3 = 2131165664;
+			public const int monument_9_2 = 2131165664;
 			
 			// aapt resource value: 0x7F0701E1
-			public const int monument_logo = 2131165665;
+			public const int monument_9_3 = 2131165665;
 			
 			// aapt resource value: 0x7F0701E2
-			public const int mr_button_connected_dark = 2131165666;
+			public const int monument_logo = 2131165666;
 			
 			// aapt resource value: 0x7F0701E3
-			public const int mr_button_connected_light = 2131165667;
+			public const int mr_button_connected_dark = 2131165667;
 			
 			// aapt resource value: 0x7F0701E4
-			public const int mr_button_connecting_dark = 2131165668;
+			public const int mr_button_connected_light = 2131165668;
 			
 			// aapt resource value: 0x7F0701E5
-			public const int mr_button_connecting_light = 2131165669;
+			public const int mr_button_connecting_dark = 2131165669;
 			
 			// aapt resource value: 0x7F0701E6
-			public const int mr_button_dark = 2131165670;
+			public const int mr_button_connecting_light = 2131165670;
 			
 			// aapt resource value: 0x7F0701E7
-			public const int mr_button_light = 2131165671;
+			public const int mr_button_dark = 2131165671;
 			
 			// aapt resource value: 0x7F0701E8
-			public const int mr_dialog_close_dark = 2131165672;
+			public const int mr_button_light = 2131165672;
 			
 			// aapt resource value: 0x7F0701E9
-			public const int mr_dialog_close_light = 2131165673;
+			public const int mr_dialog_close_dark = 2131165673;
 			
 			// aapt resource value: 0x7F0701EA
-			public const int mr_dialog_material_background_dark = 2131165674;
+			public const int mr_dialog_close_light = 2131165674;
 			
 			// aapt resource value: 0x7F0701EB
-			public const int mr_dialog_material_background_light = 2131165675;
+			public const int mr_dialog_material_background_dark = 2131165675;
 			
 			// aapt resource value: 0x7F0701EC
-			public const int mr_group_collapse = 2131165676;
+			public const int mr_dialog_material_background_light = 2131165676;
 			
 			// aapt resource value: 0x7F0701ED
-			public const int mr_group_expand = 2131165677;
+			public const int mr_group_collapse = 2131165677;
 			
 			// aapt resource value: 0x7F0701EE
-			public const int mr_media_pause_dark = 2131165678;
+			public const int mr_group_expand = 2131165678;
 			
 			// aapt resource value: 0x7F0701EF
-			public const int mr_media_pause_light = 2131165679;
+			public const int mr_media_pause_dark = 2131165679;
 			
 			// aapt resource value: 0x7F0701F0
-			public const int mr_media_play_dark = 2131165680;
+			public const int mr_media_pause_light = 2131165680;
 			
 			// aapt resource value: 0x7F0701F1
-			public const int mr_media_play_light = 2131165681;
+			public const int mr_media_play_dark = 2131165681;
 			
 			// aapt resource value: 0x7F0701F2
-			public const int mr_media_stop_dark = 2131165682;
+			public const int mr_media_play_light = 2131165682;
 			
 			// aapt resource value: 0x7F0701F3
-			public const int mr_media_stop_light = 2131165683;
+			public const int mr_media_stop_dark = 2131165683;
 			
 			// aapt resource value: 0x7F0701F4
-			public const int mr_vol_type_audiotrack_dark = 2131165684;
+			public const int mr_media_stop_light = 2131165684;
 			
 			// aapt resource value: 0x7F0701F5
-			public const int mr_vol_type_audiotrack_light = 2131165685;
+			public const int mr_vol_type_audiotrack_dark = 2131165685;
 			
 			// aapt resource value: 0x7F0701F6
-			public const int mtrl_snackbar_background = 2131165686;
+			public const int mr_vol_type_audiotrack_light = 2131165686;
 			
 			// aapt resource value: 0x7F0701F7
-			public const int mtrl_tabs_default_indicator = 2131165687;
+			public const int mtrl_snackbar_background = 2131165687;
 			
 			// aapt resource value: 0x7F0701F8
-			public const int museum_10_1 = 2131165688;
+			public const int mtrl_tabs_default_indicator = 2131165688;
 			
 			// aapt resource value: 0x7F0701F9
-			public const int museum_10_2 = 2131165689;
+			public const int museum_10_1 = 2131165689;
 			
 			// aapt resource value: 0x7F0701FA
-			public const int museum_11_1 = 2131165690;
+			public const int museum_10_2 = 2131165690;
 			
 			// aapt resource value: 0x7F0701FB
-			public const int museum_11_2 = 2131165691;
+			public const int museum_11_1 = 2131165691;
 			
 			// aapt resource value: 0x7F0701FC
-			public const int museum_12_1 = 2131165692;
+			public const int museum_11_2 = 2131165692;
 			
 			// aapt resource value: 0x7F0701FD
-			public const int museum_12_2 = 2131165693;
+			public const int museum_12_1 = 2131165693;
 			
 			// aapt resource value: 0x7F0701FE
-			public const int museum_12_3 = 2131165694;
+			public const int museum_12_2 = 2131165694;
 			
 			// aapt resource value: 0x7F0701FF
-			public const int museum_13_1 = 2131165695;
+			public const int museum_12_3 = 2131165695;
 			
 			// aapt resource value: 0x7F070200
-			public const int museum_13_2 = 2131165696;
+			public const int museum_13_1 = 2131165696;
 			
 			// aapt resource value: 0x7F070201
-			public const int museum_14_1 = 2131165697;
+			public const int museum_13_2 = 2131165697;
 			
 			// aapt resource value: 0x7F070202
-			public const int museum_14_2 = 2131165698;
+			public const int museum_14_1 = 2131165698;
 			
 			// aapt resource value: 0x7F070203
-			public const int museum_15_1 = 2131165699;
+			public const int museum_14_2 = 2131165699;
 			
 			// aapt resource value: 0x7F070204
-			public const int museum_15_2 = 2131165700;
+			public const int museum_15_1 = 2131165700;
 			
 			// aapt resource value: 0x7F070205
-			public const int museum_1_1 = 2131165701;
+			public const int museum_15_2 = 2131165701;
 			
 			// aapt resource value: 0x7F070206
-			public const int museum_1_2 = 2131165702;
+			public const int museum_1_1 = 2131165702;
 			
 			// aapt resource value: 0x7F070207
-			public const int museum_1_3 = 2131165703;
+			public const int museum_1_2 = 2131165703;
 			
 			// aapt resource value: 0x7F070208
-			public const int museum_2_1 = 2131165704;
+			public const int museum_1_3 = 2131165704;
 			
 			// aapt resource value: 0x7F070209
-			public const int museum_2_2 = 2131165705;
+			public const int museum_2_1 = 2131165705;
 			
 			// aapt resource value: 0x7F07020A
-			public const int museum_2_3 = 2131165706;
+			public const int museum_2_2 = 2131165706;
 			
 			// aapt resource value: 0x7F07020B
-			public const int museum_3_1 = 2131165707;
+			public const int museum_2_3 = 2131165707;
 			
 			// aapt resource value: 0x7F07020C
-			public const int museum_3_2 = 2131165708;
+			public const int museum_3_1 = 2131165708;
 			
 			// aapt resource value: 0x7F07020D
-			public const int museum_3_3 = 2131165709;
+			public const int museum_3_2 = 2131165709;
 			
 			// aapt resource value: 0x7F07020E
-			public const int museum_4_1 = 2131165710;
+			public const int museum_3_3 = 2131165710;
 			
 			// aapt resource value: 0x7F07020F
-			public const int museum_4_2 = 2131165711;
+			public const int museum_4_1 = 2131165711;
 			
 			// aapt resource value: 0x7F070210
-			public const int museum_4_3 = 2131165712;
+			public const int museum_4_2 = 2131165712;
 			
 			// aapt resource value: 0x7F070211
-			public const int museum_5_1 = 2131165713;
+			public const int museum_4_3 = 2131165713;
 			
 			// aapt resource value: 0x7F070212
-			public const int museum_5_2 = 2131165714;
+			public const int museum_5_1 = 2131165714;
 			
 			// aapt resource value: 0x7F070213
-			public const int museum_5_3 = 2131165715;
+			public const int museum_5_2 = 2131165715;
 			
 			// aapt resource value: 0x7F070214
-			public const int museum_6_1 = 2131165716;
+			public const int museum_5_3 = 2131165716;
 			
 			// aapt resource value: 0x7F070215
-			public const int museum_6_2 = 2131165717;
+			public const int museum_6_1 = 2131165717;
 			
 			// aapt resource value: 0x7F070216
-			public const int museum_6_3 = 2131165718;
+			public const int museum_6_2 = 2131165718;
 			
 			// aapt resource value: 0x7F070217
-			public const int museum_7_1 = 2131165719;
+			public const int museum_6_3 = 2131165719;
 			
 			// aapt resource value: 0x7F070218
-			public const int museum_7_2 = 2131165720;
+			public const int museum_7_1 = 2131165720;
 			
 			// aapt resource value: 0x7F070219
-			public const int museum_7_3 = 2131165721;
+			public const int museum_7_2 = 2131165721;
 			
 			// aapt resource value: 0x7F07021A
-			public const int museum_8_1 = 2131165722;
+			public const int museum_7_3 = 2131165722;
 			
 			// aapt resource value: 0x7F07021B
-			public const int museum_8_2 = 2131165723;
+			public const int museum_8_1 = 2131165723;
 			
 			// aapt resource value: 0x7F07021C
-			public const int museum_8_3 = 2131165724;
+			public const int museum_8_2 = 2131165724;
 			
 			// aapt resource value: 0x7F07021D
-			public const int museum_9_1 = 2131165725;
+			public const int museum_8_3 = 2131165725;
 			
 			// aapt resource value: 0x7F07021E
-			public const int museum_9_2 = 2131165726;
+			public const int museum_9_1 = 2131165726;
 			
 			// aapt resource value: 0x7F07021F
-			public const int museum_logo = 2131165727;
+			public const int museum_9_2 = 2131165727;
 			
 			// aapt resource value: 0x7F070220
-			public const int navigation_empty_icon = 2131165728;
+			public const int museum_logo = 2131165728;
 			
 			// aapt resource value: 0x7F070221
-			public const int night_club_1_1 = 2131165729;
+			public const int navigation_empty_icon = 2131165729;
 			
 			// aapt resource value: 0x7F070222
-			public const int night_club_1_2 = 2131165730;
+			public const int Next = 2131165730;
 			
 			// aapt resource value: 0x7F070223
-			public const int night_club_2_1 = 2131165731;
+			public const int night_club_1_1 = 2131165731;
 			
 			// aapt resource value: 0x7F070224
-			public const int night_club_2_2 = 2131165732;
+			public const int night_club_1_2 = 2131165732;
 			
 			// aapt resource value: 0x7F070225
-			public const int night_club_2_3 = 2131165733;
+			public const int night_club_2_1 = 2131165733;
 			
 			// aapt resource value: 0x7F070226
-			public const int night_club_3_1 = 2131165734;
+			public const int night_club_2_2 = 2131165734;
 			
 			// aapt resource value: 0x7F070227
-			public const int night_club_3_2 = 2131165735;
+			public const int night_club_2_3 = 2131165735;
 			
 			// aapt resource value: 0x7F070228
-			public const int night_club_3_3 = 2131165736;
+			public const int night_club_3_1 = 2131165736;
 			
 			// aapt resource value: 0x7F070229
-			public const int night_club_4_1 = 2131165737;
+			public const int night_club_3_2 = 2131165737;
 			
 			// aapt resource value: 0x7F07022A
-			public const int night_club_4_2 = 2131165738;
+			public const int night_club_3_3 = 2131165738;
 			
 			// aapt resource value: 0x7F07022B
-			public const int night_club_4_3 = 2131165739;
+			public const int night_club_4_1 = 2131165739;
 			
 			// aapt resource value: 0x7F07022C
-			public const int night_club_5_1 = 2131165740;
+			public const int night_club_4_2 = 2131165740;
 			
 			// aapt resource value: 0x7F07022D
-			public const int night_club_5_2 = 2131165741;
+			public const int night_club_4_3 = 2131165741;
 			
 			// aapt resource value: 0x7F07022E
-			public const int night_club_5_3 = 2131165742;
+			public const int night_club_5_1 = 2131165742;
 			
 			// aapt resource value: 0x7F07022F
-			public const int night_club_6_1 = 2131165743;
+			public const int night_club_5_2 = 2131165743;
 			
 			// aapt resource value: 0x7F070230
-			public const int night_club_logo = 2131165744;
+			public const int night_club_5_3 = 2131165744;
 			
 			// aapt resource value: 0x7F070231
-			public const int notification_action_background = 2131165745;
+			public const int night_club_6_1 = 2131165745;
 			
 			// aapt resource value: 0x7F070232
-			public const int notification_bg = 2131165746;
+			public const int night_club_logo = 2131165746;
 			
 			// aapt resource value: 0x7F070233
-			public const int notification_bg_low = 2131165747;
+			public const int notification_action_background = 2131165747;
 			
 			// aapt resource value: 0x7F070234
-			public const int notification_bg_low_normal = 2131165748;
+			public const int notification_bg = 2131165748;
 			
 			// aapt resource value: 0x7F070235
-			public const int notification_bg_low_pressed = 2131165749;
+			public const int notification_bg_low = 2131165749;
 			
 			// aapt resource value: 0x7F070236
-			public const int notification_bg_normal = 2131165750;
+			public const int notification_bg_low_normal = 2131165750;
 			
 			// aapt resource value: 0x7F070237
-			public const int notification_bg_normal_pressed = 2131165751;
+			public const int notification_bg_low_pressed = 2131165751;
 			
 			// aapt resource value: 0x7F070238
-			public const int notification_icon_background = 2131165752;
+			public const int notification_bg_normal = 2131165752;
 			
 			// aapt resource value: 0x7F070239
-			public const int notification_template_icon_bg = 2131165753;
+			public const int notification_bg_normal_pressed = 2131165753;
 			
 			// aapt resource value: 0x7F07023A
-			public const int notification_template_icon_low_bg = 2131165754;
+			public const int notification_icon_background = 2131165754;
 			
 			// aapt resource value: 0x7F07023B
-			public const int notification_tile_bg = 2131165755;
+			public const int notification_template_icon_bg = 2131165755;
 			
 			// aapt resource value: 0x7F07023C
-			public const int notify_panel_notification_icon_bg = 2131165756;
+			public const int notification_template_icon_low_bg = 2131165756;
 			
 			// aapt resource value: 0x7F07023D
-			public const int park_1_1 = 2131165757;
+			public const int notification_tile_bg = 2131165757;
 			
 			// aapt resource value: 0x7F07023E
-			public const int park_1_2 = 2131165758;
+			public const int notify_panel_notification_icon_bg = 2131165758;
 			
 			// aapt resource value: 0x7F07023F
-			public const int park_1_3 = 2131165759;
+			public const int park_1_1 = 2131165759;
 			
 			// aapt resource value: 0x7F070240
-			public const int park_2_1 = 2131165760;
+			public const int park_1_2 = 2131165760;
 			
 			// aapt resource value: 0x7F070241
-			public const int park_2_2 = 2131165761;
+			public const int park_1_3 = 2131165761;
 			
 			// aapt resource value: 0x7F070242
-			public const int park_2_3 = 2131165762;
+			public const int park_2_1 = 2131165762;
 			
 			// aapt resource value: 0x7F070243
-			public const int park_3_1 = 2131165763;
+			public const int park_2_2 = 2131165763;
 			
 			// aapt resource value: 0x7F070244
-			public const int park_3_2 = 2131165764;
+			public const int park_2_3 = 2131165764;
 			
 			// aapt resource value: 0x7F070245
-			public const int park_4_1 = 2131165765;
+			public const int park_3_1 = 2131165765;
 			
 			// aapt resource value: 0x7F070246
-			public const int park_4_2 = 2131165766;
+			public const int park_3_2 = 2131165766;
 			
 			// aapt resource value: 0x7F070247
-			public const int park_4_3 = 2131165767;
+			public const int park_4_1 = 2131165767;
 			
 			// aapt resource value: 0x7F070248
-			public const int park_5_1 = 2131165768;
+			public const int park_4_2 = 2131165768;
 			
 			// aapt resource value: 0x7F070249
-			public const int park_5_2 = 2131165769;
+			public const int park_4_3 = 2131165769;
 			
 			// aapt resource value: 0x7F07024A
-			public const int park_6_1 = 2131165770;
+			public const int park_5_1 = 2131165770;
 			
 			// aapt resource value: 0x7F07024B
-			public const int park_6_2 = 2131165771;
+			public const int park_5_2 = 2131165771;
 			
 			// aapt resource value: 0x7F07024C
-			public const int park_7_1 = 2131165772;
+			public const int park_6_1 = 2131165772;
 			
 			// aapt resource value: 0x7F07024D
-			public const int park_7_2 = 2131165773;
+			public const int park_6_2 = 2131165773;
 			
 			// aapt resource value: 0x7F07024E
-			public const int park_logo = 2131165774;
+			public const int park_7_1 = 2131165774;
 			
 			// aapt resource value: 0x7F07024F
-			public const int picture_1_1 = 2131165775;
+			public const int park_7_2 = 2131165775;
 			
 			// aapt resource value: 0x7F070250
-			public const int picture_1_2 = 2131165776;
+			public const int park_logo = 2131165776;
 			
 			// aapt resource value: 0x7F070251
-			public const int picture_1_3 = 2131165777;
+			public const int picture_1_1 = 2131165777;
 			
 			// aapt resource value: 0x7F070252
-			public const int picture_2_1 = 2131165778;
+			public const int picture_1_2 = 2131165778;
 			
 			// aapt resource value: 0x7F070253
-			public const int picture_2_2 = 2131165779;
+			public const int picture_1_3 = 2131165779;
 			
 			// aapt resource value: 0x7F070254
-			public const int picture_3_1 = 2131165780;
+			public const int picture_2_1 = 2131165780;
 			
 			// aapt resource value: 0x7F070255
-			public const int picture_3_2 = 2131165781;
+			public const int picture_2_2 = 2131165781;
 			
 			// aapt resource value: 0x7F070256
-			public const int picture_logo = 2131165782;
+			public const int picture_3_1 = 2131165782;
 			
 			// aapt resource value: 0x7F070257
-			public const int pizza_1_1 = 2131165783;
+			public const int picture_3_2 = 2131165783;
 			
 			// aapt resource value: 0x7F070258
-			public const int pizza_1_2 = 2131165784;
+			public const int picture_logo = 2131165784;
 			
 			// aapt resource value: 0x7F070259
-			public const int pizza_1_3 = 2131165785;
+			public const int pizza_1_1 = 2131165785;
 			
 			// aapt resource value: 0x7F07025A
-			public const int pizza_2_1 = 2131165786;
+			public const int pizza_1_2 = 2131165786;
 			
 			// aapt resource value: 0x7F07025B
-			public const int pizza_2_2 = 2131165787;
+			public const int pizza_1_3 = 2131165787;
 			
 			// aapt resource value: 0x7F07025C
-			public const int pizza_2_3 = 2131165788;
+			public const int pizza_2_1 = 2131165788;
 			
 			// aapt resource value: 0x7F07025D
-			public const int pizza_3_1 = 2131165789;
+			public const int pizza_2_2 = 2131165789;
 			
 			// aapt resource value: 0x7F07025E
-			public const int pizza_3_2 = 2131165790;
+			public const int pizza_2_3 = 2131165790;
 			
 			// aapt resource value: 0x7F07025F
-			public const int pizza_3_3 = 2131165791;
+			public const int pizza_3_1 = 2131165791;
 			
 			// aapt resource value: 0x7F070260
-			public const int pizza_4_1 = 2131165792;
+			public const int pizza_3_2 = 2131165792;
 			
 			// aapt resource value: 0x7F070261
-			public const int pizza_4_2 = 2131165793;
+			public const int pizza_3_3 = 2131165793;
 			
 			// aapt resource value: 0x7F070262
-			public const int pizza_4_3 = 2131165794;
+			public const int pizza_4_1 = 2131165794;
 			
 			// aapt resource value: 0x7F070263
-			public const int pizza_5_1 = 2131165795;
+			public const int pizza_4_2 = 2131165795;
 			
 			// aapt resource value: 0x7F070264
-			public const int pizza_5_2 = 2131165796;
+			public const int pizza_4_3 = 2131165796;
 			
 			// aapt resource value: 0x7F070265
-			public const int pizza_5_3 = 2131165797;
+			public const int pizza_5_1 = 2131165797;
 			
 			// aapt resource value: 0x7F070266
-			public const int pizza_6_1 = 2131165798;
+			public const int pizza_5_2 = 2131165798;
 			
 			// aapt resource value: 0x7F070267
-			public const int pizza_6_2 = 2131165799;
+			public const int pizza_5_3 = 2131165799;
 			
 			// aapt resource value: 0x7F070268
-			public const int pizza_6_3 = 2131165800;
+			public const int pizza_6_1 = 2131165800;
 			
 			// aapt resource value: 0x7F070269
-			public const int pizza_7_1 = 2131165801;
+			public const int pizza_6_2 = 2131165801;
 			
 			// aapt resource value: 0x7F07026A
-			public const int pizza_7_2 = 2131165802;
+			public const int pizza_6_3 = 2131165802;
 			
 			// aapt resource value: 0x7F07026B
-			public const int pizza_7_3 = 2131165803;
+			public const int pizza_7_1 = 2131165803;
 			
 			// aapt resource value: 0x7F07026C
-			public const int pizza_8_1 = 2131165804;
+			public const int pizza_7_2 = 2131165804;
 			
 			// aapt resource value: 0x7F07026D
-			public const int pizza_8_2 = 2131165805;
+			public const int pizza_7_3 = 2131165805;
 			
 			// aapt resource value: 0x7F07026E
-			public const int pizza_8_3 = 2131165806;
+			public const int pizza_8_1 = 2131165806;
 			
 			// aapt resource value: 0x7F07026F
-			public const int pizza_logo = 2131165807;
+			public const int pizza_8_2 = 2131165807;
 			
 			// aapt resource value: 0x7F070270
-			public const int pub_10_1 = 2131165808;
+			public const int pizza_8_3 = 2131165808;
 			
 			// aapt resource value: 0x7F070271
-			public const int pub_10_2 = 2131165809;
+			public const int pizza_logo = 2131165809;
 			
 			// aapt resource value: 0x7F070272
-			public const int pub_10_3 = 2131165810;
+			public const int Prev = 2131165810;
 			
 			// aapt resource value: 0x7F070273
-			public const int pub_11_1 = 2131165811;
+			public const int pub_10_1 = 2131165811;
 			
 			// aapt resource value: 0x7F070274
-			public const int pub_11_2 = 2131165812;
+			public const int pub_10_2 = 2131165812;
 			
 			// aapt resource value: 0x7F070275
-			public const int pub_11_3 = 2131165813;
+			public const int pub_10_3 = 2131165813;
 			
 			// aapt resource value: 0x7F070276
-			public const int pub_12_1 = 2131165814;
+			public const int pub_11_1 = 2131165814;
 			
 			// aapt resource value: 0x7F070277
-			public const int pub_12_2 = 2131165815;
+			public const int pub_11_2 = 2131165815;
 			
 			// aapt resource value: 0x7F070278
-			public const int pub_12_3 = 2131165816;
+			public const int pub_11_3 = 2131165816;
 			
 			// aapt resource value: 0x7F070279
-			public const int pub_13_1 = 2131165817;
+			public const int pub_12_1 = 2131165817;
 			
 			// aapt resource value: 0x7F07027A
-			public const int pub_13_2 = 2131165818;
+			public const int pub_12_2 = 2131165818;
 			
 			// aapt resource value: 0x7F07027B
-			public const int pub_13_3 = 2131165819;
+			public const int pub_12_3 = 2131165819;
 			
 			// aapt resource value: 0x7F07027C
-			public const int pub_1_1 = 2131165820;
+			public const int pub_13_1 = 2131165820;
 			
 			// aapt resource value: 0x7F07027D
-			public const int pub_1_2 = 2131165821;
+			public const int pub_13_2 = 2131165821;
 			
 			// aapt resource value: 0x7F07027E
-			public const int pub_1_3 = 2131165822;
+			public const int pub_13_3 = 2131165822;
 			
 			// aapt resource value: 0x7F07027F
-			public const int pub_2_1 = 2131165823;
+			public const int pub_1_1 = 2131165823;
 			
 			// aapt resource value: 0x7F070280
-			public const int pub_2_2 = 2131165824;
+			public const int pub_1_2 = 2131165824;
 			
 			// aapt resource value: 0x7F070281
-			public const int pub_2_3 = 2131165825;
+			public const int pub_1_3 = 2131165825;
 			
 			// aapt resource value: 0x7F070282
-			public const int pub_3_1 = 2131165826;
+			public const int pub_2_1 = 2131165826;
 			
 			// aapt resource value: 0x7F070283
-			public const int pub_3_2 = 2131165827;
+			public const int pub_2_2 = 2131165827;
 			
 			// aapt resource value: 0x7F070284
-			public const int pub_3_3 = 2131165828;
+			public const int pub_2_3 = 2131165828;
 			
 			// aapt resource value: 0x7F070285
-			public const int pub_4_1 = 2131165829;
+			public const int pub_3_1 = 2131165829;
 			
 			// aapt resource value: 0x7F070286
-			public const int pub_4_2 = 2131165830;
+			public const int pub_3_2 = 2131165830;
 			
 			// aapt resource value: 0x7F070287
-			public const int pub_4_3 = 2131165831;
+			public const int pub_3_3 = 2131165831;
 			
 			// aapt resource value: 0x7F070288
-			public const int pub_5_1 = 2131165832;
+			public const int pub_4_1 = 2131165832;
 			
 			// aapt resource value: 0x7F070289
-			public const int pub_5_2 = 2131165833;
+			public const int pub_4_2 = 2131165833;
 			
 			// aapt resource value: 0x7F07028A
-			public const int pub_5_3 = 2131165834;
+			public const int pub_4_3 = 2131165834;
 			
 			// aapt resource value: 0x7F07028B
-			public const int pub_6_1 = 2131165835;
+			public const int pub_5_1 = 2131165835;
 			
 			// aapt resource value: 0x7F07028C
-			public const int pub_6_2 = 2131165836;
+			public const int pub_5_2 = 2131165836;
 			
 			// aapt resource value: 0x7F07028D
-			public const int pub_6_3 = 2131165837;
+			public const int pub_5_3 = 2131165837;
 			
 			// aapt resource value: 0x7F07028E
-			public const int pub_7_1 = 2131165838;
+			public const int pub_6_1 = 2131165838;
 			
 			// aapt resource value: 0x7F07028F
-			public const int pub_7_2 = 2131165839;
+			public const int pub_6_2 = 2131165839;
 			
 			// aapt resource value: 0x7F070290
-			public const int pub_8_1 = 2131165840;
+			public const int pub_6_3 = 2131165840;
 			
 			// aapt resource value: 0x7F070291
-			public const int pub_8_2 = 2131165841;
+			public const int pub_7_1 = 2131165841;
 			
 			// aapt resource value: 0x7F070292
-			public const int pub_8_3 = 2131165842;
+			public const int pub_7_2 = 2131165842;
 			
 			// aapt resource value: 0x7F070293
-			public const int pub_9_1 = 2131165843;
+			public const int pub_8_1 = 2131165843;
 			
 			// aapt resource value: 0x7F070294
-			public const int pub_9_2 = 2131165844;
+			public const int pub_8_2 = 2131165844;
 			
 			// aapt resource value: 0x7F070295
-			public const int pub_9_3 = 2131165845;
+			public const int pub_8_3 = 2131165845;
 			
 			// aapt resource value: 0x7F070296
-			public const int pub_logo = 2131165846;
+			public const int pub_9_1 = 2131165846;
 			
 			// aapt resource value: 0x7F070297
-			public const int restaurant_10_1 = 2131165847;
+			public const int pub_9_2 = 2131165847;
 			
 			// aapt resource value: 0x7F070298
-			public const int restaurant_10_2 = 2131165848;
+			public const int pub_9_3 = 2131165848;
 			
 			// aapt resource value: 0x7F070299
-			public const int restaurant_10_3 = 2131165849;
+			public const int pub_logo = 2131165849;
 			
 			// aapt resource value: 0x7F07029A
-			public const int restaurant_11_1 = 2131165850;
+			public const int restaurant_10_1 = 2131165850;
 			
 			// aapt resource value: 0x7F07029B
-			public const int restaurant_11_2 = 2131165851;
+			public const int restaurant_10_2 = 2131165851;
 			
 			// aapt resource value: 0x7F07029C
-			public const int restaurant_11_3 = 2131165852;
+			public const int restaurant_10_3 = 2131165852;
 			
 			// aapt resource value: 0x7F07029D
-			public const int restaurant_12_1 = 2131165853;
+			public const int restaurant_11_1 = 2131165853;
 			
 			// aapt resource value: 0x7F07029E
-			public const int restaurant_12_2 = 2131165854;
+			public const int restaurant_11_2 = 2131165854;
 			
 			// aapt resource value: 0x7F07029F
-			public const int restaurant_12_3 = 2131165855;
+			public const int restaurant_11_3 = 2131165855;
 			
 			// aapt resource value: 0x7F0702A0
-			public const int restaurant_13_1 = 2131165856;
+			public const int restaurant_12_1 = 2131165856;
 			
 			// aapt resource value: 0x7F0702A1
-			public const int restaurant_13_2 = 2131165857;
+			public const int restaurant_12_2 = 2131165857;
 			
 			// aapt resource value: 0x7F0702A2
-			public const int restaurant_13_3 = 2131165858;
+			public const int restaurant_12_3 = 2131165858;
 			
 			// aapt resource value: 0x7F0702A3
-			public const int restaurant_14_1 = 2131165859;
+			public const int restaurant_13_1 = 2131165859;
 			
 			// aapt resource value: 0x7F0702A4
-			public const int restaurant_14_2 = 2131165860;
+			public const int restaurant_13_2 = 2131165860;
 			
 			// aapt resource value: 0x7F0702A5
-			public const int restaurant_14_3 = 2131165861;
+			public const int restaurant_13_3 = 2131165861;
 			
 			// aapt resource value: 0x7F0702A6
-			public const int restaurant_15_1 = 2131165862;
+			public const int restaurant_14_1 = 2131165862;
 			
 			// aapt resource value: 0x7F0702A7
-			public const int restaurant_15_2 = 2131165863;
+			public const int restaurant_14_2 = 2131165863;
 			
 			// aapt resource value: 0x7F0702A8
-			public const int restaurant_15_3 = 2131165864;
+			public const int restaurant_14_3 = 2131165864;
 			
 			// aapt resource value: 0x7F0702A9
-			public const int restaurant_16_1 = 2131165865;
+			public const int restaurant_15_1 = 2131165865;
 			
 			// aapt resource value: 0x7F0702AA
-			public const int restaurant_16_2 = 2131165866;
+			public const int restaurant_15_2 = 2131165866;
 			
 			// aapt resource value: 0x7F0702AB
-			public const int restaurant_16_3 = 2131165867;
+			public const int restaurant_15_3 = 2131165867;
 			
 			// aapt resource value: 0x7F0702AC
-			public const int restaurant_17_1 = 2131165868;
+			public const int restaurant_16_1 = 2131165868;
 			
 			// aapt resource value: 0x7F0702AD
-			public const int restaurant_17_2 = 2131165869;
+			public const int restaurant_16_2 = 2131165869;
 			
 			// aapt resource value: 0x7F0702AE
-			public const int restaurant_17_3 = 2131165870;
+			public const int restaurant_16_3 = 2131165870;
 			
 			// aapt resource value: 0x7F0702AF
-			public const int restaurant_18_1 = 2131165871;
+			public const int restaurant_17_1 = 2131165871;
 			
 			// aapt resource value: 0x7F0702B0
-			public const int restaurant_18_2 = 2131165872;
+			public const int restaurant_17_2 = 2131165872;
 			
 			// aapt resource value: 0x7F0702B1
-			public const int restaurant_18_3 = 2131165873;
+			public const int restaurant_17_3 = 2131165873;
 			
 			// aapt resource value: 0x7F0702B2
-			public const int restaurant_19_1 = 2131165874;
+			public const int restaurant_18_1 = 2131165874;
 			
 			// aapt resource value: 0x7F0702B3
-			public const int restaurant_19_2 = 2131165875;
+			public const int restaurant_18_2 = 2131165875;
 			
 			// aapt resource value: 0x7F0702B4
-			public const int restaurant_19_3 = 2131165876;
+			public const int restaurant_18_3 = 2131165876;
 			
 			// aapt resource value: 0x7F0702B5
-			public const int restaurant_1_1 = 2131165877;
+			public const int restaurant_19_1 = 2131165877;
 			
 			// aapt resource value: 0x7F0702B6
-			public const int restaurant_1_2 = 2131165878;
+			public const int restaurant_19_2 = 2131165878;
 			
 			// aapt resource value: 0x7F0702B7
-			public const int restaurant_1_3 = 2131165879;
+			public const int restaurant_19_3 = 2131165879;
 			
 			// aapt resource value: 0x7F0702B8
-			public const int restaurant_20_1 = 2131165880;
+			public const int restaurant_1_1 = 2131165880;
 			
 			// aapt resource value: 0x7F0702B9
-			public const int restaurant_20_2 = 2131165881;
+			public const int restaurant_1_2 = 2131165881;
 			
 			// aapt resource value: 0x7F0702BA
-			public const int restaurant_20_3 = 2131165882;
+			public const int restaurant_1_3 = 2131165882;
 			
 			// aapt resource value: 0x7F0702BB
-			public const int restaurant_21_1 = 2131165883;
+			public const int restaurant_20_1 = 2131165883;
 			
 			// aapt resource value: 0x7F0702BC
-			public const int restaurant_21_2 = 2131165884;
+			public const int restaurant_20_2 = 2131165884;
 			
 			// aapt resource value: 0x7F0702BD
-			public const int restaurant_21_3 = 2131165885;
+			public const int restaurant_20_3 = 2131165885;
 			
 			// aapt resource value: 0x7F0702BE
-			public const int restaurant_22_1 = 2131165886;
+			public const int restaurant_21_1 = 2131165886;
 			
 			// aapt resource value: 0x7F0702BF
-			public const int restaurant_22_2 = 2131165887;
+			public const int restaurant_21_2 = 2131165887;
 			
 			// aapt resource value: 0x7F0702C0
-			public const int restaurant_22_3 = 2131165888;
+			public const int restaurant_21_3 = 2131165888;
 			
 			// aapt resource value: 0x7F0702C1
-			public const int restaurant_23_1 = 2131165889;
+			public const int restaurant_22_1 = 2131165889;
 			
 			// aapt resource value: 0x7F0702C2
-			public const int restaurant_23_2 = 2131165890;
+			public const int restaurant_22_2 = 2131165890;
 			
 			// aapt resource value: 0x7F0702C3
-			public const int restaurant_23_3 = 2131165891;
+			public const int restaurant_22_3 = 2131165891;
 			
 			// aapt resource value: 0x7F0702C4
-			public const int restaurant_24_1 = 2131165892;
+			public const int restaurant_23_1 = 2131165892;
 			
 			// aapt resource value: 0x7F0702C5
-			public const int restaurant_24_2 = 2131165893;
+			public const int restaurant_23_2 = 2131165893;
 			
 			// aapt resource value: 0x7F0702C6
-			public const int restaurant_24_3 = 2131165894;
+			public const int restaurant_23_3 = 2131165894;
 			
 			// aapt resource value: 0x7F0702C7
-			public const int restaurant_25_1 = 2131165895;
+			public const int restaurant_24_1 = 2131165895;
 			
 			// aapt resource value: 0x7F0702C8
-			public const int restaurant_25_2 = 2131165896;
+			public const int restaurant_24_2 = 2131165896;
 			
 			// aapt resource value: 0x7F0702C9
-			public const int restaurant_25_3 = 2131165897;
+			public const int restaurant_24_3 = 2131165897;
 			
 			// aapt resource value: 0x7F0702CA
-			public const int restaurant_26_1 = 2131165898;
+			public const int restaurant_25_1 = 2131165898;
 			
 			// aapt resource value: 0x7F0702CB
-			public const int restaurant_26_2 = 2131165899;
+			public const int restaurant_25_2 = 2131165899;
 			
 			// aapt resource value: 0x7F0702CC
-			public const int restaurant_26_3 = 2131165900;
+			public const int restaurant_25_3 = 2131165900;
 			
 			// aapt resource value: 0x7F0702CD
-			public const int restaurant_27_1 = 2131165901;
+			public const int restaurant_26_1 = 2131165901;
 			
 			// aapt resource value: 0x7F0702CE
-			public const int restaurant_27_2 = 2131165902;
+			public const int restaurant_26_2 = 2131165902;
 			
 			// aapt resource value: 0x7F0702CF
-			public const int restaurant_27_3 = 2131165903;
+			public const int restaurant_26_3 = 2131165903;
 			
 			// aapt resource value: 0x7F0702D0
-			public const int restaurant_28_1 = 2131165904;
+			public const int restaurant_27_1 = 2131165904;
 			
 			// aapt resource value: 0x7F0702D1
-			public const int restaurant_28_2 = 2131165905;
+			public const int restaurant_27_2 = 2131165905;
 			
 			// aapt resource value: 0x7F0702D2
-			public const int restaurant_28_3 = 2131165906;
+			public const int restaurant_27_3 = 2131165906;
 			
 			// aapt resource value: 0x7F0702D3
-			public const int restaurant_29_1 = 2131165907;
+			public const int restaurant_28_1 = 2131165907;
 			
 			// aapt resource value: 0x7F0702D4
-			public const int restaurant_2_1 = 2131165908;
+			public const int restaurant_28_2 = 2131165908;
 			
 			// aapt resource value: 0x7F0702D5
-			public const int restaurant_2_2 = 2131165909;
+			public const int restaurant_28_3 = 2131165909;
 			
 			// aapt resource value: 0x7F0702D6
-			public const int restaurant_2_3 = 2131165910;
+			public const int restaurant_29_1 = 2131165910;
 			
 			// aapt resource value: 0x7F0702D7
-			public const int restaurant_30_1 = 2131165911;
+			public const int restaurant_2_1 = 2131165911;
 			
 			// aapt resource value: 0x7F0702D8
-			public const int restaurant_30_2 = 2131165912;
+			public const int restaurant_2_2 = 2131165912;
 			
 			// aapt resource value: 0x7F0702D9
-			public const int restaurant_30_3 = 2131165913;
+			public const int restaurant_2_3 = 2131165913;
 			
 			// aapt resource value: 0x7F0702DA
-			public const int restaurant_31_1 = 2131165914;
+			public const int restaurant_30_1 = 2131165914;
 			
 			// aapt resource value: 0x7F0702DB
-			public const int restaurant_31_2 = 2131165915;
+			public const int restaurant_30_2 = 2131165915;
 			
 			// aapt resource value: 0x7F0702DC
-			public const int restaurant_31_3 = 2131165916;
+			public const int restaurant_30_3 = 2131165916;
 			
 			// aapt resource value: 0x7F0702DD
-			public const int restaurant_32_1 = 2131165917;
+			public const int restaurant_31_1 = 2131165917;
 			
 			// aapt resource value: 0x7F0702DE
-			public const int restaurant_32_2 = 2131165918;
+			public const int restaurant_31_2 = 2131165918;
 			
 			// aapt resource value: 0x7F0702DF
-			public const int restaurant_32_3 = 2131165919;
+			public const int restaurant_31_3 = 2131165919;
 			
 			// aapt resource value: 0x7F0702E0
-			public const int restaurant_33_1 = 2131165920;
+			public const int restaurant_32_1 = 2131165920;
 			
 			// aapt resource value: 0x7F0702E1
-			public const int restaurant_33_2 = 2131165921;
+			public const int restaurant_32_2 = 2131165921;
 			
 			// aapt resource value: 0x7F0702E2
-			public const int restaurant_33_3 = 2131165922;
+			public const int restaurant_32_3 = 2131165922;
 			
 			// aapt resource value: 0x7F0702E3
-			public const int restaurant_34_1 = 2131165923;
+			public const int restaurant_33_1 = 2131165923;
 			
 			// aapt resource value: 0x7F0702E4
-			public const int restaurant_34_2 = 2131165924;
+			public const int restaurant_33_2 = 2131165924;
 			
 			// aapt resource value: 0x7F0702E5
-			public const int restaurant_34_3 = 2131165925;
+			public const int restaurant_33_3 = 2131165925;
 			
 			// aapt resource value: 0x7F0702E6
-			public const int restaurant_35_1 = 2131165926;
+			public const int restaurant_34_1 = 2131165926;
 			
 			// aapt resource value: 0x7F0702E7
-			public const int restaurant_35_2 = 2131165927;
+			public const int restaurant_34_2 = 2131165927;
 			
 			// aapt resource value: 0x7F0702E8
-			public const int restaurant_35_3 = 2131165928;
+			public const int restaurant_34_3 = 2131165928;
 			
 			// aapt resource value: 0x7F0702E9
-			public const int restaurant_36_1 = 2131165929;
+			public const int restaurant_35_1 = 2131165929;
 			
 			// aapt resource value: 0x7F0702EA
-			public const int restaurant_36_2 = 2131165930;
+			public const int restaurant_35_2 = 2131165930;
 			
 			// aapt resource value: 0x7F0702EB
-			public const int restaurant_36_3 = 2131165931;
+			public const int restaurant_35_3 = 2131165931;
 			
 			// aapt resource value: 0x7F0702EC
-			public const int restaurant_37_1 = 2131165932;
+			public const int restaurant_36_1 = 2131165932;
 			
 			// aapt resource value: 0x7F0702ED
-			public const int restaurant_37_2 = 2131165933;
+			public const int restaurant_36_2 = 2131165933;
 			
 			// aapt resource value: 0x7F0702EE
-			public const int restaurant_38_1 = 2131165934;
+			public const int restaurant_36_3 = 2131165934;
 			
 			// aapt resource value: 0x7F0702EF
-			public const int restaurant_38_2 = 2131165935;
+			public const int restaurant_37_1 = 2131165935;
 			
 			// aapt resource value: 0x7F0702F0
-			public const int restaurant_38_3 = 2131165936;
+			public const int restaurant_37_2 = 2131165936;
 			
 			// aapt resource value: 0x7F0702F1
-			public const int restaurant_39_1 = 2131165937;
+			public const int restaurant_38_1 = 2131165937;
 			
 			// aapt resource value: 0x7F0702F2
-			public const int restaurant_39_2 = 2131165938;
+			public const int restaurant_38_2 = 2131165938;
 			
 			// aapt resource value: 0x7F0702F3
-			public const int restaurant_39_3 = 2131165939;
+			public const int restaurant_38_3 = 2131165939;
 			
 			// aapt resource value: 0x7F0702F4
-			public const int restaurant_3_1 = 2131165940;
+			public const int restaurant_39_1 = 2131165940;
 			
 			// aapt resource value: 0x7F0702F5
-			public const int restaurant_3_2 = 2131165941;
+			public const int restaurant_39_2 = 2131165941;
 			
 			// aapt resource value: 0x7F0702F6
-			public const int restaurant_3_3 = 2131165942;
+			public const int restaurant_39_3 = 2131165942;
 			
 			// aapt resource value: 0x7F0702F7
-			public const int restaurant_40_1 = 2131165943;
+			public const int restaurant_3_1 = 2131165943;
 			
 			// aapt resource value: 0x7F0702F8
-			public const int restaurant_40_2 = 2131165944;
+			public const int restaurant_3_2 = 2131165944;
 			
 			// aapt resource value: 0x7F0702F9
-			public const int restaurant_40_3 = 2131165945;
+			public const int restaurant_3_3 = 2131165945;
 			
 			// aapt resource value: 0x7F0702FA
-			public const int restaurant_41_1 = 2131165946;
+			public const int restaurant_40_1 = 2131165946;
 			
 			// aapt resource value: 0x7F0702FB
-			public const int restaurant_41_2 = 2131165947;
+			public const int restaurant_40_2 = 2131165947;
 			
 			// aapt resource value: 0x7F0702FC
-			public const int restaurant_41_3 = 2131165948;
+			public const int restaurant_40_3 = 2131165948;
 			
 			// aapt resource value: 0x7F0702FD
-			public const int restaurant_42_1 = 2131165949;
+			public const int restaurant_41_1 = 2131165949;
 			
 			// aapt resource value: 0x7F0702FE
-			public const int restaurant_42_2 = 2131165950;
+			public const int restaurant_41_2 = 2131165950;
 			
 			// aapt resource value: 0x7F0702FF
-			public const int restaurant_42_3 = 2131165951;
+			public const int restaurant_41_3 = 2131165951;
 			
 			// aapt resource value: 0x7F070300
-			public const int restaurant_43_1 = 2131165952;
+			public const int restaurant_42_1 = 2131165952;
 			
 			// aapt resource value: 0x7F070301
-			public const int restaurant_43_2 = 2131165953;
+			public const int restaurant_42_2 = 2131165953;
 			
 			// aapt resource value: 0x7F070302
-			public const int restaurant_43_3 = 2131165954;
+			public const int restaurant_42_3 = 2131165954;
 			
 			// aapt resource value: 0x7F070303
-			public const int restaurant_44_1 = 2131165955;
+			public const int restaurant_43_1 = 2131165955;
 			
 			// aapt resource value: 0x7F070304
-			public const int restaurant_44_2 = 2131165956;
+			public const int restaurant_43_2 = 2131165956;
 			
 			// aapt resource value: 0x7F070305
-			public const int restaurant_44_3 = 2131165957;
+			public const int restaurant_43_3 = 2131165957;
 			
 			// aapt resource value: 0x7F070306
-			public const int restaurant_45_1 = 2131165958;
+			public const int restaurant_44_1 = 2131165958;
 			
 			// aapt resource value: 0x7F070307
-			public const int restaurant_45_2 = 2131165959;
+			public const int restaurant_44_2 = 2131165959;
 			
 			// aapt resource value: 0x7F070308
-			public const int restaurant_45_3 = 2131165960;
+			public const int restaurant_44_3 = 2131165960;
 			
 			// aapt resource value: 0x7F070309
-			public const int restaurant_46_1 = 2131165961;
+			public const int restaurant_45_1 = 2131165961;
 			
 			// aapt resource value: 0x7F07030A
-			public const int restaurant_46_2 = 2131165962;
+			public const int restaurant_45_2 = 2131165962;
 			
 			// aapt resource value: 0x7F07030B
-			public const int restaurant_46_3 = 2131165963;
+			public const int restaurant_45_3 = 2131165963;
 			
 			// aapt resource value: 0x7F07030C
-			public const int restaurant_47_1 = 2131165964;
+			public const int restaurant_46_1 = 2131165964;
 			
 			// aapt resource value: 0x7F07030D
-			public const int restaurant_47_2 = 2131165965;
+			public const int restaurant_46_2 = 2131165965;
 			
 			// aapt resource value: 0x7F07030E
-			public const int restaurant_47_3 = 2131165966;
+			public const int restaurant_46_3 = 2131165966;
 			
 			// aapt resource value: 0x7F07030F
-			public const int restaurant_48_1 = 2131165967;
+			public const int restaurant_47_1 = 2131165967;
 			
 			// aapt resource value: 0x7F070310
-			public const int restaurant_48_2 = 2131165968;
+			public const int restaurant_47_2 = 2131165968;
 			
 			// aapt resource value: 0x7F070311
-			public const int restaurant_48_3 = 2131165969;
+			public const int restaurant_47_3 = 2131165969;
 			
 			// aapt resource value: 0x7F070312
-			public const int restaurant_49_1 = 2131165970;
+			public const int restaurant_48_1 = 2131165970;
 			
 			// aapt resource value: 0x7F070313
-			public const int restaurant_49_2 = 2131165971;
+			public const int restaurant_48_2 = 2131165971;
 			
 			// aapt resource value: 0x7F070314
-			public const int restaurant_49_3 = 2131165972;
+			public const int restaurant_48_3 = 2131165972;
 			
 			// aapt resource value: 0x7F070315
-			public const int restaurant_4_1 = 2131165973;
+			public const int restaurant_49_1 = 2131165973;
 			
 			// aapt resource value: 0x7F070316
-			public const int restaurant_4_2 = 2131165974;
+			public const int restaurant_49_2 = 2131165974;
 			
 			// aapt resource value: 0x7F070317
-			public const int restaurant_4_3 = 2131165975;
+			public const int restaurant_49_3 = 2131165975;
 			
 			// aapt resource value: 0x7F070318
-			public const int restaurant_50_1 = 2131165976;
+			public const int restaurant_4_1 = 2131165976;
 			
 			// aapt resource value: 0x7F070319
-			public const int restaurant_50_2 = 2131165977;
+			public const int restaurant_4_2 = 2131165977;
 			
 			// aapt resource value: 0x7F07031A
-			public const int restaurant_51_1 = 2131165978;
+			public const int restaurant_4_3 = 2131165978;
 			
 			// aapt resource value: 0x7F07031B
-			public const int restaurant_51_2 = 2131165979;
+			public const int restaurant_50_1 = 2131165979;
 			
 			// aapt resource value: 0x7F07031C
-			public const int restaurant_52_1 = 2131165980;
+			public const int restaurant_50_2 = 2131165980;
 			
 			// aapt resource value: 0x7F07031D
-			public const int restaurant_52_2 = 2131165981;
+			public const int restaurant_51_1 = 2131165981;
 			
 			// aapt resource value: 0x7F07031E
-			public const int restaurant_53_1 = 2131165982;
+			public const int restaurant_51_2 = 2131165982;
 			
 			// aapt resource value: 0x7F07031F
-			public const int restaurant_53_2 = 2131165983;
+			public const int restaurant_52_1 = 2131165983;
 			
 			// aapt resource value: 0x7F070320
-			public const int restaurant_53_3 = 2131165984;
+			public const int restaurant_52_2 = 2131165984;
 			
 			// aapt resource value: 0x7F070321
-			public const int restaurant_54_1 = 2131165985;
+			public const int restaurant_53_1 = 2131165985;
 			
 			// aapt resource value: 0x7F070322
-			public const int restaurant_54_2 = 2131165986;
+			public const int restaurant_53_2 = 2131165986;
 			
 			// aapt resource value: 0x7F070323
-			public const int restaurant_54_3 = 2131165987;
+			public const int restaurant_53_3 = 2131165987;
 			
 			// aapt resource value: 0x7F070324
-			public const int restaurant_55_1 = 2131165988;
+			public const int restaurant_54_1 = 2131165988;
 			
 			// aapt resource value: 0x7F070325
-			public const int restaurant_55_2 = 2131165989;
+			public const int restaurant_54_2 = 2131165989;
 			
 			// aapt resource value: 0x7F070326
-			public const int restaurant_55_3 = 2131165990;
+			public const int restaurant_54_3 = 2131165990;
 			
 			// aapt resource value: 0x7F070327
-			public const int restaurant_56_1 = 2131165991;
+			public const int restaurant_55_1 = 2131165991;
 			
 			// aapt resource value: 0x7F070328
-			public const int restaurant_56_2 = 2131165992;
+			public const int restaurant_55_2 = 2131165992;
 			
 			// aapt resource value: 0x7F070329
-			public const int restaurant_56_3 = 2131165993;
+			public const int restaurant_55_3 = 2131165993;
 			
 			// aapt resource value: 0x7F07032A
-			public const int restaurant_57_1 = 2131165994;
+			public const int restaurant_56_1 = 2131165994;
 			
 			// aapt resource value: 0x7F07032B
-			public const int restaurant_57_2 = 2131165995;
+			public const int restaurant_56_2 = 2131165995;
 			
 			// aapt resource value: 0x7F07032C
-			public const int restaurant_57_3 = 2131165996;
+			public const int restaurant_56_3 = 2131165996;
 			
 			// aapt resource value: 0x7F07032D
-			public const int restaurant_58_1 = 2131165997;
+			public const int restaurant_57_1 = 2131165997;
 			
 			// aapt resource value: 0x7F07032E
-			public const int restaurant_58_2 = 2131165998;
+			public const int restaurant_57_2 = 2131165998;
 			
 			// aapt resource value: 0x7F07032F
-			public const int restaurant_58_3 = 2131165999;
+			public const int restaurant_57_3 = 2131165999;
 			
 			// aapt resource value: 0x7F070330
-			public const int restaurant_59_1 = 2131166000;
+			public const int restaurant_58_1 = 2131166000;
 			
 			// aapt resource value: 0x7F070331
-			public const int restaurant_59_2 = 2131166001;
+			public const int restaurant_58_2 = 2131166001;
 			
 			// aapt resource value: 0x7F070332
-			public const int restaurant_59_3 = 2131166002;
+			public const int restaurant_58_3 = 2131166002;
 			
 			// aapt resource value: 0x7F070333
-			public const int restaurant_5_1 = 2131166003;
+			public const int restaurant_59_1 = 2131166003;
 			
 			// aapt resource value: 0x7F070334
-			public const int restaurant_5_2 = 2131166004;
+			public const int restaurant_59_2 = 2131166004;
 			
 			// aapt resource value: 0x7F070335
-			public const int restaurant_5_3 = 2131166005;
+			public const int restaurant_59_3 = 2131166005;
 			
 			// aapt resource value: 0x7F070336
-			public const int restaurant_60_1 = 2131166006;
+			public const int restaurant_5_1 = 2131166006;
 			
 			// aapt resource value: 0x7F070337
-			public const int restaurant_60_2 = 2131166007;
+			public const int restaurant_5_2 = 2131166007;
 			
 			// aapt resource value: 0x7F070338
-			public const int restaurant_60_3 = 2131166008;
+			public const int restaurant_5_3 = 2131166008;
 			
 			// aapt resource value: 0x7F070339
-			public const int restaurant_61_1 = 2131166009;
+			public const int restaurant_60_1 = 2131166009;
 			
 			// aapt resource value: 0x7F07033A
-			public const int restaurant_61_2 = 2131166010;
+			public const int restaurant_60_2 = 2131166010;
 			
 			// aapt resource value: 0x7F07033B
-			public const int restaurant_61_3 = 2131166011;
+			public const int restaurant_60_3 = 2131166011;
 			
 			// aapt resource value: 0x7F07033C
-			public const int restaurant_62_1 = 2131166012;
+			public const int restaurant_61_1 = 2131166012;
 			
 			// aapt resource value: 0x7F07033D
-			public const int restaurant_62_2 = 2131166013;
+			public const int restaurant_61_2 = 2131166013;
 			
 			// aapt resource value: 0x7F07033E
-			public const int restaurant_62_3 = 2131166014;
+			public const int restaurant_61_3 = 2131166014;
 			
 			// aapt resource value: 0x7F07033F
-			public const int restaurant_63_1 = 2131166015;
+			public const int restaurant_62_1 = 2131166015;
 			
 			// aapt resource value: 0x7F070340
-			public const int restaurant_63_2 = 2131166016;
+			public const int restaurant_62_2 = 2131166016;
 			
 			// aapt resource value: 0x7F070341
-			public const int restaurant_63_3 = 2131166017;
+			public const int restaurant_62_3 = 2131166017;
 			
 			// aapt resource value: 0x7F070342
-			public const int restaurant_64_1 = 2131166018;
+			public const int restaurant_63_1 = 2131166018;
 			
 			// aapt resource value: 0x7F070343
-			public const int restaurant_64_2 = 2131166019;
+			public const int restaurant_63_2 = 2131166019;
 			
 			// aapt resource value: 0x7F070344
-			public const int restaurant_64_3 = 2131166020;
+			public const int restaurant_63_3 = 2131166020;
 			
 			// aapt resource value: 0x7F070345
-			public const int restaurant_65_1 = 2131166021;
+			public const int restaurant_64_1 = 2131166021;
 			
 			// aapt resource value: 0x7F070346
-			public const int restaurant_65_2 = 2131166022;
+			public const int restaurant_64_2 = 2131166022;
 			
 			// aapt resource value: 0x7F070347
-			public const int restaurant_65_3 = 2131166023;
+			public const int restaurant_64_3 = 2131166023;
 			
 			// aapt resource value: 0x7F070348
-			public const int restaurant_66_1 = 2131166024;
+			public const int restaurant_65_1 = 2131166024;
 			
 			// aapt resource value: 0x7F070349
-			public const int restaurant_66_2 = 2131166025;
+			public const int restaurant_65_2 = 2131166025;
 			
 			// aapt resource value: 0x7F07034A
-			public const int restaurant_67_1 = 2131166026;
+			public const int restaurant_65_3 = 2131166026;
 			
 			// aapt resource value: 0x7F07034B
-			public const int restaurant_67_2 = 2131166027;
+			public const int restaurant_66_1 = 2131166027;
 			
 			// aapt resource value: 0x7F07034C
-			public const int restaurant_6_1 = 2131166028;
+			public const int restaurant_66_2 = 2131166028;
 			
 			// aapt resource value: 0x7F07034D
-			public const int restaurant_6_2 = 2131166029;
+			public const int restaurant_67_1 = 2131166029;
 			
 			// aapt resource value: 0x7F07034E
-			public const int restaurant_6_3 = 2131166030;
+			public const int restaurant_67_2 = 2131166030;
 			
 			// aapt resource value: 0x7F07034F
-			public const int restaurant_7_1 = 2131166031;
+			public const int restaurant_6_1 = 2131166031;
 			
 			// aapt resource value: 0x7F070350
-			public const int restaurant_7_2 = 2131166032;
+			public const int restaurant_6_2 = 2131166032;
 			
 			// aapt resource value: 0x7F070351
-			public const int restaurant_7_3 = 2131166033;
+			public const int restaurant_6_3 = 2131166033;
 			
 			// aapt resource value: 0x7F070352
-			public const int restaurant_8_1 = 2131166034;
+			public const int restaurant_7_1 = 2131166034;
 			
 			// aapt resource value: 0x7F070353
-			public const int restaurant_8_2 = 2131166035;
+			public const int restaurant_7_2 = 2131166035;
 			
 			// aapt resource value: 0x7F070354
-			public const int restaurant_8_3 = 2131166036;
+			public const int restaurant_7_3 = 2131166036;
 			
 			// aapt resource value: 0x7F070355
-			public const int restaurant_9_1 = 2131166037;
+			public const int restaurant_8_1 = 2131166037;
 			
 			// aapt resource value: 0x7F070356
-			public const int restaurant_9_2 = 2131166038;
+			public const int restaurant_8_2 = 2131166038;
 			
 			// aapt resource value: 0x7F070357
-			public const int restaurant_9_3 = 2131166039;
+			public const int restaurant_8_3 = 2131166039;
 			
 			// aapt resource value: 0x7F070358
-			public const int restaurant_logo = 2131166040;
+			public const int restaurant_9_1 = 2131166040;
 			
 			// aapt resource value: 0x7F070359
-			public const int theatre_1_1 = 2131166041;
+			public const int restaurant_9_2 = 2131166041;
 			
 			// aapt resource value: 0x7F07035A
-			public const int theatre_1_2 = 2131166042;
+			public const int restaurant_9_3 = 2131166042;
 			
 			// aapt resource value: 0x7F07035B
-			public const int theatre_1_3 = 2131166043;
+			public const int restaurant_logo = 2131166043;
 			
 			// aapt resource value: 0x7F07035C
-			public const int theatre_2_1 = 2131166044;
+			public const int theatre_1_1 = 2131166044;
 			
 			// aapt resource value: 0x7F07035D
-			public const int theatre_2_2 = 2131166045;
+			public const int theatre_1_2 = 2131166045;
 			
 			// aapt resource value: 0x7F07035E
-			public const int theatre_2_3 = 2131166046;
+			public const int theatre_1_3 = 2131166046;
 			
 			// aapt resource value: 0x7F07035F
-			public const int theatre_3_1 = 2131166047;
+			public const int theatre_2_1 = 2131166047;
 			
 			// aapt resource value: 0x7F070360
-			public const int theatre_3_2 = 2131166048;
+			public const int theatre_2_2 = 2131166048;
 			
 			// aapt resource value: 0x7F070361
-			public const int theatre_3_3 = 2131166049;
+			public const int theatre_2_3 = 2131166049;
 			
 			// aapt resource value: 0x7F070362
-			public const int theatre_4_1 = 2131166050;
+			public const int theatre_3_1 = 2131166050;
 			
 			// aapt resource value: 0x7F070363
-			public const int theatre_4_2 = 2131166051;
+			public const int theatre_3_2 = 2131166051;
 			
 			// aapt resource value: 0x7F070364
-			public const int theatre_4_3 = 2131166052;
+			public const int theatre_3_3 = 2131166052;
 			
 			// aapt resource value: 0x7F070365
-			public const int theatre_logo = 2131166053;
+			public const int theatre_4_1 = 2131166053;
 			
 			// aapt resource value: 0x7F070366
-			public const int tooltip_frame_dark = 2131166054;
+			public const int theatre_4_2 = 2131166054;
 			
 			// aapt resource value: 0x7F070367
-			public const int tooltip_frame_light = 2131166055;
+			public const int theatre_4_3 = 2131166055;
+			
+			// aapt resource value: 0x7F070368
+			public const int theatre_logo = 2131166056;
+			
+			// aapt resource value: 0x7F070369
+			public const int tooltip_frame_dark = 2131166057;
+			
+			// aapt resource value: 0x7F07036A
+			public const int tooltip_frame_light = 2131166058;
+			
+			// aapt resource value: 0x7F07036B
+			public const int Up = 2131166059;
 			
 			static Drawable()
 			{
@@ -8378,520 +10630,544 @@ namespace ChernivtsiGuide.Droid
 			public const int homeAsUp = 2131230805;
 			
 			// aapt resource value: 0x7F080056
-			public const int icon = 2131230806;
+			public const int horizontal = 2131230806;
 			
 			// aapt resource value: 0x7F080057
-			public const int icon_group = 2131230807;
+			public const int icon = 2131230807;
 			
 			// aapt resource value: 0x7F080058
-			public const int ifRoom = 2131230808;
+			public const int icon_group = 2131230808;
 			
 			// aapt resource value: 0x7F080059
-			public const int image = 2131230809;
+			public const int ifRoom = 2131230809;
 			
 			// aapt resource value: 0x7F08005A
-			public const int info = 2131230810;
+			public const int image = 2131230810;
 			
 			// aapt resource value: 0x7F08005B
-			public const int italic = 2131230811;
+			public const int indicator = 2131230811;
 			
 			// aapt resource value: 0x7F08005C
-			public const int item_touch_helper_previous_elevation = 2131230812;
+			public const int info = 2131230812;
 			
 			// aapt resource value: 0x7F08005D
-			public const int labeled = 2131230813;
+			public const int italic = 2131230813;
 			
 			// aapt resource value: 0x7F08005E
-			public const int largeLabel = 2131230814;
+			public const int item_touch_helper_previous_elevation = 2131230814;
 			
 			// aapt resource value: 0x7F08005F
-			public const int left = 2131230815;
+			public const int labeled = 2131230815;
 			
 			// aapt resource value: 0x7F080060
-			public const int line1 = 2131230816;
+			public const int largeLabel = 2131230816;
 			
 			// aapt resource value: 0x7F080061
-			public const int line3 = 2131230817;
+			public const int left = 2131230817;
 			
 			// aapt resource value: 0x7F080062
-			public const int listMode = 2131230818;
+			public const int line1 = 2131230818;
 			
 			// aapt resource value: 0x7F080063
-			public const int list_item = 2131230819;
+			public const int line3 = 2131230819;
 			
 			// aapt resource value: 0x7F080064
-			public const int main_appbar = 2131230820;
+			public const int listMode = 2131230820;
 			
 			// aapt resource value: 0x7F080065
-			public const int main_scrollview = 2131230821;
+			public const int list_item = 2131230821;
 			
 			// aapt resource value: 0x7F080066
-			public const int main_tablayout = 2131230822;
+			public const int main_appbar = 2131230822;
 			
 			// aapt resource value: 0x7F080067
-			public const int main_toolbar = 2131230823;
+			public const int main_scrollview = 2131230823;
 			
 			// aapt resource value: 0x7F080068
-			public const int masked = 2131230824;
+			public const int main_tablayout = 2131230824;
 			
 			// aapt resource value: 0x7F080069
-			public const int media_actions = 2131230825;
+			public const int main_toolbar = 2131230825;
 			
 			// aapt resource value: 0x7F08006A
-			public const int message = 2131230826;
+			public const int masked = 2131230826;
+			
+			// aapt resource value: 0x7F08006B
+			public const int media_actions = 2131230827;
+			
+			// aapt resource value: 0x7F08006C
+			public const int message = 2131230828;
 			
 			// aapt resource value: 0x7F080003
 			public const int META = 2131230723;
 			
-			// aapt resource value: 0x7F08006B
-			public const int middle = 2131230827;
-			
-			// aapt resource value: 0x7F08006C
-			public const int mini = 2131230828;
-			
 			// aapt resource value: 0x7F08006D
-			public const int mr_art = 2131230829;
+			public const int middle = 2131230829;
 			
 			// aapt resource value: 0x7F08006E
-			public const int mr_cast_checkbox = 2131230830;
+			public const int mini = 2131230830;
 			
 			// aapt resource value: 0x7F08006F
-			public const int mr_cast_close_button = 2131230831;
+			public const int mr_art = 2131230831;
 			
 			// aapt resource value: 0x7F080070
-			public const int mr_cast_group_icon = 2131230832;
+			public const int mr_cast_checkbox = 2131230832;
 			
 			// aapt resource value: 0x7F080071
-			public const int mr_cast_group_name = 2131230833;
+			public const int mr_cast_close_button = 2131230833;
 			
 			// aapt resource value: 0x7F080072
-			public const int mr_cast_list = 2131230834;
+			public const int mr_cast_group_icon = 2131230834;
 			
 			// aapt resource value: 0x7F080073
-			public const int mr_cast_meta = 2131230835;
+			public const int mr_cast_group_name = 2131230835;
 			
 			// aapt resource value: 0x7F080074
-			public const int mr_cast_meta_art = 2131230836;
+			public const int mr_cast_list = 2131230836;
 			
 			// aapt resource value: 0x7F080075
-			public const int mr_cast_meta_subtitle = 2131230837;
+			public const int mr_cast_meta = 2131230837;
 			
 			// aapt resource value: 0x7F080076
-			public const int mr_cast_meta_title = 2131230838;
+			public const int mr_cast_meta_art = 2131230838;
 			
 			// aapt resource value: 0x7F080077
-			public const int mr_cast_route_icon = 2131230839;
+			public const int mr_cast_meta_subtitle = 2131230839;
 			
 			// aapt resource value: 0x7F080078
-			public const int mr_cast_route_name = 2131230840;
+			public const int mr_cast_meta_title = 2131230840;
 			
 			// aapt resource value: 0x7F080079
-			public const int mr_cast_stop_button = 2131230841;
+			public const int mr_cast_route_icon = 2131230841;
 			
 			// aapt resource value: 0x7F08007A
-			public const int mr_cast_volume_layout = 2131230842;
+			public const int mr_cast_route_name = 2131230842;
 			
 			// aapt resource value: 0x7F08007B
-			public const int mr_cast_volume_slider = 2131230843;
+			public const int mr_cast_stop_button = 2131230843;
 			
 			// aapt resource value: 0x7F08007C
-			public const int mr_chooser_list = 2131230844;
+			public const int mr_cast_volume_layout = 2131230844;
 			
 			// aapt resource value: 0x7F08007D
-			public const int mr_chooser_route_desc = 2131230845;
+			public const int mr_cast_volume_slider = 2131230845;
 			
 			// aapt resource value: 0x7F08007E
-			public const int mr_chooser_route_icon = 2131230846;
+			public const int mr_chooser_list = 2131230846;
 			
 			// aapt resource value: 0x7F08007F
-			public const int mr_chooser_route_name = 2131230847;
+			public const int mr_chooser_route_desc = 2131230847;
 			
 			// aapt resource value: 0x7F080080
-			public const int mr_chooser_title = 2131230848;
+			public const int mr_chooser_route_icon = 2131230848;
 			
 			// aapt resource value: 0x7F080081
-			public const int mr_close = 2131230849;
+			public const int mr_chooser_route_name = 2131230849;
 			
 			// aapt resource value: 0x7F080082
-			public const int mr_control_divider = 2131230850;
+			public const int mr_chooser_title = 2131230850;
 			
 			// aapt resource value: 0x7F080083
-			public const int mr_control_playback_ctrl = 2131230851;
+			public const int mr_close = 2131230851;
 			
 			// aapt resource value: 0x7F080084
-			public const int mr_control_subtitle = 2131230852;
+			public const int mr_control_divider = 2131230852;
 			
 			// aapt resource value: 0x7F080085
-			public const int mr_control_title = 2131230853;
+			public const int mr_control_playback_ctrl = 2131230853;
 			
 			// aapt resource value: 0x7F080086
-			public const int mr_control_title_container = 2131230854;
+			public const int mr_control_subtitle = 2131230854;
 			
 			// aapt resource value: 0x7F080087
-			public const int mr_custom_control = 2131230855;
+			public const int mr_control_title = 2131230855;
 			
 			// aapt resource value: 0x7F080088
-			public const int mr_default_control = 2131230856;
+			public const int mr_control_title_container = 2131230856;
 			
 			// aapt resource value: 0x7F080089
-			public const int mr_dialog_area = 2131230857;
+			public const int mr_custom_control = 2131230857;
 			
 			// aapt resource value: 0x7F08008A
-			public const int mr_dialog_header_name = 2131230858;
+			public const int mr_default_control = 2131230858;
 			
 			// aapt resource value: 0x7F08008B
-			public const int mr_expandable_area = 2131230859;
+			public const int mr_dialog_area = 2131230859;
 			
 			// aapt resource value: 0x7F08008C
-			public const int mr_group_expand_collapse = 2131230860;
+			public const int mr_dialog_header_name = 2131230860;
 			
 			// aapt resource value: 0x7F08008D
-			public const int mr_group_volume_route_name = 2131230861;
+			public const int mr_expandable_area = 2131230861;
 			
 			// aapt resource value: 0x7F08008E
-			public const int mr_group_volume_slider = 2131230862;
+			public const int mr_group_expand_collapse = 2131230862;
 			
 			// aapt resource value: 0x7F08008F
-			public const int mr_media_main_control = 2131230863;
+			public const int mr_group_volume_route_name = 2131230863;
 			
 			// aapt resource value: 0x7F080090
-			public const int mr_name = 2131230864;
+			public const int mr_group_volume_slider = 2131230864;
 			
 			// aapt resource value: 0x7F080091
-			public const int mr_picker_close_button = 2131230865;
+			public const int mr_media_main_control = 2131230865;
 			
 			// aapt resource value: 0x7F080092
-			public const int mr_picker_list = 2131230866;
+			public const int mr_name = 2131230866;
 			
 			// aapt resource value: 0x7F080093
-			public const int mr_picker_route_icon = 2131230867;
+			public const int mr_picker_close_button = 2131230867;
 			
 			// aapt resource value: 0x7F080094
-			public const int mr_picker_route_name = 2131230868;
+			public const int mr_picker_list = 2131230868;
 			
 			// aapt resource value: 0x7F080095
-			public const int mr_playback_control = 2131230869;
+			public const int mr_picker_route_icon = 2131230869;
 			
 			// aapt resource value: 0x7F080096
-			public const int mr_title_bar = 2131230870;
+			public const int mr_picker_route_name = 2131230870;
 			
 			// aapt resource value: 0x7F080097
-			public const int mr_volume_control = 2131230871;
+			public const int mr_playback_control = 2131230871;
 			
 			// aapt resource value: 0x7F080098
-			public const int mr_volume_group_list = 2131230872;
+			public const int mr_title_bar = 2131230872;
 			
 			// aapt resource value: 0x7F080099
-			public const int mr_volume_item_icon = 2131230873;
+			public const int mr_volume_control = 2131230873;
 			
 			// aapt resource value: 0x7F08009A
-			public const int mr_volume_slider = 2131230874;
+			public const int mr_volume_group_list = 2131230874;
 			
 			// aapt resource value: 0x7F08009B
-			public const int mtrl_child_content_container = 2131230875;
+			public const int mr_volume_item_icon = 2131230875;
 			
 			// aapt resource value: 0x7F08009C
-			public const int mtrl_internal_children_alpha_tag = 2131230876;
+			public const int mr_volume_slider = 2131230876;
 			
 			// aapt resource value: 0x7F08009D
-			public const int multiply = 2131230877;
+			public const int mtrl_child_content_container = 2131230877;
 			
 			// aapt resource value: 0x7F08009E
-			public const int navigation_header_container = 2131230878;
+			public const int mtrl_internal_children_alpha_tag = 2131230878;
 			
 			// aapt resource value: 0x7F08009F
-			public const int never = 2131230879;
+			public const int multiply = 2131230879;
 			
 			// aapt resource value: 0x7F0800A0
-			public const int none = 2131230880;
+			public const int navigation_header_container = 2131230880;
 			
 			// aapt resource value: 0x7F0800A1
-			public const int normal = 2131230881;
+			public const int never = 2131230881;
 			
 			// aapt resource value: 0x7F0800A2
-			public const int notification_background = 2131230882;
+			public const int next = 2131230882;
 			
 			// aapt resource value: 0x7F0800A3
-			public const int notification_main_column = 2131230883;
+			public const int nextArrow = 2131230883;
 			
 			// aapt resource value: 0x7F0800A4
-			public const int notification_main_column_container = 2131230884;
+			public const int none = 2131230884;
 			
 			// aapt resource value: 0x7F0800A5
-			public const int outline = 2131230885;
+			public const int normal = 2131230885;
 			
 			// aapt resource value: 0x7F0800A6
-			public const int parallax = 2131230886;
+			public const int notification_background = 2131230886;
 			
 			// aapt resource value: 0x7F0800A7
-			public const int parentPanel = 2131230887;
+			public const int notification_main_column = 2131230887;
 			
 			// aapt resource value: 0x7F0800A8
-			public const int parent_matrix = 2131230888;
+			public const int notification_main_column_container = 2131230888;
 			
 			// aapt resource value: 0x7F0800A9
-			public const int pin = 2131230889;
+			public const int outline = 2131230889;
 			
 			// aapt resource value: 0x7F0800AA
-			public const int progress_circular = 2131230890;
+			public const int pager = 2131230890;
 			
 			// aapt resource value: 0x7F0800AB
-			public const int progress_horizontal = 2131230891;
+			public const int parallax = 2131230891;
 			
 			// aapt resource value: 0x7F0800AC
-			public const int radio = 2131230892;
+			public const int parentPanel = 2131230892;
 			
 			// aapt resource value: 0x7F0800AD
-			public const int right = 2131230893;
+			public const int parent_matrix = 2131230893;
 			
 			// aapt resource value: 0x7F0800AE
-			public const int right_icon = 2131230894;
+			public const int pin = 2131230894;
 			
 			// aapt resource value: 0x7F0800AF
-			public const int right_side = 2131230895;
+			public const int prev = 2131230895;
 			
 			// aapt resource value: 0x7F0800B0
-			public const int save_image_matrix = 2131230896;
+			public const int prevArrow = 2131230896;
 			
 			// aapt resource value: 0x7F0800B1
-			public const int save_non_transition_alpha = 2131230897;
+			public const int progress_circular = 2131230897;
 			
 			// aapt resource value: 0x7F0800B2
-			public const int save_scale_type = 2131230898;
+			public const int progress_horizontal = 2131230898;
 			
 			// aapt resource value: 0x7F0800B3
-			public const int screen = 2131230899;
+			public const int radio = 2131230899;
 			
 			// aapt resource value: 0x7F0800B4
-			public const int scroll = 2131230900;
-			
-			// aapt resource value: 0x7F0800B8
-			public const int scrollable = 2131230904;
+			public const int right = 2131230900;
 			
 			// aapt resource value: 0x7F0800B5
-			public const int scrollIndicatorDown = 2131230901;
+			public const int right_icon = 2131230901;
 			
 			// aapt resource value: 0x7F0800B6
-			public const int scrollIndicatorUp = 2131230902;
+			public const int right_side = 2131230902;
 			
 			// aapt resource value: 0x7F0800B7
-			public const int scrollView = 2131230903;
+			public const int save_image_matrix = 2131230903;
+			
+			// aapt resource value: 0x7F0800B8
+			public const int save_non_transition_alpha = 2131230904;
 			
 			// aapt resource value: 0x7F0800B9
-			public const int search_badge = 2131230905;
+			public const int save_scale_type = 2131230905;
 			
 			// aapt resource value: 0x7F0800BA
-			public const int search_bar = 2131230906;
+			public const int screen = 2131230906;
 			
 			// aapt resource value: 0x7F0800BB
-			public const int search_button = 2131230907;
-			
-			// aapt resource value: 0x7F0800BC
-			public const int search_close_btn = 2131230908;
-			
-			// aapt resource value: 0x7F0800BD
-			public const int search_edit_frame = 2131230909;
-			
-			// aapt resource value: 0x7F0800BE
-			public const int search_go_btn = 2131230910;
+			public const int scroll = 2131230907;
 			
 			// aapt resource value: 0x7F0800BF
-			public const int search_mag_icon = 2131230911;
+			public const int scrollable = 2131230911;
+			
+			// aapt resource value: 0x7F0800BC
+			public const int scrollIndicatorDown = 2131230908;
+			
+			// aapt resource value: 0x7F0800BD
+			public const int scrollIndicatorUp = 2131230909;
+			
+			// aapt resource value: 0x7F0800BE
+			public const int scrollView = 2131230910;
 			
 			// aapt resource value: 0x7F0800C0
-			public const int search_plate = 2131230912;
+			public const int search_badge = 2131230912;
 			
 			// aapt resource value: 0x7F0800C1
-			public const int search_src_text = 2131230913;
+			public const int search_bar = 2131230913;
 			
 			// aapt resource value: 0x7F0800C2
-			public const int search_voice_btn = 2131230914;
-			
-			// aapt resource value: 0x7F0800C4
-			public const int selected = 2131230916;
+			public const int search_button = 2131230914;
 			
 			// aapt resource value: 0x7F0800C3
-			public const int select_dialog_listview = 2131230915;
+			public const int search_close_btn = 2131230915;
+			
+			// aapt resource value: 0x7F0800C4
+			public const int search_edit_frame = 2131230916;
 			
 			// aapt resource value: 0x7F0800C5
-			public const int shellcontent_appbar = 2131230917;
+			public const int search_go_btn = 2131230917;
 			
 			// aapt resource value: 0x7F0800C6
-			public const int shellcontent_scrollview = 2131230918;
+			public const int search_mag_icon = 2131230918;
 			
 			// aapt resource value: 0x7F0800C7
-			public const int shellcontent_toolbar = 2131230919;
+			public const int search_plate = 2131230919;
+			
+			// aapt resource value: 0x7F0800C8
+			public const int search_src_text = 2131230920;
+			
+			// aapt resource value: 0x7F0800C9
+			public const int search_voice_btn = 2131230921;
+			
+			// aapt resource value: 0x7F0800CB
+			public const int selected = 2131230923;
+			
+			// aapt resource value: 0x7F0800CA
+			public const int select_dialog_listview = 2131230922;
+			
+			// aapt resource value: 0x7F0800CC
+			public const int shellcontent_appbar = 2131230924;
+			
+			// aapt resource value: 0x7F0800CD
+			public const int shellcontent_scrollview = 2131230925;
+			
+			// aapt resource value: 0x7F0800CE
+			public const int shellcontent_toolbar = 2131230926;
 			
 			// aapt resource value: 0x7F080004
 			public const int SHIFT = 2131230724;
 			
-			// aapt resource value: 0x7F0800C8
-			public const int shortcut = 2131230920;
-			
-			// aapt resource value: 0x7F0800C9
-			public const int showCustom = 2131230921;
-			
-			// aapt resource value: 0x7F0800CA
-			public const int showHome = 2131230922;
-			
-			// aapt resource value: 0x7F0800CB
-			public const int showTitle = 2131230923;
-			
-			// aapt resource value: 0x7F0800CC
-			public const int sliding_tabs = 2131230924;
-			
-			// aapt resource value: 0x7F0800CD
-			public const int smallLabel = 2131230925;
-			
-			// aapt resource value: 0x7F0800CE
-			public const int snackbar_action = 2131230926;
-			
 			// aapt resource value: 0x7F0800CF
-			public const int snackbar_text = 2131230927;
+			public const int shortcut = 2131230927;
 			
 			// aapt resource value: 0x7F0800D0
-			public const int snap = 2131230928;
+			public const int showCustom = 2131230928;
 			
 			// aapt resource value: 0x7F0800D1
-			public const int snapMargins = 2131230929;
+			public const int showHome = 2131230929;
 			
 			// aapt resource value: 0x7F0800D2
-			public const int spacer = 2131230930;
+			public const int showTitle = 2131230930;
 			
 			// aapt resource value: 0x7F0800D3
-			public const int split_action_bar = 2131230931;
+			public const int sliding_tabs = 2131230931;
 			
 			// aapt resource value: 0x7F0800D4
-			public const int src_atop = 2131230932;
+			public const int smallLabel = 2131230932;
 			
 			// aapt resource value: 0x7F0800D5
-			public const int src_in = 2131230933;
+			public const int snackbar_action = 2131230933;
 			
 			// aapt resource value: 0x7F0800D6
-			public const int src_over = 2131230934;
+			public const int snackbar_text = 2131230934;
 			
 			// aapt resource value: 0x7F0800D7
-			public const int start = 2131230935;
+			public const int snap = 2131230935;
 			
 			// aapt resource value: 0x7F0800D8
-			public const int status_bar_latest_event_content = 2131230936;
+			public const int snapMargins = 2131230936;
 			
 			// aapt resource value: 0x7F0800D9
-			public const int stretch = 2131230937;
+			public const int spacer = 2131230937;
 			
 			// aapt resource value: 0x7F0800DA
-			public const int submenuarrow = 2131230938;
+			public const int split_action_bar = 2131230938;
 			
 			// aapt resource value: 0x7F0800DB
-			public const int submit_area = 2131230939;
+			public const int src_atop = 2131230939;
+			
+			// aapt resource value: 0x7F0800DC
+			public const int src_in = 2131230940;
+			
+			// aapt resource value: 0x7F0800DD
+			public const int src_over = 2131230941;
+			
+			// aapt resource value: 0x7F0800DE
+			public const int start = 2131230942;
+			
+			// aapt resource value: 0x7F0800DF
+			public const int status_bar_latest_event_content = 2131230943;
+			
+			// aapt resource value: 0x7F0800E0
+			public const int stretch = 2131230944;
+			
+			// aapt resource value: 0x7F0800E1
+			public const int submenuarrow = 2131230945;
+			
+			// aapt resource value: 0x7F0800E2
+			public const int submit_area = 2131230946;
 			
 			// aapt resource value: 0x7F080005
 			public const int SYM = 2131230725;
 			
-			// aapt resource value: 0x7F0800DC
-			public const int tabMode = 2131230940;
-			
-			// aapt resource value: 0x7F0800DD
-			public const int tag_transition_group = 2131230941;
-			
-			// aapt resource value: 0x7F0800DE
-			public const int tag_unhandled_key_event_manager = 2131230942;
-			
-			// aapt resource value: 0x7F0800DF
-			public const int tag_unhandled_key_listeners = 2131230943;
-			
-			// aapt resource value: 0x7F0800E0
-			public const int text = 2131230944;
-			
-			// aapt resource value: 0x7F0800E1
-			public const int text2 = 2131230945;
-			
-			// aapt resource value: 0x7F0800E6
-			public const int textinput_counter = 2131230950;
-			
-			// aapt resource value: 0x7F0800E7
-			public const int textinput_error = 2131230951;
-			
-			// aapt resource value: 0x7F0800E8
-			public const int textinput_helper_text = 2131230952;
-			
-			// aapt resource value: 0x7F0800E2
-			public const int textSpacerNoButtons = 2131230946;
-			
 			// aapt resource value: 0x7F0800E3
-			public const int textSpacerNoTitle = 2131230947;
+			public const int tabMode = 2131230947;
 			
 			// aapt resource value: 0x7F0800E4
-			public const int textStart = 2131230948;
+			public const int tag_transition_group = 2131230948;
 			
 			// aapt resource value: 0x7F0800E5
-			public const int text_input_password_toggle = 2131230949;
+			public const int tag_unhandled_key_event_manager = 2131230949;
 			
-			// aapt resource value: 0x7F0800E9
-			public const int time = 2131230953;
+			// aapt resource value: 0x7F0800E6
+			public const int tag_unhandled_key_listeners = 2131230950;
 			
-			// aapt resource value: 0x7F0800EA
-			public const int title = 2131230954;
+			// aapt resource value: 0x7F0800E7
+			public const int text = 2131230951;
 			
-			// aapt resource value: 0x7F0800EB
-			public const int titleDividerNoCustom = 2131230955;
-			
-			// aapt resource value: 0x7F0800EC
-			public const int title_template = 2131230956;
+			// aapt resource value: 0x7F0800E8
+			public const int text2 = 2131230952;
 			
 			// aapt resource value: 0x7F0800ED
-			public const int toolbar = 2131230957;
+			public const int textinput_counter = 2131230957;
 			
 			// aapt resource value: 0x7F0800EE
-			public const int top = 2131230958;
+			public const int textinput_error = 2131230958;
 			
 			// aapt resource value: 0x7F0800EF
-			public const int topPanel = 2131230959;
+			public const int textinput_helper_text = 2131230959;
+			
+			// aapt resource value: 0x7F0800E9
+			public const int textSpacerNoButtons = 2131230953;
+			
+			// aapt resource value: 0x7F0800EA
+			public const int textSpacerNoTitle = 2131230954;
+			
+			// aapt resource value: 0x7F0800EB
+			public const int textStart = 2131230955;
+			
+			// aapt resource value: 0x7F0800EC
+			public const int text_input_password_toggle = 2131230956;
 			
 			// aapt resource value: 0x7F0800F0
-			public const int touch_outside = 2131230960;
+			public const int time = 2131230960;
 			
 			// aapt resource value: 0x7F0800F1
-			public const int transition_current_scene = 2131230961;
+			public const int title = 2131230961;
 			
 			// aapt resource value: 0x7F0800F2
-			public const int transition_layout_save = 2131230962;
+			public const int titleDividerNoCustom = 2131230962;
 			
 			// aapt resource value: 0x7F0800F3
-			public const int transition_position = 2131230963;
+			public const int title_template = 2131230963;
 			
 			// aapt resource value: 0x7F0800F4
-			public const int transition_scene_layoutid_cache = 2131230964;
+			public const int toolbar = 2131230964;
 			
 			// aapt resource value: 0x7F0800F5
-			public const int transition_transform = 2131230965;
+			public const int top = 2131230965;
 			
 			// aapt resource value: 0x7F0800F6
-			public const int uniform = 2131230966;
+			public const int topPanel = 2131230966;
 			
 			// aapt resource value: 0x7F0800F7
-			public const int unlabeled = 2131230967;
+			public const int touch_outside = 2131230967;
 			
 			// aapt resource value: 0x7F0800F8
-			public const int up = 2131230968;
+			public const int transition_current_scene = 2131230968;
 			
 			// aapt resource value: 0x7F0800F9
-			public const int useLogo = 2131230969;
+			public const int transition_layout_save = 2131230969;
 			
 			// aapt resource value: 0x7F0800FA
-			public const int view_offset_helper = 2131230970;
+			public const int transition_position = 2131230970;
 			
 			// aapt resource value: 0x7F0800FB
-			public const int visible = 2131230971;
+			public const int transition_scene_layoutid_cache = 2131230971;
 			
 			// aapt resource value: 0x7F0800FC
-			public const int volume_item_container = 2131230972;
+			public const int transition_transform = 2131230972;
 			
 			// aapt resource value: 0x7F0800FD
-			public const int withText = 2131230973;
+			public const int uniform = 2131230973;
 			
 			// aapt resource value: 0x7F0800FE
-			public const int wrap_content = 2131230974;
+			public const int unlabeled = 2131230974;
+			
+			// aapt resource value: 0x7F0800FF
+			public const int up = 2131230975;
+			
+			// aapt resource value: 0x7F080100
+			public const int useLogo = 2131230976;
+			
+			// aapt resource value: 0x7F080101
+			public const int vertical = 2131230977;
+			
+			// aapt resource value: 0x7F080102
+			public const int view_offset_helper = 2131230978;
+			
+			// aapt resource value: 0x7F080103
+			public const int visible = 2131230979;
+			
+			// aapt resource value: 0x7F080104
+			public const int volume_item_container = 2131230980;
+			
+			// aapt resource value: 0x7F080105
+			public const int withText = 2131230981;
+			
+			// aapt resource value: 0x7F080106
+			public const int wrap_content = 2131230982;
 			
 			static Id()
 			{
@@ -8925,43 +11201,46 @@ namespace ChernivtsiGuide.Droid
 			public const int config_tooltipAnimTime = 2131296261;
 			
 			// aapt resource value: 0x7F090006
-			public const int design_snackbar_text_max_lines = 2131296262;
+			public const int default_circle_indicator_orientation = 2131296262;
 			
 			// aapt resource value: 0x7F090007
-			public const int design_tab_indicator_anim_duration_ms = 2131296263;
+			public const int design_snackbar_text_max_lines = 2131296263;
 			
 			// aapt resource value: 0x7F090008
-			public const int hide_password_duration = 2131296264;
+			public const int design_tab_indicator_anim_duration_ms = 2131296264;
 			
 			// aapt resource value: 0x7F090009
-			public const int mr_controller_volume_group_list_animation_duration_ms = 2131296265;
+			public const int hide_password_duration = 2131296265;
 			
 			// aapt resource value: 0x7F09000A
-			public const int mr_controller_volume_group_list_fade_in_duration_ms = 2131296266;
+			public const int mr_controller_volume_group_list_animation_duration_ms = 2131296266;
 			
 			// aapt resource value: 0x7F09000B
-			public const int mr_controller_volume_group_list_fade_out_duration_ms = 2131296267;
+			public const int mr_controller_volume_group_list_fade_in_duration_ms = 2131296267;
 			
 			// aapt resource value: 0x7F09000C
-			public const int mr_update_routes_delay_ms = 2131296268;
+			public const int mr_controller_volume_group_list_fade_out_duration_ms = 2131296268;
 			
 			// aapt resource value: 0x7F09000D
-			public const int mtrl_btn_anim_delay_ms = 2131296269;
+			public const int mr_update_routes_delay_ms = 2131296269;
 			
 			// aapt resource value: 0x7F09000E
-			public const int mtrl_btn_anim_duration_ms = 2131296270;
+			public const int mtrl_btn_anim_delay_ms = 2131296270;
 			
 			// aapt resource value: 0x7F09000F
-			public const int mtrl_chip_anim_duration = 2131296271;
+			public const int mtrl_btn_anim_duration_ms = 2131296271;
 			
 			// aapt resource value: 0x7F090010
-			public const int mtrl_tab_indicator_anim_duration_ms = 2131296272;
+			public const int mtrl_chip_anim_duration = 2131296272;
 			
 			// aapt resource value: 0x7F090011
-			public const int show_password_duration = 2131296273;
+			public const int mtrl_tab_indicator_anim_duration_ms = 2131296273;
 			
 			// aapt resource value: 0x7F090012
-			public const int status_bar_notification_info_maxnum = 2131296274;
+			public const int show_password_duration = 2131296274;
+			
+			// aapt resource value: 0x7F090013
+			public const int status_bar_notification_info_maxnum = 2131296275;
 			
 			static Integer()
 			{
@@ -9146,121 +11425,127 @@ namespace ChernivtsiGuide.Droid
 			public const int FlyoutContent = 2131427373;
 			
 			// aapt resource value: 0x7F0B002E
-			public const int mr_cast_dialog = 2131427374;
+			public const int horizontal_viewpager = 2131427374;
 			
 			// aapt resource value: 0x7F0B002F
-			public const int mr_cast_group_item = 2131427375;
+			public const int mr_cast_dialog = 2131427375;
 			
 			// aapt resource value: 0x7F0B0030
-			public const int mr_cast_group_volume_item = 2131427376;
+			public const int mr_cast_group_item = 2131427376;
 			
 			// aapt resource value: 0x7F0B0031
-			public const int mr_cast_media_metadata = 2131427377;
+			public const int mr_cast_group_volume_item = 2131427377;
 			
 			// aapt resource value: 0x7F0B0032
-			public const int mr_cast_route_item = 2131427378;
+			public const int mr_cast_media_metadata = 2131427378;
 			
 			// aapt resource value: 0x7F0B0033
-			public const int mr_chooser_dialog = 2131427379;
+			public const int mr_cast_route_item = 2131427379;
 			
 			// aapt resource value: 0x7F0B0034
-			public const int mr_chooser_list_item = 2131427380;
+			public const int mr_chooser_dialog = 2131427380;
 			
 			// aapt resource value: 0x7F0B0035
-			public const int mr_controller_material_dialog_b = 2131427381;
+			public const int mr_chooser_list_item = 2131427381;
 			
 			// aapt resource value: 0x7F0B0036
-			public const int mr_controller_volume_item = 2131427382;
+			public const int mr_controller_material_dialog_b = 2131427382;
 			
 			// aapt resource value: 0x7F0B0037
-			public const int mr_dialog_header_item = 2131427383;
+			public const int mr_controller_volume_item = 2131427383;
 			
 			// aapt resource value: 0x7F0B0038
-			public const int mr_picker_dialog = 2131427384;
+			public const int mr_dialog_header_item = 2131427384;
 			
 			// aapt resource value: 0x7F0B0039
-			public const int mr_picker_route_item = 2131427385;
+			public const int mr_picker_dialog = 2131427385;
 			
 			// aapt resource value: 0x7F0B003A
-			public const int mr_playback_control = 2131427386;
+			public const int mr_picker_route_item = 2131427386;
 			
 			// aapt resource value: 0x7F0B003B
-			public const int mr_volume_control = 2131427387;
+			public const int mr_playback_control = 2131427387;
 			
 			// aapt resource value: 0x7F0B003C
-			public const int mtrl_layout_snackbar = 2131427388;
+			public const int mr_volume_control = 2131427388;
 			
 			// aapt resource value: 0x7F0B003D
-			public const int mtrl_layout_snackbar_include = 2131427389;
+			public const int mtrl_layout_snackbar = 2131427389;
 			
 			// aapt resource value: 0x7F0B003E
-			public const int notification_action = 2131427390;
+			public const int mtrl_layout_snackbar_include = 2131427390;
 			
 			// aapt resource value: 0x7F0B003F
-			public const int notification_action_tombstone = 2131427391;
+			public const int notification_action = 2131427391;
 			
 			// aapt resource value: 0x7F0B0040
-			public const int notification_media_action = 2131427392;
+			public const int notification_action_tombstone = 2131427392;
 			
 			// aapt resource value: 0x7F0B0041
-			public const int notification_media_cancel_action = 2131427393;
+			public const int notification_media_action = 2131427393;
 			
 			// aapt resource value: 0x7F0B0042
-			public const int notification_template_big_media = 2131427394;
+			public const int notification_media_cancel_action = 2131427394;
 			
 			// aapt resource value: 0x7F0B0043
-			public const int notification_template_big_media_custom = 2131427395;
+			public const int notification_template_big_media = 2131427395;
 			
 			// aapt resource value: 0x7F0B0044
-			public const int notification_template_big_media_narrow = 2131427396;
+			public const int notification_template_big_media_custom = 2131427396;
 			
 			// aapt resource value: 0x7F0B0045
-			public const int notification_template_big_media_narrow_custom = 2131427397;
+			public const int notification_template_big_media_narrow = 2131427397;
 			
 			// aapt resource value: 0x7F0B0046
-			public const int notification_template_custom_big = 2131427398;
+			public const int notification_template_big_media_narrow_custom = 2131427398;
 			
 			// aapt resource value: 0x7F0B0047
-			public const int notification_template_icon_group = 2131427399;
+			public const int notification_template_custom_big = 2131427399;
 			
 			// aapt resource value: 0x7F0B0048
-			public const int notification_template_lines_media = 2131427400;
+			public const int notification_template_icon_group = 2131427400;
 			
 			// aapt resource value: 0x7F0B0049
-			public const int notification_template_media = 2131427401;
+			public const int notification_template_lines_media = 2131427401;
 			
 			// aapt resource value: 0x7F0B004A
-			public const int notification_template_media_custom = 2131427402;
+			public const int notification_template_media = 2131427402;
 			
 			// aapt resource value: 0x7F0B004B
-			public const int notification_template_part_chronometer = 2131427403;
+			public const int notification_template_media_custom = 2131427403;
 			
 			// aapt resource value: 0x7F0B004C
-			public const int notification_template_part_time = 2131427404;
+			public const int notification_template_part_chronometer = 2131427404;
 			
 			// aapt resource value: 0x7F0B004D
-			public const int RootLayout = 2131427405;
+			public const int notification_template_part_time = 2131427405;
 			
 			// aapt resource value: 0x7F0B004E
-			public const int select_dialog_item_material = 2131427406;
+			public const int RootLayout = 2131427406;
 			
 			// aapt resource value: 0x7F0B004F
-			public const int select_dialog_multichoice_material = 2131427407;
+			public const int select_dialog_item_material = 2131427407;
 			
 			// aapt resource value: 0x7F0B0050
-			public const int select_dialog_singlechoice_material = 2131427408;
+			public const int select_dialog_multichoice_material = 2131427408;
 			
 			// aapt resource value: 0x7F0B0051
-			public const int ShellContent = 2131427409;
+			public const int select_dialog_singlechoice_material = 2131427409;
 			
 			// aapt resource value: 0x7F0B0052
-			public const int support_simple_spinner_dropdown_item = 2131427410;
+			public const int ShellContent = 2131427410;
 			
 			// aapt resource value: 0x7F0B0053
-			public const int Tabbar = 2131427411;
+			public const int support_simple_spinner_dropdown_item = 2131427411;
 			
 			// aapt resource value: 0x7F0B0054
-			public const int Toolbar = 2131427412;
+			public const int Tabbar = 2131427412;
+			
+			// aapt resource value: 0x7F0B0055
+			public const int Toolbar = 2131427413;
+			
+			// aapt resource value: 0x7F0B0056
+			public const int vertical_viewpager = 2131427414;
 			
 			static Layout()
 			{
@@ -9436,100 +11721,103 @@ namespace ChernivtsiGuide.Droid
 			public const int hide_bottom_view_on_scroll_behavior = 2131558445;
 			
 			// aapt resource value: 0x7F0D002E
-			public const int mr_button_content_description = 2131558446;
+			public const int library_name = 2131558446;
 			
 			// aapt resource value: 0x7F0D002F
-			public const int mr_cast_button_connected = 2131558447;
+			public const int mr_button_content_description = 2131558447;
 			
 			// aapt resource value: 0x7F0D0030
-			public const int mr_cast_button_connecting = 2131558448;
+			public const int mr_cast_button_connected = 2131558448;
 			
 			// aapt resource value: 0x7F0D0031
-			public const int mr_cast_button_disconnected = 2131558449;
+			public const int mr_cast_button_connecting = 2131558449;
 			
 			// aapt resource value: 0x7F0D0032
-			public const int mr_cast_dialog_title_view_placeholder = 2131558450;
+			public const int mr_cast_button_disconnected = 2131558450;
 			
 			// aapt resource value: 0x7F0D0033
-			public const int mr_chooser_searching = 2131558451;
+			public const int mr_cast_dialog_title_view_placeholder = 2131558451;
 			
 			// aapt resource value: 0x7F0D0034
-			public const int mr_chooser_title = 2131558452;
+			public const int mr_chooser_searching = 2131558452;
 			
 			// aapt resource value: 0x7F0D0035
-			public const int mr_controller_album_art = 2131558453;
+			public const int mr_chooser_title = 2131558453;
 			
 			// aapt resource value: 0x7F0D0036
-			public const int mr_controller_casting_screen = 2131558454;
+			public const int mr_controller_album_art = 2131558454;
 			
 			// aapt resource value: 0x7F0D0037
-			public const int mr_controller_close_description = 2131558455;
+			public const int mr_controller_casting_screen = 2131558455;
 			
 			// aapt resource value: 0x7F0D0038
-			public const int mr_controller_collapse_group = 2131558456;
+			public const int mr_controller_close_description = 2131558456;
 			
 			// aapt resource value: 0x7F0D0039
-			public const int mr_controller_disconnect = 2131558457;
+			public const int mr_controller_collapse_group = 2131558457;
 			
 			// aapt resource value: 0x7F0D003A
-			public const int mr_controller_expand_group = 2131558458;
+			public const int mr_controller_disconnect = 2131558458;
 			
 			// aapt resource value: 0x7F0D003B
-			public const int mr_controller_no_info_available = 2131558459;
+			public const int mr_controller_expand_group = 2131558459;
 			
 			// aapt resource value: 0x7F0D003C
-			public const int mr_controller_no_media_selected = 2131558460;
+			public const int mr_controller_no_info_available = 2131558460;
 			
 			// aapt resource value: 0x7F0D003D
-			public const int mr_controller_pause = 2131558461;
+			public const int mr_controller_no_media_selected = 2131558461;
 			
 			// aapt resource value: 0x7F0D003E
-			public const int mr_controller_play = 2131558462;
+			public const int mr_controller_pause = 2131558462;
 			
 			// aapt resource value: 0x7F0D003F
-			public const int mr_controller_stop = 2131558463;
+			public const int mr_controller_play = 2131558463;
 			
 			// aapt resource value: 0x7F0D0040
-			public const int mr_controller_stop_casting = 2131558464;
+			public const int mr_controller_stop = 2131558464;
 			
 			// aapt resource value: 0x7F0D0041
-			public const int mr_controller_volume_slider = 2131558465;
+			public const int mr_controller_stop_casting = 2131558465;
 			
 			// aapt resource value: 0x7F0D0042
-			public const int mr_dialog_device_header = 2131558466;
+			public const int mr_controller_volume_slider = 2131558466;
 			
 			// aapt resource value: 0x7F0D0043
-			public const int mr_dialog_route_header = 2131558467;
+			public const int mr_dialog_device_header = 2131558467;
 			
 			// aapt resource value: 0x7F0D0044
-			public const int mr_system_route_name = 2131558468;
+			public const int mr_dialog_route_header = 2131558468;
 			
 			// aapt resource value: 0x7F0D0045
-			public const int mr_user_route_category_name = 2131558469;
+			public const int mr_system_route_name = 2131558469;
 			
 			// aapt resource value: 0x7F0D0046
-			public const int mtrl_chip_close_icon_content_description = 2131558470;
+			public const int mr_user_route_category_name = 2131558470;
 			
 			// aapt resource value: 0x7F0D0047
-			public const int password_toggle_content_description = 2131558471;
+			public const int mtrl_chip_close_icon_content_description = 2131558471;
 			
 			// aapt resource value: 0x7F0D0048
-			public const int path_password_eye = 2131558472;
+			public const int password_toggle_content_description = 2131558472;
 			
 			// aapt resource value: 0x7F0D0049
-			public const int path_password_eye_mask_strike_through = 2131558473;
+			public const int path_password_eye = 2131558473;
 			
 			// aapt resource value: 0x7F0D004A
-			public const int path_password_eye_mask_visible = 2131558474;
+			public const int path_password_eye_mask_strike_through = 2131558474;
 			
 			// aapt resource value: 0x7F0D004B
-			public const int path_password_strike_through = 2131558475;
+			public const int path_password_eye_mask_visible = 2131558475;
 			
 			// aapt resource value: 0x7F0D004C
-			public const int search_menu_title = 2131558476;
+			public const int path_password_strike_through = 2131558476;
 			
 			// aapt resource value: 0x7F0D004D
-			public const int status_bar_notification_info_overflow = 2131558477;
+			public const int search_menu_title = 2131558477;
+			
+			// aapt resource value: 0x7F0D004E
+			public const int status_bar_notification_info_overflow = 2131558478;
 			
 			static String()
 			{
@@ -10498,68 +12786,68 @@ namespace ChernivtsiGuide.Droid
 			// aapt resource value: 0x7F0E013D
 			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131624253;
 			
-			// aapt resource value: 0x7F0E0172
-			public const int ThemeOverlay_AppCompat = 2131624306;
-			
 			// aapt resource value: 0x7F0E0173
-			public const int ThemeOverlay_AppCompat_ActionBar = 2131624307;
+			public const int ThemeOverlay_AppCompat = 2131624307;
 			
 			// aapt resource value: 0x7F0E0174
-			public const int ThemeOverlay_AppCompat_Dark = 2131624308;
+			public const int ThemeOverlay_AppCompat_ActionBar = 2131624308;
 			
 			// aapt resource value: 0x7F0E0175
-			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131624309;
+			public const int ThemeOverlay_AppCompat_Dark = 2131624309;
 			
 			// aapt resource value: 0x7F0E0176
-			public const int ThemeOverlay_AppCompat_Dialog = 2131624310;
+			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131624310;
 			
 			// aapt resource value: 0x7F0E0177
-			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131624311;
+			public const int ThemeOverlay_AppCompat_Dialog = 2131624311;
 			
 			// aapt resource value: 0x7F0E0178
-			public const int ThemeOverlay_AppCompat_Light = 2131624312;
+			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131624312;
 			
 			// aapt resource value: 0x7F0E0179
-			public const int ThemeOverlay_MaterialComponents = 2131624313;
+			public const int ThemeOverlay_AppCompat_Light = 2131624313;
 			
 			// aapt resource value: 0x7F0E017A
-			public const int ThemeOverlay_MaterialComponents_ActionBar = 2131624314;
+			public const int ThemeOverlay_MaterialComponents = 2131624314;
 			
 			// aapt resource value: 0x7F0E017B
-			public const int ThemeOverlay_MaterialComponents_Dark = 2131624315;
+			public const int ThemeOverlay_MaterialComponents_ActionBar = 2131624315;
 			
 			// aapt resource value: 0x7F0E017C
-			public const int ThemeOverlay_MaterialComponents_Dark_ActionBar = 2131624316;
+			public const int ThemeOverlay_MaterialComponents_Dark = 2131624316;
 			
 			// aapt resource value: 0x7F0E017D
-			public const int ThemeOverlay_MaterialComponents_Dialog = 2131624317;
+			public const int ThemeOverlay_MaterialComponents_Dark_ActionBar = 2131624317;
 			
 			// aapt resource value: 0x7F0E017E
-			public const int ThemeOverlay_MaterialComponents_Dialog_Alert = 2131624318;
+			public const int ThemeOverlay_MaterialComponents_Dialog = 2131624318;
 			
 			// aapt resource value: 0x7F0E017F
-			public const int ThemeOverlay_MaterialComponents_Light = 2131624319;
+			public const int ThemeOverlay_MaterialComponents_Dialog_Alert = 2131624319;
 			
 			// aapt resource value: 0x7F0E0180
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText = 2131624320;
+			public const int ThemeOverlay_MaterialComponents_Light = 2131624320;
 			
 			// aapt resource value: 0x7F0E0181
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = 2131624321;
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText = 2131624321;
 			
 			// aapt resource value: 0x7F0E0182
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131624322;
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = 2131624322;
 			
 			// aapt resource value: 0x7F0E0183
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = 2131624323;
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131624323;
 			
 			// aapt resource value: 0x7F0E0184
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131624324;
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = 2131624324;
 			
 			// aapt resource value: 0x7F0E0185
-			public const int ThemeOverlay_MediaRouter_Dark = 2131624325;
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131624325;
 			
 			// aapt resource value: 0x7F0E0186
-			public const int ThemeOverlay_MediaRouter_Light = 2131624326;
+			public const int ThemeOverlay_MediaRouter_Dark = 2131624326;
+			
+			// aapt resource value: 0x7F0E0187
+			public const int ThemeOverlay_MediaRouter_Light = 2131624327;
 			
 			// aapt resource value: 0x7F0E013E
 			public const int Theme_AppCompat = 2131624254;
@@ -10717,374 +13005,383 @@ namespace ChernivtsiGuide.Droid
 			// aapt resource value: 0x7F0E0170
 			public const int Theme_MediaRouter_Light_DarkControlPanel = 2131624304;
 			
-			// aapt resource value: 0x7F0E0187
-			public const int Widget_AppCompat_ActionBar = 2131624327;
+			// aapt resource value: 0x7F0E0172
+			public const int Theme_PageIndicatorDefaults = 2131624306;
 			
 			// aapt resource value: 0x7F0E0188
-			public const int Widget_AppCompat_ActionBar_Solid = 2131624328;
+			public const int Widget = 2131624328;
 			
 			// aapt resource value: 0x7F0E0189
-			public const int Widget_AppCompat_ActionBar_TabBar = 2131624329;
+			public const int Widget_AppCompat_ActionBar = 2131624329;
 			
 			// aapt resource value: 0x7F0E018A
-			public const int Widget_AppCompat_ActionBar_TabText = 2131624330;
+			public const int Widget_AppCompat_ActionBar_Solid = 2131624330;
 			
 			// aapt resource value: 0x7F0E018B
-			public const int Widget_AppCompat_ActionBar_TabView = 2131624331;
+			public const int Widget_AppCompat_ActionBar_TabBar = 2131624331;
 			
 			// aapt resource value: 0x7F0E018C
-			public const int Widget_AppCompat_ActionButton = 2131624332;
+			public const int Widget_AppCompat_ActionBar_TabText = 2131624332;
 			
 			// aapt resource value: 0x7F0E018D
-			public const int Widget_AppCompat_ActionButton_CloseMode = 2131624333;
+			public const int Widget_AppCompat_ActionBar_TabView = 2131624333;
 			
 			// aapt resource value: 0x7F0E018E
-			public const int Widget_AppCompat_ActionButton_Overflow = 2131624334;
+			public const int Widget_AppCompat_ActionButton = 2131624334;
 			
 			// aapt resource value: 0x7F0E018F
-			public const int Widget_AppCompat_ActionMode = 2131624335;
+			public const int Widget_AppCompat_ActionButton_CloseMode = 2131624335;
 			
 			// aapt resource value: 0x7F0E0190
-			public const int Widget_AppCompat_ActivityChooserView = 2131624336;
+			public const int Widget_AppCompat_ActionButton_Overflow = 2131624336;
 			
 			// aapt resource value: 0x7F0E0191
-			public const int Widget_AppCompat_AutoCompleteTextView = 2131624337;
+			public const int Widget_AppCompat_ActionMode = 2131624337;
 			
 			// aapt resource value: 0x7F0E0192
-			public const int Widget_AppCompat_Button = 2131624338;
-			
-			// aapt resource value: 0x7F0E0198
-			public const int Widget_AppCompat_ButtonBar = 2131624344;
-			
-			// aapt resource value: 0x7F0E0199
-			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131624345;
+			public const int Widget_AppCompat_ActivityChooserView = 2131624338;
 			
 			// aapt resource value: 0x7F0E0193
-			public const int Widget_AppCompat_Button_Borderless = 2131624339;
+			public const int Widget_AppCompat_AutoCompleteTextView = 2131624339;
 			
 			// aapt resource value: 0x7F0E0194
-			public const int Widget_AppCompat_Button_Borderless_Colored = 2131624340;
-			
-			// aapt resource value: 0x7F0E0195
-			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131624341;
-			
-			// aapt resource value: 0x7F0E0196
-			public const int Widget_AppCompat_Button_Colored = 2131624342;
-			
-			// aapt resource value: 0x7F0E0197
-			public const int Widget_AppCompat_Button_Small = 2131624343;
+			public const int Widget_AppCompat_Button = 2131624340;
 			
 			// aapt resource value: 0x7F0E019A
-			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131624346;
+			public const int Widget_AppCompat_ButtonBar = 2131624346;
 			
 			// aapt resource value: 0x7F0E019B
-			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131624347;
+			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131624347;
+			
+			// aapt resource value: 0x7F0E0195
+			public const int Widget_AppCompat_Button_Borderless = 2131624341;
+			
+			// aapt resource value: 0x7F0E0196
+			public const int Widget_AppCompat_Button_Borderless_Colored = 2131624342;
+			
+			// aapt resource value: 0x7F0E0197
+			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131624343;
+			
+			// aapt resource value: 0x7F0E0198
+			public const int Widget_AppCompat_Button_Colored = 2131624344;
+			
+			// aapt resource value: 0x7F0E0199
+			public const int Widget_AppCompat_Button_Small = 2131624345;
 			
 			// aapt resource value: 0x7F0E019C
-			public const int Widget_AppCompat_CompoundButton_Switch = 2131624348;
+			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131624348;
 			
 			// aapt resource value: 0x7F0E019D
-			public const int Widget_AppCompat_DrawerArrowToggle = 2131624349;
+			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131624349;
 			
 			// aapt resource value: 0x7F0E019E
-			public const int Widget_AppCompat_DropDownItem_Spinner = 2131624350;
+			public const int Widget_AppCompat_CompoundButton_Switch = 2131624350;
 			
 			// aapt resource value: 0x7F0E019F
-			public const int Widget_AppCompat_EditText = 2131624351;
+			public const int Widget_AppCompat_DrawerArrowToggle = 2131624351;
 			
 			// aapt resource value: 0x7F0E01A0
-			public const int Widget_AppCompat_ImageButton = 2131624352;
+			public const int Widget_AppCompat_DropDownItem_Spinner = 2131624352;
 			
 			// aapt resource value: 0x7F0E01A1
-			public const int Widget_AppCompat_Light_ActionBar = 2131624353;
+			public const int Widget_AppCompat_EditText = 2131624353;
 			
 			// aapt resource value: 0x7F0E01A2
-			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131624354;
+			public const int Widget_AppCompat_ImageButton = 2131624354;
 			
 			// aapt resource value: 0x7F0E01A3
-			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131624355;
+			public const int Widget_AppCompat_Light_ActionBar = 2131624355;
 			
 			// aapt resource value: 0x7F0E01A4
-			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131624356;
+			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131624356;
 			
 			// aapt resource value: 0x7F0E01A5
-			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131624357;
+			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131624357;
 			
 			// aapt resource value: 0x7F0E01A6
-			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131624358;
+			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131624358;
 			
 			// aapt resource value: 0x7F0E01A7
-			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131624359;
+			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131624359;
 			
 			// aapt resource value: 0x7F0E01A8
-			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131624360;
+			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131624360;
 			
 			// aapt resource value: 0x7F0E01A9
-			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131624361;
+			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131624361;
 			
 			// aapt resource value: 0x7F0E01AA
-			public const int Widget_AppCompat_Light_ActionButton = 2131624362;
+			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131624362;
 			
 			// aapt resource value: 0x7F0E01AB
-			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131624363;
+			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131624363;
 			
 			// aapt resource value: 0x7F0E01AC
-			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131624364;
+			public const int Widget_AppCompat_Light_ActionButton = 2131624364;
 			
 			// aapt resource value: 0x7F0E01AD
-			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131624365;
+			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131624365;
 			
 			// aapt resource value: 0x7F0E01AE
-			public const int Widget_AppCompat_Light_ActivityChooserView = 2131624366;
+			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131624366;
 			
 			// aapt resource value: 0x7F0E01AF
-			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131624367;
+			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131624367;
 			
 			// aapt resource value: 0x7F0E01B0
-			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131624368;
+			public const int Widget_AppCompat_Light_ActivityChooserView = 2131624368;
 			
 			// aapt resource value: 0x7F0E01B1
-			public const int Widget_AppCompat_Light_ListPopupWindow = 2131624369;
+			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131624369;
 			
 			// aapt resource value: 0x7F0E01B2
-			public const int Widget_AppCompat_Light_ListView_DropDown = 2131624370;
+			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131624370;
 			
 			// aapt resource value: 0x7F0E01B3
-			public const int Widget_AppCompat_Light_PopupMenu = 2131624371;
+			public const int Widget_AppCompat_Light_ListPopupWindow = 2131624371;
 			
 			// aapt resource value: 0x7F0E01B4
-			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131624372;
+			public const int Widget_AppCompat_Light_ListView_DropDown = 2131624372;
 			
 			// aapt resource value: 0x7F0E01B5
-			public const int Widget_AppCompat_Light_SearchView = 2131624373;
+			public const int Widget_AppCompat_Light_PopupMenu = 2131624373;
 			
 			// aapt resource value: 0x7F0E01B6
-			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131624374;
+			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131624374;
 			
 			// aapt resource value: 0x7F0E01B7
-			public const int Widget_AppCompat_ListMenuView = 2131624375;
+			public const int Widget_AppCompat_Light_SearchView = 2131624375;
 			
 			// aapt resource value: 0x7F0E01B8
-			public const int Widget_AppCompat_ListPopupWindow = 2131624376;
+			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131624376;
 			
 			// aapt resource value: 0x7F0E01B9
-			public const int Widget_AppCompat_ListView = 2131624377;
+			public const int Widget_AppCompat_ListMenuView = 2131624377;
 			
 			// aapt resource value: 0x7F0E01BA
-			public const int Widget_AppCompat_ListView_DropDown = 2131624378;
+			public const int Widget_AppCompat_ListPopupWindow = 2131624378;
 			
 			// aapt resource value: 0x7F0E01BB
-			public const int Widget_AppCompat_ListView_Menu = 2131624379;
+			public const int Widget_AppCompat_ListView = 2131624379;
 			
 			// aapt resource value: 0x7F0E01BC
-			public const int Widget_AppCompat_PopupMenu = 2131624380;
+			public const int Widget_AppCompat_ListView_DropDown = 2131624380;
 			
 			// aapt resource value: 0x7F0E01BD
-			public const int Widget_AppCompat_PopupMenu_Overflow = 2131624381;
+			public const int Widget_AppCompat_ListView_Menu = 2131624381;
 			
 			// aapt resource value: 0x7F0E01BE
-			public const int Widget_AppCompat_PopupWindow = 2131624382;
+			public const int Widget_AppCompat_PopupMenu = 2131624382;
 			
 			// aapt resource value: 0x7F0E01BF
-			public const int Widget_AppCompat_ProgressBar = 2131624383;
+			public const int Widget_AppCompat_PopupMenu_Overflow = 2131624383;
 			
 			// aapt resource value: 0x7F0E01C0
-			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131624384;
+			public const int Widget_AppCompat_PopupWindow = 2131624384;
 			
 			// aapt resource value: 0x7F0E01C1
-			public const int Widget_AppCompat_RatingBar = 2131624385;
+			public const int Widget_AppCompat_ProgressBar = 2131624385;
 			
 			// aapt resource value: 0x7F0E01C2
-			public const int Widget_AppCompat_RatingBar_Indicator = 2131624386;
+			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131624386;
 			
 			// aapt resource value: 0x7F0E01C3
-			public const int Widget_AppCompat_RatingBar_Small = 2131624387;
+			public const int Widget_AppCompat_RatingBar = 2131624387;
 			
 			// aapt resource value: 0x7F0E01C4
-			public const int Widget_AppCompat_SearchView = 2131624388;
+			public const int Widget_AppCompat_RatingBar_Indicator = 2131624388;
 			
 			// aapt resource value: 0x7F0E01C5
-			public const int Widget_AppCompat_SearchView_ActionBar = 2131624389;
+			public const int Widget_AppCompat_RatingBar_Small = 2131624389;
 			
 			// aapt resource value: 0x7F0E01C6
-			public const int Widget_AppCompat_SeekBar = 2131624390;
+			public const int Widget_AppCompat_SearchView = 2131624390;
 			
 			// aapt resource value: 0x7F0E01C7
-			public const int Widget_AppCompat_SeekBar_Discrete = 2131624391;
+			public const int Widget_AppCompat_SearchView_ActionBar = 2131624391;
 			
 			// aapt resource value: 0x7F0E01C8
-			public const int Widget_AppCompat_Spinner = 2131624392;
+			public const int Widget_AppCompat_SeekBar = 2131624392;
 			
 			// aapt resource value: 0x7F0E01C9
-			public const int Widget_AppCompat_Spinner_DropDown = 2131624393;
+			public const int Widget_AppCompat_SeekBar_Discrete = 2131624393;
 			
 			// aapt resource value: 0x7F0E01CA
-			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131624394;
+			public const int Widget_AppCompat_Spinner = 2131624394;
 			
 			// aapt resource value: 0x7F0E01CB
-			public const int Widget_AppCompat_Spinner_Underlined = 2131624395;
+			public const int Widget_AppCompat_Spinner_DropDown = 2131624395;
 			
 			// aapt resource value: 0x7F0E01CC
-			public const int Widget_AppCompat_TextView_SpinnerItem = 2131624396;
+			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131624396;
 			
 			// aapt resource value: 0x7F0E01CD
-			public const int Widget_AppCompat_Toolbar = 2131624397;
+			public const int Widget_AppCompat_Spinner_Underlined = 2131624397;
 			
 			// aapt resource value: 0x7F0E01CE
-			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131624398;
+			public const int Widget_AppCompat_TextView_SpinnerItem = 2131624398;
 			
 			// aapt resource value: 0x7F0E01CF
-			public const int Widget_Compat_NotificationActionContainer = 2131624399;
+			public const int Widget_AppCompat_Toolbar = 2131624399;
 			
 			// aapt resource value: 0x7F0E01D0
-			public const int Widget_Compat_NotificationActionText = 2131624400;
+			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131624400;
 			
 			// aapt resource value: 0x7F0E01D1
-			public const int Widget_Design_AppBarLayout = 2131624401;
+			public const int Widget_CirclePageIndicator = 2131624401;
 			
 			// aapt resource value: 0x7F0E01D2
-			public const int Widget_Design_BottomNavigationView = 2131624402;
+			public const int Widget_Compat_NotificationActionContainer = 2131624402;
 			
 			// aapt resource value: 0x7F0E01D3
-			public const int Widget_Design_BottomSheet_Modal = 2131624403;
+			public const int Widget_Compat_NotificationActionText = 2131624403;
 			
 			// aapt resource value: 0x7F0E01D4
-			public const int Widget_Design_CollapsingToolbar = 2131624404;
+			public const int Widget_Design_AppBarLayout = 2131624404;
 			
 			// aapt resource value: 0x7F0E01D5
-			public const int Widget_Design_FloatingActionButton = 2131624405;
+			public const int Widget_Design_BottomNavigationView = 2131624405;
 			
 			// aapt resource value: 0x7F0E01D6
-			public const int Widget_Design_NavigationView = 2131624406;
+			public const int Widget_Design_BottomSheet_Modal = 2131624406;
 			
 			// aapt resource value: 0x7F0E01D7
-			public const int Widget_Design_ScrimInsetsFrameLayout = 2131624407;
+			public const int Widget_Design_CollapsingToolbar = 2131624407;
 			
 			// aapt resource value: 0x7F0E01D8
-			public const int Widget_Design_Snackbar = 2131624408;
+			public const int Widget_Design_FloatingActionButton = 2131624408;
 			
 			// aapt resource value: 0x7F0E01D9
-			public const int Widget_Design_TabLayout = 2131624409;
+			public const int Widget_Design_NavigationView = 2131624409;
 			
 			// aapt resource value: 0x7F0E01DA
-			public const int Widget_Design_TextInputLayout = 2131624410;
+			public const int Widget_Design_ScrimInsetsFrameLayout = 2131624410;
 			
 			// aapt resource value: 0x7F0E01DB
-			public const int Widget_MaterialComponents_BottomAppBar = 2131624411;
+			public const int Widget_Design_Snackbar = 2131624411;
 			
 			// aapt resource value: 0x7F0E01DC
-			public const int Widget_MaterialComponents_BottomAppBar_Colored = 2131624412;
+			public const int Widget_Design_TabLayout = 2131624412;
 			
 			// aapt resource value: 0x7F0E01DD
-			public const int Widget_MaterialComponents_BottomNavigationView = 2131624413;
+			public const int Widget_Design_TextInputLayout = 2131624413;
 			
 			// aapt resource value: 0x7F0E01DE
-			public const int Widget_MaterialComponents_BottomNavigationView_Colored = 2131624414;
+			public const int Widget_MaterialComponents_BottomAppBar = 2131624414;
 			
 			// aapt resource value: 0x7F0E01DF
-			public const int Widget_MaterialComponents_BottomSheet_Modal = 2131624415;
+			public const int Widget_MaterialComponents_BottomAppBar_Colored = 2131624415;
 			
 			// aapt resource value: 0x7F0E01E0
-			public const int Widget_MaterialComponents_Button = 2131624416;
+			public const int Widget_MaterialComponents_BottomNavigationView = 2131624416;
 			
 			// aapt resource value: 0x7F0E01E1
-			public const int Widget_MaterialComponents_Button_Icon = 2131624417;
+			public const int Widget_MaterialComponents_BottomNavigationView_Colored = 2131624417;
 			
 			// aapt resource value: 0x7F0E01E2
-			public const int Widget_MaterialComponents_Button_OutlinedButton = 2131624418;
+			public const int Widget_MaterialComponents_BottomSheet_Modal = 2131624418;
 			
 			// aapt resource value: 0x7F0E01E3
-			public const int Widget_MaterialComponents_Button_OutlinedButton_Icon = 2131624419;
+			public const int Widget_MaterialComponents_Button = 2131624419;
 			
 			// aapt resource value: 0x7F0E01E4
-			public const int Widget_MaterialComponents_Button_TextButton = 2131624420;
+			public const int Widget_MaterialComponents_Button_Icon = 2131624420;
 			
 			// aapt resource value: 0x7F0E01E5
-			public const int Widget_MaterialComponents_Button_TextButton_Dialog = 2131624421;
+			public const int Widget_MaterialComponents_Button_OutlinedButton = 2131624421;
 			
 			// aapt resource value: 0x7F0E01E6
-			public const int Widget_MaterialComponents_Button_TextButton_Dialog_Icon = 2131624422;
+			public const int Widget_MaterialComponents_Button_OutlinedButton_Icon = 2131624422;
 			
 			// aapt resource value: 0x7F0E01E7
-			public const int Widget_MaterialComponents_Button_TextButton_Icon = 2131624423;
+			public const int Widget_MaterialComponents_Button_TextButton = 2131624423;
 			
 			// aapt resource value: 0x7F0E01E8
-			public const int Widget_MaterialComponents_Button_UnelevatedButton = 2131624424;
+			public const int Widget_MaterialComponents_Button_TextButton_Dialog = 2131624424;
 			
 			// aapt resource value: 0x7F0E01E9
-			public const int Widget_MaterialComponents_Button_UnelevatedButton_Icon = 2131624425;
+			public const int Widget_MaterialComponents_Button_TextButton_Dialog_Icon = 2131624425;
 			
 			// aapt resource value: 0x7F0E01EA
-			public const int Widget_MaterialComponents_CardView = 2131624426;
-			
-			// aapt resource value: 0x7F0E01EF
-			public const int Widget_MaterialComponents_ChipGroup = 2131624431;
+			public const int Widget_MaterialComponents_Button_TextButton_Icon = 2131624426;
 			
 			// aapt resource value: 0x7F0E01EB
-			public const int Widget_MaterialComponents_Chip_Action = 2131624427;
+			public const int Widget_MaterialComponents_Button_UnelevatedButton = 2131624427;
 			
 			// aapt resource value: 0x7F0E01EC
-			public const int Widget_MaterialComponents_Chip_Choice = 2131624428;
+			public const int Widget_MaterialComponents_Button_UnelevatedButton_Icon = 2131624428;
 			
 			// aapt resource value: 0x7F0E01ED
-			public const int Widget_MaterialComponents_Chip_Entry = 2131624429;
-			
-			// aapt resource value: 0x7F0E01EE
-			public const int Widget_MaterialComponents_Chip_Filter = 2131624430;
-			
-			// aapt resource value: 0x7F0E01F0
-			public const int Widget_MaterialComponents_FloatingActionButton = 2131624432;
-			
-			// aapt resource value: 0x7F0E01F1
-			public const int Widget_MaterialComponents_NavigationView = 2131624433;
+			public const int Widget_MaterialComponents_CardView = 2131624429;
 			
 			// aapt resource value: 0x7F0E01F2
-			public const int Widget_MaterialComponents_Snackbar = 2131624434;
+			public const int Widget_MaterialComponents_ChipGroup = 2131624434;
+			
+			// aapt resource value: 0x7F0E01EE
+			public const int Widget_MaterialComponents_Chip_Action = 2131624430;
+			
+			// aapt resource value: 0x7F0E01EF
+			public const int Widget_MaterialComponents_Chip_Choice = 2131624431;
+			
+			// aapt resource value: 0x7F0E01F0
+			public const int Widget_MaterialComponents_Chip_Entry = 2131624432;
+			
+			// aapt resource value: 0x7F0E01F1
+			public const int Widget_MaterialComponents_Chip_Filter = 2131624433;
 			
 			// aapt resource value: 0x7F0E01F3
-			public const int Widget_MaterialComponents_Snackbar_FullWidth = 2131624435;
+			public const int Widget_MaterialComponents_FloatingActionButton = 2131624435;
 			
 			// aapt resource value: 0x7F0E01F4
-			public const int Widget_MaterialComponents_TabLayout = 2131624436;
+			public const int Widget_MaterialComponents_NavigationView = 2131624436;
 			
 			// aapt resource value: 0x7F0E01F5
-			public const int Widget_MaterialComponents_TabLayout_Colored = 2131624437;
+			public const int Widget_MaterialComponents_Snackbar = 2131624437;
 			
 			// aapt resource value: 0x7F0E01F6
-			public const int Widget_MaterialComponents_TextInputEditText_FilledBox = 2131624438;
+			public const int Widget_MaterialComponents_Snackbar_FullWidth = 2131624438;
 			
 			// aapt resource value: 0x7F0E01F7
-			public const int Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131624439;
+			public const int Widget_MaterialComponents_TabLayout = 2131624439;
 			
 			// aapt resource value: 0x7F0E01F8
-			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox = 2131624440;
+			public const int Widget_MaterialComponents_TabLayout_Colored = 2131624440;
 			
 			// aapt resource value: 0x7F0E01F9
-			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131624441;
+			public const int Widget_MaterialComponents_TextInputEditText_FilledBox = 2131624441;
 			
 			// aapt resource value: 0x7F0E01FA
-			public const int Widget_MaterialComponents_TextInputLayout_FilledBox = 2131624442;
+			public const int Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131624442;
 			
 			// aapt resource value: 0x7F0E01FB
-			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = 2131624443;
+			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox = 2131624443;
 			
 			// aapt resource value: 0x7F0E01FC
-			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox = 2131624444;
+			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131624444;
 			
 			// aapt resource value: 0x7F0E01FD
-			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = 2131624445;
+			public const int Widget_MaterialComponents_TextInputLayout_FilledBox = 2131624445;
 			
 			// aapt resource value: 0x7F0E01FE
-			public const int Widget_MaterialComponents_Toolbar = 2131624446;
+			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = 2131624446;
 			
 			// aapt resource value: 0x7F0E01FF
-			public const int Widget_MediaRouter_Light_MediaRouteButton = 2131624447;
+			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox = 2131624447;
 			
 			// aapt resource value: 0x7F0E0200
-			public const int Widget_MediaRouter_MediaRouteButton = 2131624448;
+			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = 2131624448;
 			
 			// aapt resource value: 0x7F0E0201
-			public const int Widget_Support_CoordinatorLayout = 2131624449;
+			public const int Widget_MaterialComponents_Toolbar = 2131624449;
+			
+			// aapt resource value: 0x7F0E0202
+			public const int Widget_MediaRouter_Light_MediaRouteButton = 2131624450;
+			
+			// aapt resource value: 0x7F0E0203
+			public const int Widget_MediaRouter_MediaRouteButton = 2131624451;
+			
+			// aapt resource value: 0x7F0E0204
+			public const int Widget_Support_CoordinatorLayout = 2131624452;
 			
 			static Style()
 			{
@@ -11539,7 +13836,7 @@ namespace ChernivtsiGuide.Droid
 			// aapt resource value: 0x10
 			public const int AppCompatTextView_textAllCaps = 16;
 			
-			// aapt resource value: { 0x1010057,0x10100AE,0x7F030000,0x7F030001,0x7F030002,0x7F030003,0x7F030004,0x7F030005,0x7F030006,0x7F030007,0x7F030008,0x7F030009,0x7F03000A,0x7F03000B,0x7F03000C,0x7F03000E,0x7F03000F,0x7F030010,0x7F030011,0x7F030012,0x7F030013,0x7F030014,0x7F030015,0x7F030016,0x7F030017,0x7F030018,0x7F030019,0x7F03001A,0x7F03001B,0x7F03001C,0x7F03001D,0x7F03001E,0x7F030021,0x7F030022,0x7F030023,0x7F030024,0x7F030025,0x7F03002B,0x7F03003E,0x7F03004C,0x7F03004D,0x7F03004E,0x7F03004F,0x7F030050,0x7F030054,0x7F030055,0x7F03005F,0x7F030064,0x7F030084,0x7F030085,0x7F030086,0x7F030087,0x7F030088,0x7F030089,0x7F03008A,0x7F03008B,0x7F03008C,0x7F03008E,0x7F03009D,0x7F0300A6,0x7F0300A7,0x7F0300A8,0x7F0300AB,0x7F0300AD,0x7F0300B0,0x7F0300B1,0x7F0300B2,0x7F0300B3,0x7F0300B4,0x7F0300EA,0x7F0300F6,0x7F030119,0x7F03011A,0x7F03011D,0x7F03011E,0x7F03011F,0x7F030120,0x7F030121,0x7F030122,0x7F030123,0x7F030145,0x7F030146,0x7F030147,0x7F03014D,0x7F03014F,0x7F030156,0x7F030157,0x7F030158,0x7F030159,0x7F030161,0x7F030162,0x7F030163,0x7F030164,0x7F030171,0x7F030172,0x7F030188,0x7F0301AF,0x7F0301B0,0x7F0301B1,0x7F0301B2,0x7F0301B4,0x7F0301B5,0x7F0301B6,0x7F0301B7,0x7F0301BA,0x7F0301BB,0x7F0301D5,0x7F0301D6,0x7F0301D7,0x7F0301D8,0x7F0301DF,0x7F0301E1,0x7F0301E2,0x7F0301E3,0x7F0301E4,0x7F0301E5,0x7F0301E6,0x7F0301E7,0x7F0301E8,0x7F0301E9,0x7F0301EA }
+			// aapt resource value: { 0x1010057,0x10100AE,0x7F030000,0x7F030001,0x7F030002,0x7F030003,0x7F030004,0x7F030005,0x7F030006,0x7F030007,0x7F030008,0x7F030009,0x7F03000A,0x7F03000B,0x7F03000C,0x7F03000E,0x7F03000F,0x7F030010,0x7F030011,0x7F030012,0x7F030013,0x7F030014,0x7F030015,0x7F030016,0x7F030017,0x7F030018,0x7F030019,0x7F03001A,0x7F03001B,0x7F03001C,0x7F03001D,0x7F03001E,0x7F030021,0x7F030022,0x7F030023,0x7F030024,0x7F030025,0x7F03002B,0x7F03003E,0x7F03004C,0x7F03004D,0x7F03004E,0x7F03004F,0x7F030050,0x7F030054,0x7F030055,0x7F03005F,0x7F030064,0x7F030084,0x7F030085,0x7F030086,0x7F030087,0x7F030088,0x7F030089,0x7F03008A,0x7F03008B,0x7F03008C,0x7F03008E,0x7F03009D,0x7F0300A6,0x7F0300A7,0x7F0300A8,0x7F0300AB,0x7F0300AD,0x7F0300B0,0x7F0300B1,0x7F0300B2,0x7F0300B3,0x7F0300B4,0x7F0300EA,0x7F0300F6,0x7F030119,0x7F03011A,0x7F03011D,0x7F03011E,0x7F03011F,0x7F030120,0x7F030121,0x7F030122,0x7F030123,0x7F030145,0x7F030146,0x7F030147,0x7F03014D,0x7F03014F,0x7F030156,0x7F030157,0x7F030158,0x7F030159,0x7F030161,0x7F030162,0x7F030163,0x7F030164,0x7F030171,0x7F030172,0x7F030188,0x7F0301AF,0x7F0301B0,0x7F0301B1,0x7F0301B2,0x7F0301B4,0x7F0301B5,0x7F0301B6,0x7F0301B7,0x7F0301BA,0x7F0301BB,0x7F0301D5,0x7F0301D6,0x7F0301D7,0x7F0301D8,0x7F0301DF,0x7F0301EA,0x7F0301EB,0x7F0301EC,0x7F0301ED,0x7F0301EE,0x7F0301EF,0x7F0301F0,0x7F0301F1,0x7F0301F2,0x7F0301F3 }
 			public static int[] AppCompatTheme = new int[] {
 					16842839,
 					16842926,
@@ -11652,16 +13949,16 @@ namespace ChernivtsiGuide.Droid
 					2130903511,
 					2130903512,
 					2130903519,
-					2130903521,
-					2130903522,
-					2130903523,
-					2130903524,
-					2130903525,
-					2130903526,
-					2130903527,
-					2130903528,
-					2130903529,
-					2130903530};
+					2130903530,
+					2130903531,
+					2130903532,
+					2130903533,
+					2130903534,
+					2130903535,
+					2130903536,
+					2130903537,
+					2130903538,
+					2130903539};
 			
 			// aapt resource value: 0x2
 			public const int AppCompatTheme_actionBarDivider = 2;
@@ -12342,6 +14639,41 @@ namespace ChernivtsiGuide.Droid
 			
 			// aapt resource value: 0x33
 			public const int Chip_textStartPadding = 51;
+			
+			// aapt resource value: { 0x7F0301E1,0x7F0301E3,0x7F0301E4,0x7F0301E5,0x7F0301E6,0x7F0301E7,0x7F0301E8,0x7F0301E9 }
+			public static int[] CirclePageIndicator = new int[] {
+					2130903521,
+					2130903523,
+					2130903524,
+					2130903525,
+					2130903526,
+					2130903527,
+					2130903528,
+					2130903529};
+			
+			// aapt resource value: 0x0
+			public const int CirclePageIndicator_vpiCentered = 0;
+			
+			// aapt resource value: 0x1
+			public const int CirclePageIndicator_vpiFillColor = 1;
+			
+			// aapt resource value: 0x2
+			public const int CirclePageIndicator_vpiOrientation = 2;
+			
+			// aapt resource value: 0x3
+			public const int CirclePageIndicator_vpiPageColor = 3;
+			
+			// aapt resource value: 0x4
+			public const int CirclePageIndicator_vpiRadius = 4;
+			
+			// aapt resource value: 0x5
+			public const int CirclePageIndicator_vpiSnap = 5;
+			
+			// aapt resource value: 0x6
+			public const int CirclePageIndicator_vpiStrokeColor = 6;
+			
+			// aapt resource value: 0x7
+			public const int CirclePageIndicator_vpiStrokeWidth = 7;
 			
 			// aapt resource value: { 0x7F030081,0x7F030082,0x7F03009C,0x7F0300BC,0x7F0300BD,0x7F0300BE,0x7F0300BF,0x7F0300C0,0x7F0300C1,0x7F0300C2,0x7F03015C,0x7F03015E,0x7F03017C,0x7F0301C9,0x7F0301CA,0x7F0301D4 }
 			public static int[] CollapsingToolbarLayout = new int[] {
@@ -14019,6 +16351,13 @@ namespace ChernivtsiGuide.Droid
 			
 			// aapt resource value: 0x2
 			public const int ViewBackgroundHelper_backgroundTintMode = 2;
+			
+			// aapt resource value: { 0x7F0301E2 }
+			public static int[] ViewPagerIndicator = new int[] {
+					2130903522};
+			
+			// aapt resource value: 0x0
+			public const int ViewPagerIndicator_vpiCirclePageIndicatorStyle = 0;
 			
 			// aapt resource value: { 0x10100D0,0x10100F2,0x10100F3 }
 			public static int[] ViewStubCompat = new int[] {

@@ -20,6 +20,18 @@ namespace ChernivtsiGuide
                 return question_rep;
             }
         }
+        public static GeneralTypeRepository generaTypeRep;
+        public static GeneralTypeRepository generalTypeRepository
+        {
+            get
+            {
+                if (generaTypeRep == null)
+                {
+                    generaTypeRep = new GeneralTypeRepository(DATABASE_NAME);
+                }
+                return generaTypeRep;
+            }
+        }
         public App()
         {
             InitializeComponent();
