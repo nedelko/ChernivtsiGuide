@@ -19,7 +19,6 @@ namespace ChernivtsiGuide.Repositories
         public IEnumerable<General_type> GetItems()
         {
             return (from i in database.Table<General_type>() select i).ToList();
-
         }
     }
 }

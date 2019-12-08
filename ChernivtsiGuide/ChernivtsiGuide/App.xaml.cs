@@ -32,6 +32,18 @@ namespace ChernivtsiGuide
                 return generaTypeRep;
             }
         }
+        public static PlaceTypeRepository placeTypeRep;
+        public static PlaceTypeRepository placeTypeRepository
+        {
+            get
+            {
+                if (placeTypeRep == null)
+                {
+                    placeTypeRep = new PlaceTypeRepository(DATABASE_NAME);
+                }
+                return placeTypeRep;
+            }
+        }
         public App()
         {
             InitializeComponent();
