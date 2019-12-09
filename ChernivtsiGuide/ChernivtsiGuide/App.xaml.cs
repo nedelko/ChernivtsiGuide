@@ -44,6 +44,30 @@ namespace ChernivtsiGuide
                 return placeTypeRep;
             }
         }
+        public static PlaceAttributeRepository placeAttributeRep;
+        public static PlaceAttributeRepository placeAttributeRepository
+        {
+            get
+            {
+                if (placeAttributeRep == null)
+                {
+                    placeAttributeRep = new PlaceAttributeRepository(DATABASE_NAME);
+                }
+                return placeAttributeRep;
+            }
+        }
+        public static PlaceRepository placeRep;
+        public static PlaceRepository placeRepository
+        {
+            get
+            {
+                if (placeRep == null)
+                {
+                    placeRep = new PlaceRepository(DATABASE_NAME);
+                }
+                return placeRep;
+            }
+        }
         public App()
         {
             InitializeComponent();
