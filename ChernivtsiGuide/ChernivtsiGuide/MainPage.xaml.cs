@@ -41,7 +41,11 @@ namespace ChernivtsiGuide
             {
                 Button generalButton = new Button() { Text = general_Type.General_name, WidthRequest = 200, HeightRequest = 50 };
                 generalButton.Clicked += delegate { OnGeneralButtonClicked(general_Type.General_id, general_Type.General_question); };
-                generalTypesStack.Children.Add(generalButton);
+                Image generalImage = new Image { Source = general_Type.General_type_logo };
+                StackLayout generalImageButton = new StackLayout();
+                generalImageButton.Children.Add(generalButton);
+                generalImageButton.Children.Add(generalImage);
+                generalTypesStack.Children.Add(generalImageButton);
             }
             generalTypesStack.Orientation = StackOrientation.Horizontal;
 
@@ -82,7 +86,11 @@ namespace ChernivtsiGuide
             {
                 Button placeTypeButton = new Button() { Text = place_Type.Name, WidthRequest = 200, HeightRequest = 50 };
                 placeTypeButton.Clicked += delegate { OnPlaceTypeButtonClicked(place_Type.Id); };
-                placeTypesStack.Children.Add(placeTypeButton);
+                Image placeImage = new Image { Source = place_Type.Type_logo };
+                StackLayout placeImageButton = new StackLayout();
+                placeImageButton.Children.Add(placeTypeButton);
+                placeImageButton.Children.Add(placeImage);
+                placeTypesStack.Children.Add(placeImageButton);
             }
             placeTypesStack.Orientation = StackOrientation.Horizontal;
             placeTypeLabel.Text = App.questionRepository.GetQuestion(placeTypeQuestion).Question_content;

@@ -16,9 +16,9 @@ namespace ChernivtsiGuide.Repositories
             string databasePath = DependencyService.Get<ISQLite>().GetDatabasePath(filename);
             database = new SQLiteConnection(databasePath);
         }
-        public IEnumerable<Place> GetPlaces(int id)
+        public IEnumerable<Place> GetPlacesByType(int place_type)
         {
-            return database.Query<Place>("SELECT * FROM place_type WHERE general_type = ?", id);
+            return database.Query<Place>("SELECT * FROM place WHERE place_type = ?", place_type);
         }
     }
 }
