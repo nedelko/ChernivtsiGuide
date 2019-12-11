@@ -16,11 +16,11 @@ namespace ChernivtsiGuide
     [DesignTimeVisible(false)]
     public partial class MainPage : ContentPage
     {
-        static Label placeTypeLabel = new Label();
+        static Label placeTypeLabel = new Label() { HorizontalTextAlignment = TextAlignment.Center, FontSize = 20, FontFamily = "TimesNewRoman" };
         static ScrollView placeTypeScrollView = new ScrollView();
-        static Label placeAttribute1Label = new Label();
+        static Label placeAttribute1Label = new Label() { HorizontalTextAlignment = TextAlignment.Center, FontSize = 20, FontFamily = "TimesNewRoman" };
         static ScrollView placeAttribute1ScrollView = new ScrollView();
-        static Label placeAttribute2Label = new Label();
+        static Label placeAttribute2Label = new Label() { HorizontalTextAlignment = TextAlignment.Center, FontSize = 20, FontFamily = "TimesNewRoman" };
         static ScrollView placeAttribute2ScrollView = new ScrollView();
         static Button confirmButton = new Button() { Text = "СФОРМУВАТИ СПИСОК", HorizontalOptions = LayoutOptions.FillAndExpand, IsVisible = false };
 
@@ -33,7 +33,7 @@ namespace ChernivtsiGuide
             "ChernivtsiGuide.mystyles.css"));
 
             Question generalQuestion = App.questionRepository.GetQuestion(1);
-            Label generalQuestionLebel = new Label() { Text = generalQuestion.Question_content };
+            Label generalQuestionLebel = new Label() { Text = generalQuestion.Question_content, HorizontalTextAlignment = TextAlignment.Center, FontSize = 20, FontFamily = "TimesNewRoman"};
 
             IEnumerable<General_type> general_Types = App.generalTypeRepository.GetItems();
             StackLayout generalTypesStack = new StackLayout();
@@ -60,18 +60,34 @@ namespace ChernivtsiGuide
             };
 
             //Content
-            StackLayout stackLayout = new StackLayout()
+            StackLayout ContentStackLayout = new StackLayout()
             {
                 Children = { generalQuestionLebel, generalTypeScrollView, placeTypeLabel, placeTypeScrollView, placeAttribute1Label, placeAttribute1ScrollView, placeAttribute2Label, placeAttribute2ScrollView, confirmStackLayout }
             };
 
-            this.Content = new ScrollView()
+            ScrollView contentScrollView = new ScrollView()
             {
                 HorizontalOptions = LayoutOptions.Fill,
                 VerticalOptions = LayoutOptions.FillAndExpand,
                 Orientation = ScrollOrientation.Vertical,
-                Content = stackLayout
+                Content = ContentStackLayout,
+                BackgroundColor = Color.FromRgb(185,221,210)
             };
+
+            StackLayout logoStackLayout = new StackLayout()
+            {
+                Children = { new Image() { Source = "smart_che.png", HorizontalOptions = LayoutOptions.FillAndExpand } },
+                Orientation = StackOrientation.Horizontal,
+                HeightRequest = 40,
+                BackgroundColor = Color.FromRgb(96, 122, 210)
+            };
+
+            StackLayout mainStackLayout = new StackLayout();
+            mainStackLayout.Children.Add(logoStackLayout);
+            mainStackLayout.Children.Add(contentScrollView);
+            mainStackLayout.Padding = new Thickness(0);
+
+            this.Content = mainStackLayout;
         }
         public static void OnGeneralButtonClicked(int id, int placeTypeQuestion)
         {

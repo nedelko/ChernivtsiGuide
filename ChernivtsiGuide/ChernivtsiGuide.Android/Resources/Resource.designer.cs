@@ -10320,52 +10320,55 @@ namespace ChernivtsiGuide.Droid
 			public const int restaurant_logo = 2131166043;
 			
 			// aapt resource value: 0x7F07035C
-			public const int theatre_1_1 = 2131166044;
+			public const int smart_che = 2131166044;
 			
 			// aapt resource value: 0x7F07035D
-			public const int theatre_1_2 = 2131166045;
+			public const int theatre_1_1 = 2131166045;
 			
 			// aapt resource value: 0x7F07035E
-			public const int theatre_1_3 = 2131166046;
+			public const int theatre_1_2 = 2131166046;
 			
 			// aapt resource value: 0x7F07035F
-			public const int theatre_2_1 = 2131166047;
+			public const int theatre_1_3 = 2131166047;
 			
 			// aapt resource value: 0x7F070360
-			public const int theatre_2_2 = 2131166048;
+			public const int theatre_2_1 = 2131166048;
 			
 			// aapt resource value: 0x7F070361
-			public const int theatre_2_3 = 2131166049;
+			public const int theatre_2_2 = 2131166049;
 			
 			// aapt resource value: 0x7F070362
-			public const int theatre_3_1 = 2131166050;
+			public const int theatre_2_3 = 2131166050;
 			
 			// aapt resource value: 0x7F070363
-			public const int theatre_3_2 = 2131166051;
+			public const int theatre_3_1 = 2131166051;
 			
 			// aapt resource value: 0x7F070364
-			public const int theatre_3_3 = 2131166052;
+			public const int theatre_3_2 = 2131166052;
 			
 			// aapt resource value: 0x7F070365
-			public const int theatre_4_1 = 2131166053;
+			public const int theatre_3_3 = 2131166053;
 			
 			// aapt resource value: 0x7F070366
-			public const int theatre_4_2 = 2131166054;
+			public const int theatre_4_1 = 2131166054;
 			
 			// aapt resource value: 0x7F070367
-			public const int theatre_4_3 = 2131166055;
+			public const int theatre_4_2 = 2131166055;
 			
 			// aapt resource value: 0x7F070368
-			public const int theatre_logo = 2131166056;
+			public const int theatre_4_3 = 2131166056;
 			
 			// aapt resource value: 0x7F070369
-			public const int tooltip_frame_dark = 2131166057;
+			public const int theatre_logo = 2131166057;
 			
 			// aapt resource value: 0x7F07036A
-			public const int tooltip_frame_light = 2131166058;
+			public const int tooltip_frame_dark = 2131166058;
 			
 			// aapt resource value: 0x7F07036B
-			public const int Up = 2131166059;
+			public const int tooltip_frame_light = 2131166059;
+			
+			// aapt resource value: 0x7F07036C
+			public const int Up = 2131166060;
 			
 			static Drawable()
 			{
