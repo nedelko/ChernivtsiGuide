@@ -24,13 +24,15 @@ namespace ChernivtsiGuide
         static ScrollView placeAttribute2ScrollView = new ScrollView();
         static Button confirmButton = new Button() { Text = "СФОРМУВАТИ СПИСОК", HorizontalOptions = LayoutOptions.FillAndExpand, IsVisible = false };
 
-        static int placeTypeSelected;
+        static List<Place> selectedPlaces;
 
         public MainPage()
         {
             this.Resources.Add(StyleSheet.FromAssemblyResource
                 (IntrospectionExtensions.GetTypeInfo(typeof(MainPage)).Assembly,
             "ChernivtsiGuide.mystyles.css"));
+            
+            confirmButton.Clicked += delegate { OnConfirmButtonClicked(selectedPlaces); };
 
             Question generalQuestion = App.questionRepository.GetQuestion(1);
             Label generalQuestionLebel = new Label() { Text = generalQuestion.Question_content, HorizontalTextAlignment = TextAlignment.Center, FontSize = 20, FontFamily = "TimesNewRoman"};
@@ -128,7 +130,7 @@ namespace ChernivtsiGuide
                 foreach (Models.Attribute attribute in rank1Attributes)
                 {
                     Button rank1AttributeButton = new Button() { Text = attribute.Attribute_name, WidthRequest = 200, HeightRequest = 50 };
-                    rank1AttributeButton.Clicked += delegate { OnAttributeButtonClicked(attributes); };
+                    rank1AttributeButton.Clicked += delegate { OnAttributeButtonClicked(placeType, attribute.Attribute_code); };
                     rank1AttributeStack.Children.Add(rank1AttributeButton);
                 }
                 rank1AttributeStack.Orientation = StackOrientation.Horizontal;
@@ -138,29 +140,40 @@ namespace ChernivtsiGuide
             }
             else
             {
+                selectedPlaces = App.placeRepository.GetPlaces(placeType).ToList();
                 confirmButton.IsVisible = true;
             }
         }
-        public static void OnAttributeButtonClicked(IEnumerable<Models.Attribute> attributes) {
+
+        public static void OnAttributeButtonClicked(int placeType, int attributeCode) {
             confirmButton.IsVisible = false;
-            IEnumerable<Models.Attribute> rank2Attributes = attributes.Where(attribute => attribute.Attribute_rank == 2);
-            if (rank2Attributes.Any())
+            IEnumerable<Models.Attribute> attributesRank2 = App.placeAttributeRepository.GetAttributesWithCode(placeType, attributeCode);
+            if (attributesRank2.Any())
             {
                 StackLayout rank2AttributeStack = new StackLayout();
-                foreach (Models.Attribute attribute in rank2Attributes)
+                foreach (Models.Attribute attribute in attributesRank2)
                 {
                     Button rank2AttributeButton = new Button() { Text = attribute.Attribute_name, WidthRequest = 200, HeightRequest = 50 };
-                    rank2AttributeButton.Clicked += delegate { confirmButton.IsVisible = true; };
+                    rank2AttributeButton.Clicked += delegate {
+                        selectedPlaces = App.placeRepository.GetPlaces(placeType, attributeCode, attribute.Attribute_code).ToList();
+                        confirmButton.IsVisible = true;
+                    };
                     rank2AttributeStack.Children.Add(rank2AttributeButton);
                 }
                 rank2AttributeStack.Orientation = StackOrientation.Horizontal;
-                placeAttribute2Label.Text = App.questionRepository.GetQuestion(rank2Attributes.ToList()[0].Attribute_question).Question_content;
+                placeAttribute2Label.Text = App.questionRepository.GetQuestion(attributesRank2.ToList()[0].Attribute_question).Question_content;
                 placeAttribute2ScrollView.Content = rank2AttributeStack;
                 placeAttribute2ScrollView.Orientation = ScrollOrientation.Horizontal;
             }
-            else {
+            else
+            {
+                selectedPlaces = App.placeRepository.GetPlaces(placeType, attributeCode).ToList();
                 confirmButton.IsVisible = true;
             }
+        }
+
+        public static void OnConfirmButtonClicked(List<Place> places) {
+            Console.WriteLine(places.Count);
         }
     }
 }
