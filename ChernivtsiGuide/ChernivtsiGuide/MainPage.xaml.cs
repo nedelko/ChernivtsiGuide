@@ -24,7 +24,7 @@ namespace ChernivtsiGuide
         static ScrollView placeAttribute2ScrollView = new ScrollView();
         static Button confirmButton = new Button() { Text = "СФОРМУВАТИ СПИСОК", HorizontalOptions = LayoutOptions.FillAndExpand, IsVisible = false };
 
-        static List<Place> selectedPlaces;
+        static List<PlaceImages> selectedPlaces;
 
         public MainPage()
         {
@@ -161,7 +161,7 @@ namespace ChernivtsiGuide
             }
         }
 
-        private async void OnConfirmButtonClicked(List<Place> places) {
+        private async void OnConfirmButtonClicked(List<PlaceImages> places) {
             await Navigation.PushAsync(new SelectedPlacesPage(places));
         }
     }

@@ -13,7 +13,7 @@ namespace ChernivtsiGuide
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class SelectedPlacesPage : ContentPage
     {
-        public SelectedPlacesPage(List<Place> places)
+        public SelectedPlacesPage(List<PlaceImages> places)
         {
             InitializeComponent();
             placesList.ItemsSource = places;
