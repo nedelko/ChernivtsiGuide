@@ -172,8 +172,8 @@ namespace ChernivtsiGuide
             }
         }
 
-        public static void OnConfirmButtonClicked(List<Place> places) {
-            Console.WriteLine(places.Count);
+        private async void OnConfirmButtonClicked(List<Place> places) {
+            await Navigation.PushAsync(new SelectedPlacesPage(places));
         }
     }
 }
