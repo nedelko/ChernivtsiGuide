@@ -34,6 +34,8 @@ namespace ChernivtsiGuide
             
             confirmButton.Clicked += delegate { OnConfirmButtonClicked(selectedPlaces); };
 
+            NavigationPage.SetTitleView(this, new Image() { Source = "smart_che.png", HorizontalOptions = LayoutOptions.FillAndExpand });
+
             Question generalQuestion = App.questionRepository.GetQuestion(1);
             Label generalQuestionLebel = new Label() { Text = generalQuestion.Question_content, HorizontalTextAlignment = TextAlignment.Center, FontSize = 20, FontFamily = "TimesNewRoman"};
 
@@ -76,20 +78,7 @@ namespace ChernivtsiGuide
                 BackgroundColor = Color.FromRgb(185,221,210)
             };
 
-            StackLayout logoStackLayout = new StackLayout()
-            {
-                Children = { new Image() { Source = "smart_che.png", HorizontalOptions = LayoutOptions.FillAndExpand } },
-                Orientation = StackOrientation.Horizontal,
-                HeightRequest = 40,
-                BackgroundColor = Color.FromRgb(96, 122, 210)
-            };
-
-            StackLayout mainStackLayout = new StackLayout();
-            mainStackLayout.Children.Add(logoStackLayout);
-            mainStackLayout.Children.Add(contentScrollView);
-            mainStackLayout.Padding = new Thickness(0);
-
-            this.Content = mainStackLayout;
+            this.Content = contentScrollView;
         }
         public static void OnGeneralButtonClicked(int id, int placeTypeQuestion)
         {
