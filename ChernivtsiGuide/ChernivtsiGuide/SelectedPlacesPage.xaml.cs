@@ -18,5 +18,15 @@ namespace ChernivtsiGuide
             InitializeComponent();
             placesList.ItemsSource = places;
         }
+
+        public void TapGestureRecognizer_MapsTapped(object sender, EventArgs e)
+        {
+            Label lblClicked = (Label)sender;
+            string txt = lblClicked.ClassId;
+            txt = txt.Replace(",", "");
+            txt = txt.Replace(".", "");
+            txt = txt.Replace(" ", "+");
+            Device.OpenUri(new Uri("https://www.google.com.ua/maps/place/" + txt));
+        }
     }
 }

@@ -46,16 +46,20 @@ namespace ChernivtsiGuide.Repositories
                         photos.Add(photo.Image_url);
                     }
                 }
+                string newDescription = place.Description == null ? "Відсутній" : place.Description;
+                string newPhone = place.Phone == null ? "Не вказаний" : place.Phone;
+                string newOpenTime = place.Open_time == null ? "00-00 - " : string.Format(place.Open_time + " - ");
+                string newCloseTime = place.Close_time == null ? "00-00" : place.Close_time;
                 placeImages.Add(new PlaceImages
                 {
                     Place_code = place.Place_code,
                     Place_name = place.Place_name,
                     Place_type = place.Place_type,
-                    Description = place.Description,
+                    Description = newDescription,
                     Address = place.Address,
-                    Phone = place.Phone,
-                    Open_time = place.Open_time,
-                    Close_time = place.Close_time,
+                    Phone = newPhone,
+                    Open_time = newOpenTime,
+                    Close_time = newCloseTime,
                     images = photos
                 });
             }

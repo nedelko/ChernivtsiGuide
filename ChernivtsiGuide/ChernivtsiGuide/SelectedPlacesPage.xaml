@@ -5,7 +5,8 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="ChernivtsiGuide.SelectedPlacesPage"
-             xmlns:controls="clr-namespace:CarouselView.FormsPlugin.Abstractions;assembly=CarouselView.FormsPlugin.Abstractions">
+             xmlns:controls="clr-namespace:CarouselView.FormsPlugin.Abstractions;assembly=CarouselView.FormsPlugin.Abstractions"
+             xmlns:expandable="clr-namespace:Expandable;assembly=ExpandableView">
     <NavigationPage.TitleView>
         <StackLayout Orientation="Horizontal" VerticalOptions="CenterAndExpand">
             <Image Source="smart_che.png">
@@ -37,6 +38,70 @@
                                             </DataTemplate>
                                         </controls:CarouselViewControl.ItemTemplate>
                                     </controls:CarouselViewControl>
+                                    <expandable:ExpandableView>
+                                        <expandable:ExpandableView.PrimaryView>
+                                            <Frame OutlineColor="Black">
+                                                <Label Text="Опис" FontFamily="TimesNewRoman" FontSize="Medium"/>
+                                            </Frame>
+                                        </expandable:ExpandableView.PrimaryView>
+                                        <expandable:ExpandableView.SecondaryViewTemplate>
+                                            <DataTemplate>
+                                                <Frame OutlineColor="Black">
+                                                    <Label Text="{Binding Description}" FontSize="Medium" HorizontalTextAlignment="Center"/>
+                                                </Frame>
+                                            </DataTemplate>
+                                        </expandable:ExpandableView.SecondaryViewTemplate>
+                                    </expandable:ExpandableView>
+                                    <expandable:ExpandableView>
+                                        <expandable:ExpandableView.PrimaryView>
+                                            <Frame OutlineColor="Black">
+                                                <Label Text="Адреса" FontFamily="TimesNewRoman" FontSize="Medium"/>
+                                            </Frame>
+                                        </expandable:ExpandableView.PrimaryView>
+                                        <expandable:ExpandableView.SecondaryViewTemplate>
+                                            <DataTemplate>
+                                                <Label Text="{Binding Address}" FontSize="Medium" HorizontalTextAlignment="Center"/>
+                                            </DataTemplate>
+                                        </expandable:ExpandableView.SecondaryViewTemplate>
+                                    </expandable:ExpandableView>
+                                    <expandable:ExpandableView>
+                                        <expandable:ExpandableView.PrimaryView>
+                                            <Frame OutlineColor="Black">
+                                                <Label Text="Телефон" FontFamily="TimesNewRoman" FontSize="Medium"/>
+                                            </Frame>
+                                        </expandable:ExpandableView.PrimaryView>
+                                        <expandable:ExpandableView.SecondaryViewTemplate>
+                                            <DataTemplate>
+                                                <Label Text="{Binding Phone}" FontSize="Medium" HorizontalTextAlignment="Center"/>
+                                            </DataTemplate>
+                                        </expandable:ExpandableView.SecondaryViewTemplate>
+                                    </expandable:ExpandableView>
+                                    <expandable:ExpandableView>
+                                        <expandable:ExpandableView.PrimaryView>
+                                            <Frame OutlineColor="Black">
+                                                <Label Text="Час роботи" FontFamily="TimesNewRoman" FontSize="Medium"/>
+                                            </Frame>
+                                        </expandable:ExpandableView.PrimaryView>
+                                        <expandable:ExpandableView.SecondaryViewTemplate>
+                                            <DataTemplate>
+                                                <Label FontSize="Medium" FontFamily="TimesNewRoman" HorizontalTextAlignment="Center">
+                                                    <Label.FormattedText>
+                                                        <FormattedString>
+                                                            <Span Text="{Binding Open_time}"/>
+                                                            <Span Text="{Binding Close_time}"/>
+                                                        </FormattedString>
+                                                    </Label.FormattedText>
+                                                </Label>
+                                            </DataTemplate>
+                                        </expandable:ExpandableView.SecondaryViewTemplate>
+                                    </expandable:ExpandableView>
+                                    <Frame OutlineColor="Black">
+                                        <Label Text="Показати на карті" ClassId="{Binding Address}" FontFamily="TimesNewRoman" FontSize="Medium">
+                                            <Label.GestureRecognizers>
+                                                <TapGestureRecognizer Tapped="TapGestureRecognizer_MapsTapped" />
+                                            </Label.GestureRecognizers>
+                                        </Label>
+                                    </Frame>
                                 </StackLayout>
                             </ViewCell.View>
                         </ViewCell>
