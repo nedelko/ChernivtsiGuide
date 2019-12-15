@@ -21,16 +21,7 @@
                         <ViewCell>
                             <ViewCell.View>
                                 <StackLayout Orientation="Vertical">
-                                    <Grid>
-                                        <Grid.ColumnDefinitions>
-                                            <ColumnDefinition Width="*" />
-                                            <ColumnDefinition Width="*" />
-                                            <ColumnDefinition Width="*" />
-                                        </Grid.ColumnDefinitions>
-                                        <Label Text="{Binding Place_code}" FontSize="Medium" Grid.Column="0" />
-                                        <Label Text="{Binding Place_name}" FontSize="Medium" Grid.Column="1" />
-                                        <Label Text="{Binding Place_type}" FontSize="Medium" Grid.Column="2" />
-                                    </Grid>
+                                    <Label Text="{Binding Place_name}" FontSize="Large" FontFamily="TimesNewRoman" HorizontalTextAlignment="Center"/>
                                     <controls:CarouselViewControl Orientation="Horizontal" HeightRequest="200" InterPageSpacing="10" Position="0" ItemsSource="{Binding images}" ShowIndicators="True" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
                                         <controls:CarouselViewControl.ItemTemplate>
                                             <DataTemplate>
